@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-07T16:50:53.835411Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-08T16:35:17.886379Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-05T16:13:14.041744Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-06T16:13:17.316474Z"
     }
   ],
   "papers": {
@@ -6325,6 +6325,34 @@
       "relevance_score": 6.5,
       "title": "Neural-Collapse-guided Task-Free Continual Anomaly Detection"
     },
+    "2609.03427v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316473Z",
+      "link": "http://arxiv.org/abs/2609.03427v1",
+      "relevance_score": 4.0,
+      "title": "TraveL: Transformer-based Multi-view Path Distributional Representation Learning"
+    },
+    "2609.03527v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316470Z",
+      "link": "http://arxiv.org/abs/2609.03527v1",
+      "relevance_score": 4.0,
+      "title": "NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis"
+    },
+    "2609.03577v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316468Z",
+      "link": "http://arxiv.org/abs/2609.03577v1",
+      "relevance_score": 4.0,
+      "title": "Language, Language Models, and What We're Talking About"
+    },
+    "2609.03633v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316463Z",
+      "link": "http://arxiv.org/abs/2609.03633v1",
+      "relevance_score": 4.0,
+      "title": "</think> Doesn't Stop Reasoning: Analysis of Spurious CoT Termination"
+    },
     "2609.03639v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-04T16:15:15.986325Z",
@@ -6332,12 +6360,54 @@
       "relevance_score": 6.5,
       "title": "Stabilizing Camera-Controlled Novel View Synthesis at Inference Time"
     },
+    "2609.03652v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316461Z",
+      "link": "http://arxiv.org/abs/2609.03652v1",
+      "relevance_score": 4.0,
+      "title": "The Impact of Synthetic Data Augmentation on Discourse-Pragmatic Function Classification"
+    },
+    "2609.03655v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316459Z",
+      "link": "http://arxiv.org/abs/2609.03655v1",
+      "relevance_score": 4.0,
+      "title": "PL-SCEA: Reconfiguring Pretrained Attention for Few-Shot Industrial Anomaly Detection"
+    },
+    "2609.03688v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316456Z",
+      "link": "http://arxiv.org/abs/2609.03688v1",
+      "relevance_score": 4.0,
+      "title": "ToPO: Token-Conditioned Preference Routing for Attention-Based Latent Diffusion Models"
+    },
     "2609.03796v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-04T16:15:15.986315Z",
       "link": "http://arxiv.org/abs/2609.03796v1",
       "relevance_score": 11.0,
       "title": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes"
+    },
+    "2609.03806v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316454Z",
+      "link": "http://arxiv.org/abs/2609.03806v1",
+      "relevance_score": 4.0,
+      "title": "SVG-Score: Human-Aligned Evaluation of Text-to-SVG Generation"
+    },
+    "2609.03851v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316451Z",
+      "link": "http://arxiv.org/abs/2609.03851v1",
+      "relevance_score": 4.0,
+      "title": "Pushing the (Decision) Boundaries: Dynamically Calibrating Differentially Private Noise to Explainability in Federated Learning"
+    },
+    "2609.03858v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-06T16:13:17.316440Z",
+      "link": "http://arxiv.org/abs/2609.03858v1",
+      "relevance_score": 4.0,
+      "title": "High-Dimensional Learning Dynamics of Attention-Indexed Models"
     },
     "2609.03880v1": {
       "category": "Not Relevant",
