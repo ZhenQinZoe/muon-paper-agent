@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-07-08T16:35:17.886379Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-07-09T16:59:07.272323Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-06T16:13:17.316474Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-07T16:14:44.426333Z"
     }
   ],
   "papers": {
@@ -6520,6 +6520,76 @@
       "link": "http://arxiv.org/abs/2609.04202v1",
       "relevance_score": 7.5,
       "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation"
+    },
+    "2609.04577v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-07T16:14:44.426303Z",
+      "link": "http://arxiv.org/abs/2609.04577v1",
+      "relevance_score": 10.0,
+      "title": "Optimizer Memory Schedules for Outscaling the Overtraining Axis"
+    },
+    "2609.05104v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426316Z",
+      "link": "http://arxiv.org/abs/2609.05104v1",
+      "relevance_score": 6.5,
+      "title": "Compact Bellman-Grounded Cognitive Maps for Cost-Aware Navigation"
+    },
+    "2609.05258v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426332Z",
+      "link": "http://arxiv.org/abs/2609.05258v1",
+      "relevance_score": 4.0,
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization"
+    },
+    "2609.05275v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-07T16:14:44.426330Z",
+      "link": "http://arxiv.org/abs/2609.05275v1",
+      "relevance_score": 4.0,
+      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference"
+    },
+    "2609.05284v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426327Z",
+      "link": "http://arxiv.org/abs/2609.05284v1",
+      "relevance_score": 4.0,
+      "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity"
+    },
+    "2609.05334v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-07T16:14:44.426323Z",
+      "link": "http://arxiv.org/abs/2609.05334v1",
+      "relevance_score": 4.0,
+      "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions"
+    },
+    "2609.05351v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-07T16:14:44.426318Z",
+      "link": "http://arxiv.org/abs/2609.05351v1",
+      "relevance_score": 5.5,
+      "title": "MEOX: Compact Multimodal Mixture-of-Experts for Earth Observation"
+    },
+    "2609.05363v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426322Z",
+      "link": "http://arxiv.org/abs/2609.05363v1",
+      "relevance_score": 4.0,
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation"
+    },
+    "2609.05382v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426320Z",
+      "link": "http://arxiv.org/abs/2609.05382v1",
+      "relevance_score": 4.0,
+      "title": "Reflection-aware Generative Novel View Synthesis"
+    },
+    "2609.05415v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-07T16:14:44.426314Z",
+      "link": "http://arxiv.org/abs/2609.05415v1",
+      "relevance_score": 6.5,
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons"
     }
   }
 }
