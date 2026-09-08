@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-07-09T16:59:07.272323Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-07-10T16:44:34.944219Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-07T16:14:44.426333Z"
+    },
+    {
+      "paper_count": 5,
+      "sent_at": "2026-09-08T16:16:09.834827Z"
     }
   ],
   "papers": {
@@ -6556,6 +6556,20 @@
       "relevance_score": 4.0,
       "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity"
     },
+    "2609.05323v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-08T16:16:09.834821Z",
+      "link": "http://arxiv.org/abs/2609.05323v1",
+      "relevance_score": 2.0,
+      "title": "Scalable Detection of Fossil Palynomorphs in Multifocal Digital Microscopy Images"
+    },
+    "2609.05332v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-08T16:16:09.834826Z",
+      "link": "http://arxiv.org/abs/2609.05332v1",
+      "relevance_score": 0.0,
+      "title": "Headroom-Aware Stochastic Adaptive Model Predictive Control for Load Frequency Control in Microgrids"
+    },
     "2609.05334v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-09-07T16:14:44.426323Z",
@@ -6577,12 +6591,33 @@
       "relevance_score": 4.0,
       "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation"
     },
+    "2609.05368v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-08T16:16:09.834824Z",
+      "link": "http://arxiv.org/abs/2609.05368v1",
+      "relevance_score": 0.0,
+      "title": "Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs"
+    },
+    "2609.05376v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-08T16:16:09.834818Z",
+      "link": "http://arxiv.org/abs/2609.05376v1",
+      "relevance_score": 2.0,
+      "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies"
+    },
     "2609.05382v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-07T16:14:44.426320Z",
       "link": "http://arxiv.org/abs/2609.05382v1",
       "relevance_score": 4.0,
       "title": "Reflection-aware Generative Novel View Synthesis"
+    },
+    "2609.05397v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-08T16:16:09.834809Z",
+      "link": "http://arxiv.org/abs/2609.05397v1",
+      "relevance_score": 3.5,
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation"
     },
     "2609.05415v1": {
       "category": "Not Relevant",
