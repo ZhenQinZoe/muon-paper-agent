@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-10T16:44:34.944219Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-11T16:20:46.909282Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 5,
       "sent_at": "2026-09-08T16:16:09.834827Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-09T16:15:21.839917Z"
     }
   ],
   "papers": {
@@ -6625,6 +6625,76 @@
       "link": "http://arxiv.org/abs/2609.05415v1",
       "relevance_score": 6.5,
       "title": "UniMate: One Unified Model to Animate Diverse Skeletons"
+    },
+    "2609.07597v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-09T16:15:21.839892Z",
+      "link": "http://arxiv.org/abs/2609.07597v1",
+      "relevance_score": 15.5,
+      "title": "Beyond the Matrix Sign: Quadratic Spectral Descent"
+    },
+    "2609.08106v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-09T16:15:21.839904Z",
+      "link": "http://arxiv.org/abs/2609.08106v1",
+      "relevance_score": 7.0,
+      "title": "Nystr\u00f6m Attention Matches Full Attention for Cross-Sectional Stock Prediction"
+    },
+    "2609.08381v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-09T16:15:21.839899Z",
+      "link": "http://arxiv.org/abs/2609.08381v1",
+      "relevance_score": 11.5,
+      "title": "Equivariance Breaks the Learning Rate"
+    },
+    "2609.08443v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-09T16:15:21.839908Z",
+      "link": "http://arxiv.org/abs/2609.08443v1",
+      "relevance_score": 6.5,
+      "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching"
+    },
+    "2609.08505v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-09T16:15:21.839901Z",
+      "link": "http://arxiv.org/abs/2609.08505v1",
+      "relevance_score": 7.5,
+      "title": "Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance"
+    },
+    "2609.08777v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-09T16:15:21.839903Z",
+      "link": "http://arxiv.org/abs/2609.08777v1",
+      "relevance_score": 7.0,
+      "title": "AXS-Net: Interpretable Deep Unfolding for Hyperspectral Image Denoising via Spectral Basis Unmixing and Structured Noise Refinement"
+    },
+    "2609.08800v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-09T16:15:21.839906Z",
+      "link": "http://arxiv.org/abs/2609.08800v1",
+      "relevance_score": 6.5,
+      "title": "Ostrich: Taking Large Strides Through Stiff Contact in Differentiable Dynamics"
+    },
+    "2609.08936v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-09T16:15:21.839915Z",
+      "link": "http://arxiv.org/abs/2609.08936v1",
+      "relevance_score": 5.0,
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing"
+    },
+    "2609.08981v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-09T16:15:21.839914Z",
+      "link": "http://arxiv.org/abs/2609.08981v1",
+      "relevance_score": 5.0,
+      "title": "Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling"
+    },
+    "2609.09126v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-09T16:15:21.839912Z",
+      "link": "http://arxiv.org/abs/2609.09126v1",
+      "relevance_score": 5.0,
+      "title": "A Generalization of Amari's Bayesian Duality"
     }
   }
 }
