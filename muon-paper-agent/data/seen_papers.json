@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-13T16:50:26.711830Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-14T16:31:48.872766Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-11T16:14:57.459160Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-12T16:14:26.828618Z"
     }
   ],
   "papers": {
@@ -6780,6 +6780,69 @@
       "relevance_score": 6.5,
       "title": "Overpainting: Localized Context-aware Diffusion Image Editing"
     },
+    "2609.11156v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828617Z",
+      "link": "http://arxiv.org/abs/2609.11156v1",
+      "relevance_score": 4.0,
+      "title": "UniH$^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration"
+    },
+    "2609.11197v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-12T16:14:26.828615Z",
+      "link": "http://arxiv.org/abs/2609.11197v1",
+      "relevance_score": 4.0,
+      "title": "Optimal Control for Cancer Chemotherapy Using Hybrid Quantum Particle Swarm Optimization"
+    },
+    "2609.11201v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828613Z",
+      "link": "http://arxiv.org/abs/2609.11201v1",
+      "relevance_score": 4.0,
+      "title": "CEM-TUDASR: Computationally efficient multi-modality transformer based unsupervised domain adaptive super-resolution approach"
+    },
+    "2609.11314v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828607Z",
+      "link": "http://arxiv.org/abs/2609.11314v1",
+      "relevance_score": 4.0,
+      "title": "A Dynamic Fusion Large Language Model for Traffic Flow Prediction"
+    },
+    "2609.11341v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828604Z",
+      "link": "http://arxiv.org/abs/2609.11341v1",
+      "relevance_score": 4.0,
+      "title": "Exploring Diffusion Transformers for Cross-Modal Augmentation in Multimodal Brain State Decoding"
+    },
+    "2609.11375v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828601Z",
+      "link": "http://arxiv.org/abs/2609.11375v1",
+      "relevance_score": 4.0,
+      "title": "Vision Transformer-Based Multi-Level Feature Fusion for Multi-Label Sewer Defect Classification"
+    },
+    "2609.11376v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828598Z",
+      "link": "http://arxiv.org/abs/2609.11376v1",
+      "relevance_score": 4.0,
+      "title": "Deep operator learning for efficient sampling from invariant measures of stochastic differential equations"
+    },
+    "2609.11412v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828595Z",
+      "link": "http://arxiv.org/abs/2609.11412v1",
+      "relevance_score": 4.0,
+      "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation"
+    },
+    "2609.11507v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828591Z",
+      "link": "http://arxiv.org/abs/2609.11507v1",
+      "relevance_score": 4.0,
+      "title": "Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-Subject Video Generation"
+    },
     "2609.11548v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-11T16:14:57.459143Z",
@@ -6800,6 +6863,13 @@
       "link": "http://arxiv.org/abs/2609.11655v1",
       "relevance_score": 22.5,
       "title": "Musec: MomentUm SpEctral Clipping for Stable Muon-type Training"
+    },
+    "2609.11682v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-12T16:14:26.828560Z",
+      "link": "http://arxiv.org/abs/2609.11682v1",
+      "relevance_score": 4.0,
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization"
     },
     "2609.11708v1": {
       "category": "Not Relevant",
