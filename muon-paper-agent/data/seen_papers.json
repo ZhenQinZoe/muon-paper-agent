@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-17T16:29:43.007066Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-18T16:22:09.466880Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 0,
       "sent_at": "2026-09-15T16:17:19.853625Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-16T16:15:29.387520Z"
     }
   ],
   "papers": {
@@ -3847,6 +3847,13 @@
       "relevance_score": 7.0,
       "title": "The Orthogonalized Read Is a Removable Training Scaffold for Recurrent Memory"
     },
+    "2607.19390v3": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-16T16:15:29.387498Z",
+      "link": "http://arxiv.org/abs/2607.19390v3",
+      "relevance_score": 8.0,
+      "title": "The Orthogonalized Read Is a Removable Training Scaffold for Recurrent Memory"
+    },
     "2607.19771v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-07-25T16:22:05.880389Z",
@@ -6905,6 +6912,69 @@
       "link": "http://arxiv.org/abs/2609.11929v1",
       "relevance_score": 5.0,
       "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence"
+    },
+    "2609.14715v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-16T16:15:29.387486Z",
+      "link": "http://arxiv.org/abs/2609.14715v1",
+      "relevance_score": 11.5,
+      "title": "Depth and Scale in the Sub-150M Regime: JugnuLM-53M vs JugnuLM-110M"
+    },
+    "2609.16382v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387501Z",
+      "link": "http://arxiv.org/abs/2609.16382v1",
+      "relevance_score": 6.5,
+      "title": "Attention Mean Fields Predict Average Representation Dynamics and Reveal Context-Specific Computation"
+    },
+    "2609.16406v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387509Z",
+      "link": "http://arxiv.org/abs/2609.16406v1",
+      "relevance_score": 5.5,
+      "title": "Physics Informed Random Feature Neural Networks for Solving PDEs"
+    },
+    "2609.17198v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387503Z",
+      "link": "http://arxiv.org/abs/2609.17198v1",
+      "relevance_score": 6.0,
+      "title": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer"
+    },
+    "2609.17308v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387518Z",
+      "link": "http://arxiv.org/abs/2609.17308v1",
+      "relevance_score": 5.0,
+      "title": "Optical-Flow Wingbeat Counting in MuJoCo: A Comparison of Convolutional, Spiking, and Attention-Based Temporal Models"
+    },
+    "2609.17376v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387517Z",
+      "link": "http://arxiv.org/abs/2609.17376v1",
+      "relevance_score": 5.0,
+      "title": "Large Language Models Develop Belief State Geometry In-Context"
+    },
+    "2609.17387v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387514Z",
+      "link": "http://arxiv.org/abs/2609.17387v1",
+      "relevance_score": 5.0,
+      "title": "PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM"
+    },
+    "2609.17483v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-16T16:15:29.387506Z",
+      "link": "http://arxiv.org/abs/2609.17483v1",
+      "relevance_score": 5.5,
+      "title": "Bridging the Gap Between Homogeneous and Heterogeneous Asynchronous Optimization Is Surprisingly Difficult"
+    },
+    "2609.17488v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-16T16:15:29.387504Z",
+      "link": "http://arxiv.org/abs/2609.17488v1",
+      "relevance_score": 5.5,
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence"
     }
   }
 }
