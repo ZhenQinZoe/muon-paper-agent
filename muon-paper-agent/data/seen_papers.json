@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-18T16:22:09.466880Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-19T16:22:19.756033Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-16T16:15:29.387520Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-17T16:16:15.924348Z"
     }
   ],
   "papers": {
@@ -6975,6 +6975,76 @@
       "link": "http://arxiv.org/abs/2609.17488v1",
       "relevance_score": 5.5,
       "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence"
+    },
+    "2609.17629v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-17T16:16:15.924320Z",
+      "link": "http://arxiv.org/abs/2609.17629v1",
+      "relevance_score": 11.5,
+      "title": "Fenchel-Young Duality Gaps: Certified Early Stopping for Regularized Inverse Problems"
+    },
+    "2609.17759v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-17T16:16:15.924308Z",
+      "link": "http://arxiv.org/abs/2609.17759v1",
+      "relevance_score": 15.5,
+      "title": "Derivative-Free Structured Updates for Muon"
+    },
+    "2609.18009v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924344Z",
+      "link": "http://arxiv.org/abs/2609.18009v1",
+      "relevance_score": 5.5,
+      "title": "G-Mamba: Sparse Graph-Guided Mamba for Audio-Visual Speech Enhancement"
+    },
+    "2609.18723v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924330Z",
+      "link": "http://arxiv.org/abs/2609.18723v1",
+      "relevance_score": 6.5,
+      "title": "Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning"
+    },
+    "2609.18871v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924346Z",
+      "link": "http://arxiv.org/abs/2609.18871v1",
+      "relevance_score": 5.0,
+      "title": "Optimizing Lyapunov Certificates via Stability-Preserving Quadratization for Polynomial Systems"
+    },
+    "2609.18893v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924340Z",
+      "link": "http://arxiv.org/abs/2609.18893v1",
+      "relevance_score": 5.5,
+      "title": "SOL-SLAM: Inverse Compositional Gauss-Newton Direct Registration for Fast Sonar-Only Local SLAM"
+    },
+    "2609.18913v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-17T16:16:15.924324Z",
+      "link": "http://arxiv.org/abs/2609.18913v1",
+      "relevance_score": 11.0,
+      "title": "A Walk From Free Probability to Matrix Discrepancy II: Weaver's Problem and the Kadison-Singer Conjecture"
+    },
+    "2609.18914v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-17T16:16:15.924333Z",
+      "link": "http://arxiv.org/abs/2609.18914v1",
+      "relevance_score": 6.0,
+      "title": "A Walk From Free Probability to Matrix Discrepancy I: Matrix Spencer"
+    },
+    "2609.18920v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924327Z",
+      "link": "http://arxiv.org/abs/2609.18920v1",
+      "relevance_score": 7.0,
+      "title": "PhysVGGT: Feed-Forward Dense Physical Property Estimation from A Single Image"
+    },
+    "2609.19144v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-17T16:16:15.924335Z",
+      "link": "http://arxiv.org/abs/2609.19144v1",
+      "relevance_score": 5.5,
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment"
     }
   }
 }
