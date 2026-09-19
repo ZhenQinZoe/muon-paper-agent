@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-20T16:32:56.727068Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-21T16:33:41.317164Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-18T16:13:41.225028Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-19T16:12:53.908386Z"
     }
   ],
   "papers": {
@@ -7074,12 +7074,47 @@
       "relevance_score": 6.5,
       "title": "Steering Equilibrium Selection in Regularized Self-Play via the Reference Policy"
     },
+    "2609.19832v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908384Z",
+      "link": "http://arxiv.org/abs/2609.19832v1",
+      "relevance_score": 4.0,
+      "title": "MetaRTL: Meta-path Attention Enhanced Relational Table Learning"
+    },
+    "2609.19969v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908382Z",
+      "link": "http://arxiv.org/abs/2609.19969v1",
+      "relevance_score": 4.0,
+      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression"
+    },
+    "2609.19996v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908379Z",
+      "link": "http://arxiv.org/abs/2609.19996v1",
+      "relevance_score": 4.0,
+      "title": "Customizable and Jointly Optimized Route Planning: A Deep Architecture Enabling Differentiable Shortest-Path Search"
+    },
+    "2609.20034v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908374Z",
+      "link": "http://arxiv.org/abs/2609.20034v1",
+      "relevance_score": 4.0,
+      "title": "Astronex-World 1.0: Real-Time Interactive World Model Foundation"
+    },
     "2609.20104v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-18T16:13:41.224995Z",
       "link": "http://arxiv.org/abs/2609.20104v1",
       "relevance_score": 11.0,
       "title": "Design of the IBM Granite 5.0 TurboCTC ASR Model"
+    },
+    "2609.20121v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908371Z",
+      "link": "http://arxiv.org/abs/2609.20121v1",
+      "relevance_score": 4.0,
+      "title": "Alignment-Path Distillation from Non-streaming ASR-LLMs for Streaming Speech Recognition"
     },
     "2609.20139v1": {
       "category": "Not Relevant",
@@ -7088,12 +7123,40 @@
       "relevance_score": 5.5,
       "title": "Cross-Modal Attention Acts as a Frequency Filter: Why Verbose Prompts Improve Robustness in Vision-Language Models"
     },
+    "2609.20530v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908368Z",
+      "link": "http://arxiv.org/abs/2609.20530v1",
+      "relevance_score": 4.0,
+      "title": "Relational Attention for Data-Efficient Language Modeling"
+    },
+    "2609.20563v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908366Z",
+      "link": "http://arxiv.org/abs/2609.20563v1",
+      "relevance_score": 4.0,
+      "title": "Reasoning Quality Matters: Combating Reasoning Collapse in LLM-based Embedding Learning"
+    },
+    "2609.20577v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908364Z",
+      "link": "http://arxiv.org/abs/2609.20577v1",
+      "relevance_score": 4.0,
+      "title": "TAP Accuracy Below the Fluctuation Scale and Universal Posterior Geometry in Spherical Linear Models"
+    },
     "2609.20633v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-18T16:13:41.225021Z",
       "link": "http://arxiv.org/abs/2609.20633v1",
       "relevance_score": 5.5,
       "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network"
+    },
+    "2609.20687v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908361Z",
+      "link": "http://arxiv.org/abs/2609.20687v1",
+      "relevance_score": 4.5,
+      "title": "The First-Order Oracle Complexity of Lipschitz Convex Optimization in Nondual Settings"
     },
     "2609.20751v1": {
       "category": "Not Relevant",
@@ -7115,6 +7178,13 @@
       "link": "http://arxiv.org/abs/2609.20817v1",
       "relevance_score": 7.0,
       "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations"
+    },
+    "2609.20818v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-19T16:12:53.908348Z",
+      "link": "http://arxiv.org/abs/2609.20818v1",
+      "relevance_score": 4.5,
+      "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos"
     }
   }
 }
