@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-21T16:33:41.317164Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-22T16:34:00.636901Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-19T16:12:53.908386Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-20T16:13:49.221589Z"
     }
   ],
   "papers": {
@@ -7046,12 +7046,40 @@
       "relevance_score": 5.5,
       "title": "A Zeroth-Order Paradigm for LLM Preference Alignment"
     },
+    "2609.19505v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221568Z",
+      "link": "http://arxiv.org/abs/2609.19505v1",
+      "relevance_score": 4.0,
+      "title": "FenceXR: AR Movement Replay for Error-Detection Training and Spatially Grounded Feedback"
+    },
     "2609.19514v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-18T16:13:41.225026Z",
       "link": "http://arxiv.org/abs/2609.19514v1",
       "relevance_score": 5.5,
       "title": "Spectral Gap of Down-Up Walks via Trickle-Down: A Simplified and Sharpened Analysis"
+    },
+    "2609.19717v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221564Z",
+      "link": "http://arxiv.org/abs/2609.19717v1",
+      "relevance_score": 4.0,
+      "title": "Learn Your Own Thoughts: Abstract Token Curriculum"
+    },
+    "2609.19729v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221561Z",
+      "link": "http://arxiv.org/abs/2609.19729v1",
+      "relevance_score": 4.0,
+      "title": "Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation"
+    },
+    "2609.19745v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221549Z",
+      "link": "http://arxiv.org/abs/2609.19745v1",
+      "relevance_score": 4.0,
+      "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception"
     },
     "2609.19787v1": {
       "category": "Muon Core",
@@ -7109,6 +7137,13 @@
       "relevance_score": 11.0,
       "title": "Design of the IBM Granite 5.0 TurboCTC ASR Model"
     },
+    "2609.20106v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-20T16:13:49.221576Z",
+      "link": "http://arxiv.org/abs/2609.20106v1",
+      "relevance_score": 3.5,
+      "title": "AnyviewMeter: Adapting Robotic Reward Models with Camera Geometry and Multi-View Attention"
+    },
     "2609.20121v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-19T16:12:53.908371Z",
@@ -7137,12 +7172,26 @@
       "relevance_score": 4.0,
       "title": "Reasoning Quality Matters: Combating Reasoning Collapse in LLM-based Embedding Learning"
     },
+    "2609.20570v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221573Z",
+      "link": "http://arxiv.org/abs/2609.20570v1",
+      "relevance_score": 3.5,
+      "title": "Walking on the Slope: Stable Bipedal Gaits with Genetic-Algorithm-Optimized Trajectories"
+    },
     "2609.20577v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-19T16:12:53.908364Z",
       "link": "http://arxiv.org/abs/2609.20577v1",
       "relevance_score": 4.0,
       "title": "TAP Accuracy Below the Fluctuation Scale and Universal Posterior Geometry in Spherical Linear Models"
+    },
+    "2609.20582v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221570Z",
+      "link": "http://arxiv.org/abs/2609.20582v1",
+      "relevance_score": 3.5,
+      "title": "V2-STRep: VLM-Grounded Structured Task Representations for Reusable Robot Skills Acquired from Generated Videos"
     },
     "2609.20633v1": {
       "category": "Not Relevant",
@@ -7158,6 +7207,20 @@
       "relevance_score": 4.5,
       "title": "The First-Order Oracle Complexity of Lipschitz Convex Optimization in Nondual Settings"
     },
+    "2609.20738v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221588Z",
+      "link": "http://arxiv.org/abs/2609.20738v1",
+      "relevance_score": 2.0,
+      "title": "Harnessing Generative UI for Education: Tailored Learning Interactives"
+    },
+    "2609.20744v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221585Z",
+      "link": "http://arxiv.org/abs/2609.20744v1",
+      "relevance_score": 2.0,
+      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation"
+    },
     "2609.20751v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-18T16:13:41.225016Z",
@@ -7171,6 +7234,13 @@
       "link": "http://arxiv.org/abs/2609.20752v1",
       "relevance_score": 5.5,
       "title": "Large Language Models as Falsifiers for Cyber-Physical Systems"
+    },
+    "2609.20784v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-20T16:13:49.221582Z",
+      "link": "http://arxiv.org/abs/2609.20784v1",
+      "relevance_score": 2.0,
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning"
     },
     "2609.20817v1": {
       "category": "Not Relevant",
