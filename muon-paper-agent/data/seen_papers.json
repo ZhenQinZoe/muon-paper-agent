@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-07-22T16:34:00.636901Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-07-23T16:41:17.134190Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-20T16:13:49.221589Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-21T16:15:12.456950Z"
     }
   ],
   "papers": {
@@ -7255,6 +7255,76 @@
       "link": "http://arxiv.org/abs/2609.20818v1",
       "relevance_score": 4.5,
       "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos"
+    },
+    "2609.20974v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456935Z",
+      "link": "http://arxiv.org/abs/2609.20974v1",
+      "relevance_score": 4.5,
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs"
+    },
+    "2609.21039v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-21T16:15:12.456926Z",
+      "link": "http://arxiv.org/abs/2609.21039v1",
+      "relevance_score": 10.5,
+      "title": "Stiefel-AdamW: Geometry-Aware AdamW for Linear Factorization Blocks"
+    },
+    "2609.21594v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-21T16:15:12.456916Z",
+      "link": "http://arxiv.org/abs/2609.21594v1",
+      "relevance_score": 17.0,
+      "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods"
+    },
+    "2609.21707v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456948Z",
+      "link": "http://arxiv.org/abs/2609.21707v1",
+      "relevance_score": 4.0,
+      "title": "NeuRIO: A Streaming Neural Estimator for Zero-Shot Sim-to-Real Multi-Robot Relative Inertial Odometry"
+    },
+    "2609.21749v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456946Z",
+      "link": "http://arxiv.org/abs/2609.21749v1",
+      "relevance_score": 4.0,
+      "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills"
+    },
+    "2609.21770v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456933Z",
+      "link": "http://arxiv.org/abs/2609.21770v1",
+      "relevance_score": 4.5,
+      "title": "XCalib Depth-Guided Geometric Optimization for Dense Thermal-Visible Video Registration"
+    },
+    "2609.21811v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456943Z",
+      "link": "http://arxiv.org/abs/2609.21811v1",
+      "relevance_score": 4.0,
+      "title": "MIST: Multimodal Survival Prediction with Genomic-Guided Histology Attention"
+    },
+    "2609.21870v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456931Z",
+      "link": "http://arxiv.org/abs/2609.21870v1",
+      "relevance_score": 5.0,
+      "title": "Neural Cellular Automata Learn General Features in their Hidden Channels"
+    },
+    "2609.22005v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456938Z",
+      "link": "http://arxiv.org/abs/2609.22005v1",
+      "relevance_score": 4.0,
+      "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention"
+    },
+    "2609.22043v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-21T16:15:12.456929Z",
+      "link": "http://arxiv.org/abs/2609.22043v1",
+      "relevance_score": 5.0,
+      "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency"
     }
   }
 }
