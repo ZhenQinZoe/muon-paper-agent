@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-07-23T16:41:17.134190Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-07-24T16:40:16.374535Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-21T16:15:12.456950Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-22T16:14:44.517250Z"
     }
   ],
   "papers": {
@@ -6913,6 +6913,13 @@
       "relevance_score": 5.0,
       "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence"
     },
+    "2609.13356v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-22T16:14:44.517229Z",
+      "link": "http://arxiv.org/abs/2609.13356v2",
+      "relevance_score": 10.0,
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search"
+    },
     "2609.14715v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-16T16:15:29.387486Z",
@@ -7325,6 +7332,69 @@
       "link": "http://arxiv.org/abs/2609.22043v1",
       "relevance_score": 5.0,
       "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency"
+    },
+    "2609.22487v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-22T16:14:44.517226Z",
+      "link": "http://arxiv.org/abs/2609.22487v1",
+      "relevance_score": 15.5,
+      "title": "COREM: Cosine-Relation Momentum Reshaping with Stateful Writeback"
+    },
+    "2609.23055v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-22T16:14:44.517231Z",
+      "link": "http://arxiv.org/abs/2609.23055v1",
+      "relevance_score": 10.0,
+      "title": "Optimizers for Diffusion Models: A Controlled Benchmark"
+    },
+    "2609.24089v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-22T16:14:44.517234Z",
+      "link": "http://arxiv.org/abs/2609.24089v1",
+      "relevance_score": 8.5,
+      "title": "FlashBoB: I/O-Efficient Exact Backward-over-Backward for Softmax Attention"
+    },
+    "2609.24370v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-22T16:14:44.517246Z",
+      "link": "http://arxiv.org/abs/2609.24370v1",
+      "relevance_score": 5.5,
+      "title": "Prescriptive SVD-Inspired Attention via Spectral Energy Retention"
+    },
+    "2609.24678v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-22T16:14:44.517215Z",
+      "link": "http://arxiv.org/abs/2609.24678v1",
+      "relevance_score": 17.5,
+      "title": "Muon Can Outperform Dedicated Continual Learning Methods"
+    },
+    "2609.24788v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-22T16:14:44.517236Z",
+      "link": "http://arxiv.org/abs/2609.24788v1",
+      "relevance_score": 8.0,
+      "title": "Streaming Video Editing with Easy Adaptation"
+    },
+    "2609.24797v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-22T16:14:44.517238Z",
+      "link": "http://arxiv.org/abs/2609.24797v1",
+      "relevance_score": 7.5,
+      "title": "Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention"
+    },
+    "2609.24974v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-22T16:14:44.517243Z",
+      "link": "http://arxiv.org/abs/2609.24974v1",
+      "relevance_score": 5.5,
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness"
+    },
+    "2609.24980v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-22T16:14:44.517249Z",
+      "link": "http://arxiv.org/abs/2609.24980v1",
+      "relevance_score": 5.0,
+      "title": "Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD"
     }
   }
 }
