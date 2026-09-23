@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-24T16:40:16.374535Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-25T16:22:05.880415Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-22T16:14:44.517250Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-23T16:16:49.903306Z"
     }
   ],
   "papers": {
@@ -7395,6 +7395,76 @@
       "link": "http://arxiv.org/abs/2609.24980v1",
       "relevance_score": 5.0,
       "title": "Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD"
+    },
+    "2609.25582v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903286Z",
+      "link": "http://arxiv.org/abs/2609.25582v1",
+      "relevance_score": 9.0,
+      "title": "EMGBlend: Heterogeneity-Aware Self-Supervised Pretraining for Gesture and Force Decoding"
+    },
+    "2609.25741v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903294Z",
+      "link": "http://arxiv.org/abs/2609.25741v1",
+      "relevance_score": 6.5,
+      "title": "Fysiverse-3D-Vision Technical Report: Generating Executable 3D Worlds from Images through Unified Spatial Reasoning"
+    },
+    "2609.25914v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-23T16:16:49.903296Z",
+      "link": "http://arxiv.org/abs/2609.25914v1",
+      "relevance_score": 6.0,
+      "title": "AURA: Angular Update Rate Adaptation for training complex-valued neural networks"
+    },
+    "2609.25995v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903278Z",
+      "link": "http://arxiv.org/abs/2609.25995v1",
+      "relevance_score": 9.0,
+      "title": "HRTF Upsampling Across Varying Measurement Configurations with Geometry-Aware Query-Conditioned Aggregation"
+    },
+    "2609.26425v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-23T16:16:49.903292Z",
+      "link": "http://arxiv.org/abs/2609.26425v1",
+      "relevance_score": 6.5,
+      "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation"
+    },
+    "2609.26556v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903291Z",
+      "link": "http://arxiv.org/abs/2609.26556v1",
+      "relevance_score": 7.5,
+      "title": "Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks"
+    },
+    "2609.26760v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-23T16:16:49.903304Z",
+      "link": "http://arxiv.org/abs/2609.26760v1",
+      "relevance_score": 5.5,
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents"
+    },
+    "2609.26772v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903288Z",
+      "link": "http://arxiv.org/abs/2609.26772v1",
+      "relevance_score": 8.0,
+      "title": "Attention Guided Conditional Adversarial Learning for EMG Artifact Suppression in Single Channel EEG"
+    },
+    "2609.26774v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903303Z",
+      "link": "http://arxiv.org/abs/2609.26774v1",
+      "relevance_score": 5.5,
+      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training"
+    },
+    "2609.26796v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-23T16:16:49.903300Z",
+      "link": "http://arxiv.org/abs/2609.26796v1",
+      "relevance_score": 5.5,
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs"
     }
   }
 }
