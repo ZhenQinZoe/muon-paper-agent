@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-07-25T16:22:05.880415Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-07-26T16:30:51.375329Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-23T16:16:49.903306Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-24T16:16:37.578581Z"
     }
   ],
   "papers": {
@@ -7465,6 +7465,76 @@
       "link": "http://arxiv.org/abs/2609.26796v1",
       "relevance_score": 5.5,
       "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs"
+    },
+    "2609.26905v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-24T16:16:37.578564Z",
+      "link": "http://arxiv.org/abs/2609.26905v1",
+      "relevance_score": 8.0,
+      "title": "CORE-STACK+: Meta-Learning for Deep Stacked Generalization"
+    },
+    "2609.27017v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-24T16:16:37.578579Z",
+      "link": "http://arxiv.org/abs/2609.27017v1",
+      "relevance_score": 6.0,
+      "title": "Digital Twin Enhanced Channel Twin for AI-Native CSI Inference: Generalizability and Scalability"
+    },
+    "2609.27149v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-24T16:16:37.578577Z",
+      "link": "http://arxiv.org/abs/2609.27149v1",
+      "relevance_score": 6.0,
+      "title": "Temporally Ordered Region-Token Mamba with Logit-Space Diffusion for Remote Sensing Change Detection"
+    },
+    "2609.27217v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-24T16:16:37.578566Z",
+      "link": "http://arxiv.org/abs/2609.27217v1",
+      "relevance_score": 7.5,
+      "title": "Learning Spectral Allocation: A Fractional Diffusion Framework for Adaptive Volumetric Segmentation"
+    },
+    "2609.27735v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-24T16:16:37.578549Z",
+      "link": "http://arxiv.org/abs/2609.27735v1",
+      "relevance_score": 18.5,
+      "title": "NS-ATTENTION: Newton-Schulz Transformations of Attention Outputs in Vision Transformers"
+    },
+    "2609.28029v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-24T16:16:37.578570Z",
+      "link": "http://arxiv.org/abs/2609.28029v1",
+      "relevance_score": 7.0,
+      "title": "Tensor Decomposition of Transformer Key-Value Caches: Spectral Structure and Format Comparison"
+    },
+    "2609.28248v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-24T16:16:37.578559Z",
+      "link": "http://arxiv.org/abs/2609.28248v1",
+      "relevance_score": 8.5,
+      "title": "hyperbolix: Hyperbolic Deep Learning in JAX"
+    },
+    "2609.28263v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-24T16:16:37.578568Z",
+      "link": "http://arxiv.org/abs/2609.28263v1",
+      "relevance_score": 7.0,
+      "title": "Resource-Adaptive Stochastic Gradient Descent for Online Linear Programming without Re-solving"
+    },
+    "2609.28363v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-24T16:16:37.578574Z",
+      "link": "http://arxiv.org/abs/2609.28363v1",
+      "relevance_score": 6.0,
+      "title": "Curvature-Domain Wireless Communications: Gauge-Fixed Signal Spaces, Fredholm Capacity, and Differentiation-Limited Scaling for Continuous Apertures"
+    },
+    "2609.28473v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-24T16:16:37.578562Z",
+      "link": "http://arxiv.org/abs/2609.28473v1",
+      "relevance_score": 8.0,
+      "title": "On the Diffusibility of High-Dimensional Latents"
     }
   }
 }
