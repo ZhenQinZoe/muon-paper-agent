@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-07-26T16:30:51.375329Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-07-27T16:45:40.406502Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-24T16:16:37.578581Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-25T16:16:17.862565Z"
     }
   ],
   "papers": {
@@ -7501,6 +7501,13 @@
       "relevance_score": 18.5,
       "title": "NS-ATTENTION: Newton-Schulz Transformations of Attention Outputs in Vision Transformers"
     },
+    "2609.27735v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-25T16:16:17.862550Z",
+      "link": "http://arxiv.org/abs/2609.27735v2",
+      "relevance_score": 19.0,
+      "title": "NS-ATTENTION: Newton-Schulz Transformations of Attention Outputs in Vision Transformers"
+    },
     "2609.28029v1": {
       "category": "Muon-Adjacent Theory",
       "last_sent_at": "2026-09-24T16:16:37.578570Z",
@@ -7535,6 +7542,69 @@
       "link": "http://arxiv.org/abs/2609.28473v1",
       "relevance_score": 8.0,
       "title": "On the Diffusibility of High-Dimensional Latents"
+    },
+    "2609.29234v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862555Z",
+      "link": "http://arxiv.org/abs/2609.29234v1",
+      "relevance_score": 7.5,
+      "title": "An Algorithm for Linear Parametric Minimum Cycle Mean Problem"
+    },
+    "2609.29367v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862564Z",
+      "link": "http://arxiv.org/abs/2609.29367v1",
+      "relevance_score": 5.5,
+      "title": "Graph-Based Semi-Supervised Hyperspectral Image Classification with Distance-Aware Spatial Measure"
+    },
+    "2609.29379v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-25T16:16:17.862554Z",
+      "link": "http://arxiv.org/abs/2609.29379v1",
+      "relevance_score": 8.5,
+      "title": "On the second-order optimization for spiking neural networks"
+    },
+    "2609.29820v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862563Z",
+      "link": "http://arxiv.org/abs/2609.29820v1",
+      "relevance_score": 5.5,
+      "title": "Decoding Imagined Speech: A Strictly Subject-Independent Approach Using EEG"
+    },
+    "2609.30059v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-25T16:16:17.862562Z",
+      "link": "http://arxiv.org/abs/2609.30059v1",
+      "relevance_score": 5.5,
+      "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization"
+    },
+    "2609.30121v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862559Z",
+      "link": "http://arxiv.org/abs/2609.30121v1",
+      "relevance_score": 5.5,
+      "title": "What, When, and How: Audio Description as Constrained Global Optimization"
+    },
+    "2609.30177v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862558Z",
+      "link": "http://arxiv.org/abs/2609.30177v1",
+      "relevance_score": 5.5,
+      "title": "Search-Aware Reinforcement Learning for Multi-Component Query Understanding in Roblox Game Search"
+    },
+    "2609.30214v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862557Z",
+      "link": "http://arxiv.org/abs/2609.30214v1",
+      "relevance_score": 5.5,
+      "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage"
+    },
+    "2609.30218v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-25T16:16:17.862556Z",
+      "link": "http://arxiv.org/abs/2609.30218v1",
+      "relevance_score": 7.0,
+      "title": "Minimally Invasive Steering of Language Models"
     }
   }
 }
