@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-07-27T16:45:40.406502Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-07-28T16:40:46.323979Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-25T16:16:17.862565Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-26T16:14:26.974177Z"
     }
   ],
   "papers": {
@@ -7543,6 +7543,13 @@
       "relevance_score": 8.0,
       "title": "On the Diffusibility of High-Dimensional Latents"
     },
+    "2609.28580v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974167Z",
+      "link": "http://arxiv.org/abs/2609.28580v1",
+      "relevance_score": 4.5,
+      "title": "Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification"
+    },
     "2609.29234v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-25T16:16:17.862555Z",
@@ -7564,6 +7571,13 @@
       "relevance_score": 8.5,
       "title": "On the second-order optimization for spiking neural networks"
     },
+    "2609.29812v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974176Z",
+      "link": "http://arxiv.org/abs/2609.29812v1",
+      "relevance_score": 4.0,
+      "title": "FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates"
+    },
     "2609.29820v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-25T16:16:17.862563Z",
@@ -7571,12 +7585,33 @@
       "relevance_score": 5.5,
       "title": "Decoding Imagined Speech: A Strictly Subject-Independent Approach Using EEG"
     },
+    "2609.29940v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974174Z",
+      "link": "http://arxiv.org/abs/2609.29940v1",
+      "relevance_score": 4.0,
+      "title": "Mind What Matters for Reasoning: Aligning Cross-Modal Attention via Selective Probability Mass Concentration"
+    },
+    "2609.30057v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974171Z",
+      "link": "http://arxiv.org/abs/2609.30057v1",
+      "relevance_score": 4.0,
+      "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity"
+    },
     "2609.30059v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-09-25T16:16:17.862562Z",
       "link": "http://arxiv.org/abs/2609.30059v1",
       "relevance_score": 5.5,
       "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization"
+    },
+    "2609.30088v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-26T16:14:26.974165Z",
+      "link": "http://arxiv.org/abs/2609.30088v1",
+      "relevance_score": 4.5,
+      "title": "AT-SKM-Net: An Accelerated Trainable Sampling Kaczmarz-Motzkin Framework for Linear Hard-Constraint Feasibility on Dynamic Graphs"
     },
     "2609.30121v1": {
       "category": "Not Relevant",
@@ -7592,6 +7627,13 @@
       "relevance_score": 5.5,
       "title": "Search-Aware Reinforcement Learning for Multi-Component Query Understanding in Roblox Game Search"
     },
+    "2609.30185v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-26T16:14:26.974163Z",
+      "link": "http://arxiv.org/abs/2609.30185v1",
+      "relevance_score": 4.5,
+      "title": "Intrinsic-Extrinsic Coupling in Learning Dynamics"
+    },
     "2609.30214v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-25T16:16:17.862557Z",
@@ -7605,6 +7647,34 @@
       "link": "http://arxiv.org/abs/2609.30218v1",
       "relevance_score": 7.0,
       "title": "Minimally Invasive Steering of Language Models"
+    },
+    "2609.30220v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974161Z",
+      "link": "http://arxiv.org/abs/2609.30220v1",
+      "relevance_score": 4.5,
+      "title": "Riemannian Gradient Descent for Gaussian Mixture Models with unknown diagonal covariances"
+    },
+    "2609.30234v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974159Z",
+      "link": "http://arxiv.org/abs/2609.30234v1",
+      "relevance_score": 4.5,
+      "title": "OmniFabric: Coherent UV Space Texture Synthesis for 3D Garment Reconstruction"
+    },
+    "2609.30245v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974156Z",
+      "link": "http://arxiv.org/abs/2609.30245v1",
+      "relevance_score": 4.5,
+      "title": "Towards Practical Compression of 3D Gaussian Splatting"
+    },
+    "2609.30249v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-26T16:14:26.974148Z",
+      "link": "http://arxiv.org/abs/2609.30249v1",
+      "relevance_score": 4.5,
+      "title": "RAPID: Robot Agentic Programming from Demonstrations"
     }
   }
 }
