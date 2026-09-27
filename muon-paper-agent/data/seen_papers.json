@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-07-28T16:40:46.323979Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-07-29T16:32:48.300066Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-26T16:14:26.974177Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-27T16:14:15.584792Z"
     }
   ],
   "papers": {
@@ -7550,12 +7550,61 @@
       "relevance_score": 4.5,
       "title": "Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification"
     },
+    "2609.28955v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584791Z",
+      "link": "http://arxiv.org/abs/2609.28955v1",
+      "relevance_score": 4.0,
+      "title": "ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation"
+    },
+    "2609.29048v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584789Z",
+      "link": "http://arxiv.org/abs/2609.29048v1",
+      "relevance_score": 4.0,
+      "title": "Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models"
+    },
+    "2609.29060v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584787Z",
+      "link": "http://arxiv.org/abs/2609.29060v1",
+      "relevance_score": 4.0,
+      "title": "Transformers as Cross-Task Learners: Shared Structure Drives Sample Efficiency in In-Context Learning"
+    },
+    "2609.29071v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584783Z",
+      "link": "http://arxiv.org/abs/2609.29071v1",
+      "relevance_score": 4.0,
+      "title": "On a Separate Note: Robust Score-Informed Note Separation with a Two-Stream TFC-TDF U-Net and Adaptive Set Ownership"
+    },
+    "2609.29192v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584780Z",
+      "link": "http://arxiv.org/abs/2609.29192v1",
+      "relevance_score": 4.0,
+      "title": "LC3EM: Long-Range Context Extrapolation Enhanced Entropy Model for Coordinate-based Overfitting Image Codecs"
+    },
+    "2609.29219v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584778Z",
+      "link": "http://arxiv.org/abs/2609.29219v1",
+      "relevance_score": 4.0,
+      "title": "Schedules Are Solvable Symbols: Tuning-Free Compilation of Tile Programs on Dataflow Architectures"
+    },
     "2609.29234v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-25T16:16:17.862555Z",
       "link": "http://arxiv.org/abs/2609.29234v1",
       "relevance_score": 7.5,
       "title": "An Algorithm for Linear Parametric Minimum Cycle Mean Problem"
+    },
+    "2609.29252v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584776Z",
+      "link": "http://arxiv.org/abs/2609.29252v1",
+      "relevance_score": 4.0,
+      "title": "IronViT: Toward Efficient Generalist Visual Representation Learning"
     },
     "2609.29367v1": {
       "category": "Not Relevant",
@@ -7564,12 +7613,33 @@
       "relevance_score": 5.5,
       "title": "Graph-Based Semi-Supervised Hyperspectral Image Classification with Distance-Aware Spatial Measure"
     },
+    "2609.29376v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584774Z",
+      "link": "http://arxiv.org/abs/2609.29376v1",
+      "relevance_score": 4.0,
+      "title": "A Hybrid CNN--State-Space--Attention Backbone with Joint-Embedding Predictive Pretraining for 12-Lead ECG Classification"
+    },
     "2609.29379v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-09-25T16:16:17.862554Z",
       "link": "http://arxiv.org/abs/2609.29379v1",
       "relevance_score": 8.5,
       "title": "On the second-order optimization for spiking neural networks"
+    },
+    "2609.29397v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584771Z",
+      "link": "http://arxiv.org/abs/2609.29397v1",
+      "relevance_score": 4.0,
+      "title": "Baseline Shape Decides the Verdict: A Controlled Re-Examination of Ternary Language Models at 60K Parameters"
+    },
+    "2609.29792v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-27T16:14:15.584764Z",
+      "link": "http://arxiv.org/abs/2609.29792v1",
+      "relevance_score": 4.0,
+      "title": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting"
     },
     "2609.29812v1": {
       "category": "Not Relevant",
