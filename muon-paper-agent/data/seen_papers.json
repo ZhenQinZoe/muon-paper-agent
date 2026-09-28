@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-29T16:32:48.300066Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-07-30T16:34:13.260382Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-27T16:14:15.584792Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-28T16:16:58.948499Z"
     }
   ],
   "papers": {
@@ -7508,6 +7508,13 @@
       "relevance_score": 19.0,
       "title": "NS-ATTENTION: Newton-Schulz Transformations of Attention Outputs in Vision Transformers"
     },
+    "2609.27735v3": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-28T16:16:58.948440Z",
+      "link": "http://arxiv.org/abs/2609.27735v3",
+      "relevance_score": 17.5,
+      "title": "NS-ATTENTION: Newton-Schulz Transformations of Attention Outputs in Vision Transformers"
+    },
     "2609.28029v1": {
       "category": "Muon-Adjacent Theory",
       "last_sent_at": "2026-09-24T16:16:37.578570Z",
@@ -7745,6 +7752,69 @@
       "link": "http://arxiv.org/abs/2609.30249v1",
       "relevance_score": 4.5,
       "title": "RAPID: Robot Agentic Programming from Demonstrations"
+    },
+    "2609.30542v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948479Z",
+      "link": "http://arxiv.org/abs/2609.30542v1",
+      "relevance_score": 6.5,
+      "title": "GyroNovo: Error-Guided Fragment Imputation with Mass-Aware Attention for \\textit{De Novo} Peptide Sequencing"
+    },
+    "2609.30546v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-28T16:16:58.948472Z",
+      "link": "http://arxiv.org/abs/2609.30546v1",
+      "relevance_score": 17.0,
+      "title": "Convergence guarantees for Muon: New parameter regimes and generalizations"
+    },
+    "2609.30935v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-28T16:16:58.948476Z",
+      "link": "http://arxiv.org/abs/2609.30935v1",
+      "relevance_score": 7.0,
+      "title": "Estimating and Orthogonalizing Unknown Pre-training Gradients for Continual Fine-tuning of Large Language Models"
+    },
+    "2609.31261v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948491Z",
+      "link": "http://arxiv.org/abs/2609.31261v1",
+      "relevance_score": 5.5,
+      "title": "MoSAR: Mixture of Semantic Attention Regimes for Learning Adaptive and Approximable Attention Geometries"
+    },
+    "2609.31310v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948481Z",
+      "link": "http://arxiv.org/abs/2609.31310v1",
+      "relevance_score": 6.0,
+      "title": "Revisiting Certified Defense with Differential Privacy on Vision Transformers"
+    },
+    "2609.31325v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948497Z",
+      "link": "http://arxiv.org/abs/2609.31325v1",
+      "relevance_score": 4.5,
+      "title": "More Sensors Only One Field: Rethinking Continual Spatio-Temporal Forecasting"
+    },
+    "2609.31450v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-28T16:16:58.948486Z",
+      "link": "http://arxiv.org/abs/2609.31450v1",
+      "relevance_score": 5.5,
+      "title": "From Reward Signal to Visual Utility: A Controlled Audit of Medical VLM Post-Training"
+    },
+    "2609.31458v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948483Z",
+      "link": "http://arxiv.org/abs/2609.31458v1",
+      "relevance_score": 5.5,
+      "title": "Nonparametric In-Context Learning under Growing Geometric Complexity: Minimax Optimality and Local Geometry-Adaptivity of Transformers"
+    },
+    "2609.31591v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-28T16:16:58.948495Z",
+      "link": "http://arxiv.org/abs/2609.31591v1",
+      "relevance_score": 4.5,
+      "title": "Stacked Fluid Metasurfaces: Mutual-Coupling-Aware Modeling and Optimization"
     }
   }
 }
