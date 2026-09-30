@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-07-31T16:37:13.578393Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-01T16:23:29.167627Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-29T16:16:54.766616Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-09-30T16:17:52.238435Z"
     }
   ],
   "papers": {
@@ -7885,6 +7885,76 @@
       "link": "http://arxiv.org/abs/2609.35701v1",
       "relevance_score": 15.5,
       "title": "MeqMuon: Matrix-Equilibrating Muon for LLM Pretraining"
+    },
+    "2609.36240v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-30T16:17:52.238417Z",
+      "link": "http://arxiv.org/abs/2609.36240v1",
+      "relevance_score": 12.0,
+      "title": "Can Representation Learning Decouple from Loss Minimization? Polar Updates Have an Answer"
+    },
+    "2609.36600v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-09-30T16:17:52.238421Z",
+      "link": "http://arxiv.org/abs/2609.36600v1",
+      "relevance_score": 10.5,
+      "title": "Second-Moment Stochastic Approximation Methods"
+    },
+    "2609.36692v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-30T16:17:52.238401Z",
+      "link": "http://arxiv.org/abs/2609.36692v1",
+      "relevance_score": 20.0,
+      "title": "Normalize-Then-Precondition: A Hierarchical Approach to Marginal Scale and Interaction Geometry for LLM Training"
+    },
+    "2609.37263v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-30T16:17:52.238431Z",
+      "link": "http://arxiv.org/abs/2609.37263v1",
+      "relevance_score": 7.5,
+      "title": "Beyond Attention Imbalance: Mitigating Hallucinations via Spectral Surgery"
+    },
+    "2609.37525v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-30T16:17:52.238411Z",
+      "link": "http://arxiv.org/abs/2609.37525v1",
+      "relevance_score": 18.0,
+      "title": "Physical Muon: Orthogonalization as an Equilibrium Computation"
+    },
+    "2609.37535v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-09-30T16:17:52.238413Z",
+      "link": "http://arxiv.org/abs/2609.37535v1",
+      "relevance_score": 16.0,
+      "title": "Why Adaptive Optimizers Underestimate Rare Tokens"
+    },
+    "2609.37745v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-09-30T16:17:52.238419Z",
+      "link": "http://arxiv.org/abs/2609.37745v1",
+      "relevance_score": 11.0,
+      "title": "Optimizer-dependent training dynamics converge to the same one-third optimal data scaling"
+    },
+    "2609.37976v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-30T16:17:52.238428Z",
+      "link": "http://arxiv.org/abs/2609.37976v1",
+      "relevance_score": 8.0,
+      "title": "$S^3$: Spectral Null-Space Swap Makes Reasoning Models Efficient"
+    },
+    "2609.38081v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-09-30T16:17:52.238434Z",
+      "link": "http://arxiv.org/abs/2609.38081v1",
+      "relevance_score": 7.0,
+      "title": "Traversing the solution space of neural networks with Hessian Null Space Continuation"
+    },
+    "2609.38136v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-09-30T16:17:52.238423Z",
+      "link": "http://arxiv.org/abs/2609.38136v1",
+      "relevance_score": 10.0,
+      "title": "CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer"
     }
   }
 }
