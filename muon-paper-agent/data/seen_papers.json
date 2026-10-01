@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-01T16:23:29.167627Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-02T16:23:13.281747Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-09-30T16:17:52.238435Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-01T16:15:32.563993Z"
     }
   ],
   "papers": {
@@ -7858,6 +7858,13 @@
       "relevance_score": 23.0,
       "title": "Orthogonal Witness Control for Muon Optimization via Sigmoid Spectral Reshaping"
     },
+    "2609.34681v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-01T16:15:32.563991Z",
+      "link": "http://arxiv.org/abs/2609.34681v1",
+      "relevance_score": 7.0,
+      "title": "SOLAR: A State-Driven Online Learning Rate Scheduler for LLM Pretraining"
+    },
     "2609.34915v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-29T16:16:54.766598Z",
@@ -7955,6 +7962,69 @@
       "link": "http://arxiv.org/abs/2609.38136v1",
       "relevance_score": 10.0,
       "title": "CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer"
+    },
+    "2609.38521v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-01T16:15:32.563974Z",
+      "link": "http://arxiv.org/abs/2609.38521v1",
+      "relevance_score": 8.5,
+      "title": "ShamAN-Q: Shampoo Augmented NanoQuant for Sub-1-bit LLM Weights"
+    },
+    "2609.39114v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-01T16:15:32.563968Z",
+      "link": "http://arxiv.org/abs/2609.39114v1",
+      "relevance_score": 16.5,
+      "title": "The Row Normalization Puzzle in Muon"
+    },
+    "2609.39595v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-01T16:15:32.563959Z",
+      "link": "http://arxiv.org/abs/2609.39595v1",
+      "relevance_score": 18.5,
+      "title": "Convergence of Practical Muon with Finite Newton-Schulz Iterations and Nesterov Momentum"
+    },
+    "2609.40127v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-01T16:15:32.563971Z",
+      "link": "http://arxiv.org/abs/2609.40127v1",
+      "relevance_score": 10.0,
+      "title": "Learning Functional Subspaces for Neural Network Compression"
+    },
+    "2609.40148v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-01T16:15:32.563976Z",
+      "link": "http://arxiv.org/abs/2609.40148v1",
+      "relevance_score": 8.0,
+      "title": "From Spectra to Joint Schedules in LLM Pre-training: 3+3(+2) Scaling-Law Regimes"
+    },
+    "2609.40244v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-01T16:15:32.563989Z",
+      "link": "http://arxiv.org/abs/2609.40244v1",
+      "relevance_score": 7.0,
+      "title": "StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry"
+    },
+    "2609.40287v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-01T16:15:32.563986Z",
+      "link": "http://arxiv.org/abs/2609.40287v1",
+      "relevance_score": 7.0,
+      "title": "PMosFM: Preconditioned Manifold Matching for One-Step Physics-Constrained Generation"
+    },
+    "2609.40320v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-01T16:15:32.563980Z",
+      "link": "http://arxiv.org/abs/2609.40320v1",
+      "relevance_score": 7.0,
+      "title": "Atomizer-IO: Beyond Pixels, Patches and Grids"
+    },
+    "2609.40340v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-01T16:15:32.563978Z",
+      "link": "http://arxiv.org/abs/2609.40340v1",
+      "relevance_score": 7.0,
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery"
     }
   }
 }
