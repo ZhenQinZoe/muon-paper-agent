@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-04T16:40:00.766118Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-05T16:36:19.677450Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-03T17:23:12.181407Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-04T17:29:49.236445Z"
     }
   ],
   "papers": {
@@ -8054,6 +8054,13 @@
       "relevance_score": 6.0,
       "title": "Every Batch Is Its Own Validation Set: Leave-One-Out Gradient Matching for Online Data Selection in LLM Fine-Tuning"
     },
+    "2610.00483v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236413Z",
+      "link": "http://arxiv.org/abs/2610.00483v1",
+      "relevance_score": 5.0,
+      "title": "PixelDense: Dense Prediction as Representation Alignment for Pixel Diffusion"
+    },
     "2610.01230v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-02T16:15:20.495041Z",
@@ -8075,6 +8082,13 @@
       "relevance_score": 19.0,
       "title": "AF-Muon: An AdamW-Free Muon Optimizer for Tied-Embedding Models"
     },
+    "2610.01403v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236426Z",
+      "link": "http://arxiv.org/abs/2610.01403v1",
+      "relevance_score": 4.5,
+      "title": "Contrastive Attention Mitigates Spectral Bias in Spiking Transformers"
+    },
     "2610.01515v1": {
       "category": "Muon-Adjacent Theory+Experiments",
       "last_sent_at": "2026-10-02T16:15:20.495027Z",
@@ -8089,12 +8103,68 @@
       "relevance_score": 9.5,
       "title": "MDIRNET: Multi-Degradation Image Restoration Network via Deep Unfolding"
     },
+    "2610.01903v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236422Z",
+      "link": "http://arxiv.org/abs/2610.01903v1",
+      "relevance_score": 4.5,
+      "title": "Higher-Order Positional Encodings for Graph Representation Learning"
+    },
+    "2610.01917v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236444Z",
+      "link": "http://arxiv.org/abs/2610.01917v1",
+      "relevance_score": 4.0,
+      "title": "MoLE: Mixture of Latent Experts for Complementary Visual Reasoning"
+    },
+    "2610.01973v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236442Z",
+      "link": "http://arxiv.org/abs/2610.01973v1",
+      "relevance_score": 4.0,
+      "title": "Token-Level Video Reinforcement Learning"
+    },
+    "2610.01980v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-04T17:29:49.236439Z",
+      "link": "http://arxiv.org/abs/2610.01980v1",
+      "relevance_score": 4.0,
+      "title": "The Curvature of Regret in Contextual Linear Optimization"
+    },
+    "2610.02015v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236435Z",
+      "link": "http://arxiv.org/abs/2610.02015v1",
+      "relevance_score": 4.0,
+      "title": "On Language Drift during RLVR Post-Training"
+    },
+    "2610.02019v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236433Z",
+      "link": "http://arxiv.org/abs/2610.02019v1",
+      "relevance_score": 4.0,
+      "title": "Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization"
+    },
+    "2610.02039v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236430Z",
+      "link": "http://arxiv.org/abs/2610.02039v1",
+      "relevance_score": 4.0,
+      "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning"
+    },
     "2610.02044v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-03T17:23:12.181388Z",
       "link": "http://arxiv.org/abs/2610.02044v1",
       "relevance_score": 5.5,
       "title": "DiDE:Direct Injection with Color-Texture DEcoupling for 3D Stylization"
+    },
+    "2610.02076v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-04T17:29:49.236428Z",
+      "link": "http://arxiv.org/abs/2610.02076v1",
+      "relevance_score": 4.0,
+      "title": "LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them"
     },
     "2610.02091v1": {
       "category": "Not Relevant",
