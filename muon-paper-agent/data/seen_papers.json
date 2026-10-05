@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-05T16:36:19.677450Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-07T16:20:56.515146Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-04T17:29:49.236445Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-05T16:16:56.345907Z"
     }
   ],
   "papers": {
@@ -8047,6 +8047,13 @@
       "relevance_score": 8.0,
       "title": "The Conflict Between Logic and Memory: Learning Higher-Order Interactions in Shallow MLPs"
     },
+    "2610.00403v2": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-05T16:16:56.345894Z",
+      "link": "http://arxiv.org/abs/2610.00403v2",
+      "relevance_score": 8.0,
+      "title": "The Conflict Between Logic and Memory: Training Conditions for Optimizer-Dependent Rule Acquisition"
+    },
     "2610.00436v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-03T17:23:12.181382Z",
@@ -8235,6 +8242,69 @@
       "link": "http://arxiv.org/abs/2610.02199v1",
       "relevance_score": 13.0,
       "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning"
+    },
+    "2610.02344v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-05T16:16:56.345901Z",
+      "link": "http://arxiv.org/abs/2610.02344v1",
+      "relevance_score": 6.5,
+      "title": "Drive vs. Decay: On the Training Dynamics of Joint-Embedding Predictive Architectures"
+    },
+    "2610.02567v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-05T16:16:56.345906Z",
+      "link": "http://arxiv.org/abs/2610.02567v1",
+      "relevance_score": 5.5,
+      "title": "DAGS: Disentangled Appearance-and-Geometry Steering of a Frozen Image DiT for Temporally Stabilized Generative Rendering"
+    },
+    "2610.02705v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-05T16:16:56.345888Z",
+      "link": "http://arxiv.org/abs/2610.02705v1",
+      "relevance_score": 18.0,
+      "title": "MuonIO: Principled Norm-Aware Descent for Embedding Tables and Language Model Heads"
+    },
+    "2610.02738v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-05T16:16:56.345874Z",
+      "link": "http://arxiv.org/abs/2610.02738v1",
+      "relevance_score": 21.0,
+      "title": "Inner Momentum for Differentially Private Muon"
+    },
+    "2610.02779v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-05T16:16:56.345896Z",
+      "link": "http://arxiv.org/abs/2610.02779v1",
+      "relevance_score": 6.5,
+      "title": "TRAC: Trajectory-aware Reuse and Adaptive Correction for Efficient Autoregressive Video Generation"
+    },
+    "2610.02798v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-05T16:16:56.345890Z",
+      "link": "http://arxiv.org/abs/2610.02798v1",
+      "relevance_score": 17.5,
+      "title": "Muon Learns Facts Better: Understanding the Role of Spectral Orthogonalization"
+    },
+    "2610.02953v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-05T16:16:56.345904Z",
+      "link": "http://arxiv.org/abs/2610.02953v1",
+      "relevance_score": 5.5,
+      "title": "SlimKV: Joint Token-Feature KV Cache Compression with Reconstruction-Free Beacon Attention"
+    },
+    "2610.03306v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-05T16:16:56.345885Z",
+      "link": "http://arxiv.org/abs/2610.03306v1",
+      "relevance_score": 19.5,
+      "title": "Training-Loss Guarantees for Muon with Finite-Step Newton--Schulz Orthogonalization"
+    },
+    "2610.03432v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-05T16:16:56.345892Z",
+      "link": "http://arxiv.org/abs/2610.03432v1",
+      "relevance_score": 13.5,
+      "title": "OptiSelect: How does the Optimizer Shape Data Curriculum?"
     }
   }
 }
