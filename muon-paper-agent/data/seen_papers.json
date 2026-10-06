@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-08-07T16:20:56.515146Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-08-08T16:14:56.156396Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-05T16:16:56.345907Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-06T16:16:56.954909Z"
     }
   ],
   "papers": {
@@ -7900,6 +7900,13 @@
       "relevance_score": 22.5,
       "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training"
     },
+    "2609.35297v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-06T16:16:56.954877Z",
+      "link": "http://arxiv.org/abs/2609.35297v2",
+      "relevance_score": 22.5,
+      "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training"
+    },
     "2609.35701v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-29T16:16:54.766600Z",
@@ -8305,6 +8312,69 @@
       "link": "http://arxiv.org/abs/2610.03432v1",
       "relevance_score": 13.5,
       "title": "OptiSelect: How does the Optimizer Shape Data Curriculum?"
+    },
+    "2610.04140v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-06T16:16:56.954888Z",
+      "link": "http://arxiv.org/abs/2610.04140v1",
+      "relevance_score": 17.0,
+      "title": "ExpertMuon-Compass: Alignment-Guided Step Sizes for Mixture-of-Experts Training"
+    },
+    "2610.04204v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-06T16:16:56.954894Z",
+      "link": "http://arxiv.org/abs/2610.04204v1",
+      "relevance_score": 13.5,
+      "title": "Clean: Second-order LLM Training at Linear Memory Cost via Nystr\u00f6m Sketching"
+    },
+    "2610.04249v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-06T16:16:56.954892Z",
+      "link": "http://arxiv.org/abs/2610.04249v1",
+      "relevance_score": 14.0,
+      "title": "Optimizer Geometry Sets the Pace: Spectral Learning Dynamics in Matrix Factorization"
+    },
+    "2610.05318v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-06T16:16:56.954897Z",
+      "link": "http://arxiv.org/abs/2610.05318v1",
+      "relevance_score": 11.5,
+      "title": "Robust Parameter-Efficient LLM Adaptation on Analog Hardware"
+    },
+    "2610.06116v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-06T16:16:56.954890Z",
+      "link": "http://arxiv.org/abs/2610.06116v1",
+      "relevance_score": 16.5,
+      "title": "ORCA: The Annealed Spectral Conditioning Optimizer for Faster, Better LLM Training"
+    },
+    "2610.06421v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-06T16:16:56.954901Z",
+      "link": "http://arxiv.org/abs/2610.06421v1",
+      "relevance_score": 10.5,
+      "title": "On the Comparison of Optimizers for Imbalanced Learning"
+    },
+    "2610.06578v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-06T16:16:56.954885Z",
+      "link": "http://arxiv.org/abs/2610.06578v1",
+      "relevance_score": 17.5,
+      "title": "DGA-Muon: Decoupled Geometry-Aligned Adaptive Scaling for Muon"
+    },
+    "2610.06686v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-06T16:16:56.954905Z",
+      "link": "http://arxiv.org/abs/2610.06686v1",
+      "relevance_score": 8.0,
+      "title": "OVAL: Output-Aware Local Page Bases for KV Cache Retrieval"
+    },
+    "2610.06813v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-06T16:16:56.954908Z",
+      "link": "http://arxiv.org/abs/2610.06813v1",
+      "relevance_score": 7.0,
+      "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models"
     }
   }
 }
