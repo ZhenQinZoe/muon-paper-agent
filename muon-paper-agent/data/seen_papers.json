@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-08-08T16:14:56.156396Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-08-09T16:10:20.913348Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-06T16:16:56.954909Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-07T16:16:47.790527Z"
     }
   ],
   "papers": {
@@ -7907,6 +7907,13 @@
       "relevance_score": 22.5,
       "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training"
     },
+    "2609.35297v3": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-07T16:16:47.790496Z",
+      "link": "http://arxiv.org/abs/2609.35297v3",
+      "relevance_score": 22.5,
+      "title": "LionMuon: Alternating Spectral and Sign Descent for Efficient Training"
+    },
     "2609.35701v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-09-29T16:16:54.766600Z",
@@ -8375,6 +8382,69 @@
       "link": "http://arxiv.org/abs/2610.06813v1",
       "relevance_score": 7.0,
       "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models"
+    },
+    "2610.07103v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-07T16:16:47.790505Z",
+      "link": "http://arxiv.org/abs/2610.07103v1",
+      "relevance_score": 18.5,
+      "title": "Muon Is Theoretically Wrong For Convolutions, But Empirically Effective"
+    },
+    "2610.07497v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-07T16:16:47.790508Z",
+      "link": "http://arxiv.org/abs/2610.07497v1",
+      "relevance_score": 15.5,
+      "title": "Does Muon Need Fine-Grained Spectral Shaping?"
+    },
+    "2610.07752v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-07T16:16:47.790526Z",
+      "link": "http://arxiv.org/abs/2610.07752v1",
+      "relevance_score": 6.5,
+      "title": "CoRE: Learning Collaboration-Role Experts for Decentralized Collaborative Manipulation with One Policy"
+    },
+    "2610.08075v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-07T16:16:47.790512Z",
+      "link": "http://arxiv.org/abs/2610.08075v1",
+      "relevance_score": 8.5,
+      "title": "Optimization Encoders: Rethinking Second-Order Meta-Learning for Neural Fields"
+    },
+    "2610.08188v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-07T16:16:47.790524Z",
+      "link": "http://arxiv.org/abs/2610.08188v1",
+      "relevance_score": 6.5,
+      "title": "PIE-PS: Photometric Stereo from Physical Irradiance Event Streams"
+    },
+    "2610.08534v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-07T16:16:47.790515Z",
+      "link": "http://arxiv.org/abs/2610.08534v1",
+      "relevance_score": 7.5,
+      "title": "How Bregman Divergences Shape Shampoo"
+    },
+    "2610.08630v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-07T16:16:47.790510Z",
+      "link": "http://arxiv.org/abs/2610.08630v1",
+      "relevance_score": 8.5,
+      "title": "Towards In-Parameter Memory Augmentation for Large Language Models"
+    },
+    "2610.08696v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-07T16:16:47.790521Z",
+      "link": "http://arxiv.org/abs/2610.08696v1",
+      "relevance_score": 6.5,
+      "title": "Fundamental CRB-Rate Tradeoff of Rydberg Atomic Receivers for Integrated Sensing and Communication"
+    },
+    "2610.08718v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-07T16:16:47.790517Z",
+      "link": "http://arxiv.org/abs/2610.08718v1",
+      "relevance_score": 7.0,
+      "title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting"
     }
   }
 }
