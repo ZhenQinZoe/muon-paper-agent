@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-10T16:19:36.196639Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-11T16:20:36.422391Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-08T16:17:50.901617Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-09T16:15:15.907963Z"
     }
   ],
   "papers": {
@@ -7998,6 +7998,13 @@
       "relevance_score": 8.5,
       "title": "ShamAN-Q: Shampoo Augmented NanoQuant for Sub-1-bit LLM Weights"
     },
+    "2609.38561v2": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-09T16:15:15.907942Z",
+      "link": "http://arxiv.org/abs/2609.38561v2",
+      "relevance_score": 9.0,
+      "title": "Parameter-Free Zeroth-Order Optimization with Ellipsoidal Sampling"
+    },
     "2609.39114v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-10-01T16:15:32.563968Z",
@@ -8515,6 +8522,69 @@
       "link": "http://arxiv.org/abs/2610.10394v1",
       "relevance_score": 7.0,
       "title": "Kernel Autoresearch for Open-Ended Model Discovery"
+    },
+    "2610.10965v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-09T16:15:15.907926Z",
+      "link": "http://arxiv.org/abs/2610.10965v1",
+      "relevance_score": 24.0,
+      "title": "Spectrally Targeted Muon"
+    },
+    "2610.10975v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-09T16:15:15.907939Z",
+      "link": "http://arxiv.org/abs/2610.10975v1",
+      "relevance_score": 11.0,
+      "title": "Optimizing Large Language Models with Chained LMOs"
+    },
+    "2610.11309v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-09T16:15:15.907936Z",
+      "link": "http://arxiv.org/abs/2610.11309v1",
+      "relevance_score": 17.0,
+      "title": "From Geometry to Generalization: Why Row Normalization Can Beat Adam and Muon"
+    },
+    "2610.11975v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-09T16:15:15.907950Z",
+      "link": "http://arxiv.org/abs/2610.11975v1",
+      "relevance_score": 6.5,
+      "title": "Predicting Cable Dynamics with Physical Attention Bias"
+    },
+    "2610.12162v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-09T16:15:15.907955Z",
+      "link": "http://arxiv.org/abs/2610.12162v1",
+      "relevance_score": 6.0,
+      "title": "Statistical Analysis of 3D Ambiguity Functions for Random MIMO-OFDM Signals"
+    },
+    "2610.12370v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-09T16:15:15.907948Z",
+      "link": "http://arxiv.org/abs/2610.12370v1",
+      "relevance_score": 7.0,
+      "title": "Bilevel optimization for data-driven learning of Koopman embeddings using kernel-based autoencoders"
+    },
+    "2610.12379v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-09T16:15:15.907962Z",
+      "link": "http://arxiv.org/abs/2610.12379v1",
+      "relevance_score": 5.5,
+      "title": "Marformer: A Transformer for Predicting Missing Data Distributions"
+    },
+    "2610.12388v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-09T16:15:15.907945Z",
+      "link": "http://arxiv.org/abs/2610.12388v1",
+      "relevance_score": 7.0,
+      "title": "GenIA: Generative Reconstruction with Test-Time Input Alignment"
+    },
+    "2610.12444v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-09T16:15:15.907959Z",
+      "link": "http://arxiv.org/abs/2610.12444v1",
+      "relevance_score": 5.5,
+      "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization"
     }
   }
 }
