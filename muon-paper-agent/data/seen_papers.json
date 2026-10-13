@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-14T16:19:22.680773Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-15T16:05:55.154472Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-12T16:15:57.729383Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-13T16:16:47.471268Z"
     }
   ],
   "papers": {
@@ -8782,6 +8782,55 @@
       "relevance_score": 12.5,
       "title": "Randomized Momentum Transport with Cheap Predictors"
     },
+    "2610.13853v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471266Z",
+      "link": "http://arxiv.org/abs/2610.13853v1",
+      "relevance_score": 2.0,
+      "title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations"
+    },
+    "2610.13856v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471248Z",
+      "link": "http://arxiv.org/abs/2610.13856v1",
+      "relevance_score": 4.0,
+      "title": "Event-based Action Recognition by Pre-Training on Multi-Frame Representations"
+    },
+    "2610.13871v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471251Z",
+      "link": "http://arxiv.org/abs/2610.13871v1",
+      "relevance_score": 3.5,
+      "title": "Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking"
+    },
+    "2610.13881v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471265Z",
+      "link": "http://arxiv.org/abs/2610.13881v1",
+      "relevance_score": 2.0,
+      "title": "Prediction Is Not a Sufficient Memory State"
+    },
+    "2610.13889v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471242Z",
+      "link": "http://arxiv.org/abs/2610.13889v1",
+      "relevance_score": 4.0,
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics"
+    },
+    "2610.13890v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471262Z",
+      "link": "http://arxiv.org/abs/2610.13890v1",
+      "relevance_score": 2.0,
+      "title": "How Social Reinforcement Shapes Word-of-Mouth: A Conviction-Based Model for Marketing Diffusion and Network Targeting"
+    },
+    "2610.13895v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471258Z",
+      "link": "http://arxiv.org/abs/2610.13895v1",
+      "relevance_score": 2.0,
+      "title": "Task Context Shapes Component Roles in Language Models"
+    },
     "2610.13909v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-12T16:15:57.729381Z",
@@ -8789,12 +8838,33 @@
       "relevance_score": 4.0,
       "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping"
     },
+    "2610.13912v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471256Z",
+      "link": "http://arxiv.org/abs/2610.13912v1",
+      "relevance_score": 2.0,
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models"
+    },
+    "2610.13923v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471255Z",
+      "link": "http://arxiv.org/abs/2610.13923v1",
+      "relevance_score": 2.0,
+      "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning"
+    },
     "2610.13929v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-12T16:15:57.729379Z",
       "link": "http://arxiv.org/abs/2610.13929v1",
       "relevance_score": 4.0,
       "title": "Chronos Policy: Learning Robot Policies on Physical Time"
+    },
+    "2610.13941v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-13T16:16:47.471253Z",
+      "link": "http://arxiv.org/abs/2610.13941v1",
+      "relevance_score": 2.0,
+      "title": "Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback"
     }
   }
 }
