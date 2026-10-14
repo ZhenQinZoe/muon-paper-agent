@@ -1,53 +1,51 @@
 # Daily Muon Paper Digest
 
-No strong matches today. Showing the best available 10 candidates.
-
 ## Top Highlights
 
-1. RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics
-Authors: Weiliang Chen, Song Liao
-Link: http://arxiv.org/abs/2610.13889v1
-Category: Not Relevant
+1. Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining
+Authors: Alexander Miasnikov, Ruslan Kabirov, Gleb Molodtsov, Dmitrii Vlashchuk, Vladimir Aletov, Nail Bashirov
+Link: http://arxiv.org/abs/2610.17429v1
+Category: Muon Core
 Paper type: Experiment
-Relevance score: 4.0
-Abstract: As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic matching with dynamic reliability adaptation. RATED employs a frozen dual-encoder with contrastive fine-tuning for semantic matching, and a lightweight contextual bandit module that re-ranks candidates based on real-time execution feedback. This design enables rapid adaptation to runtime tool failures without expensive model retraining. We introduce EcoAgent, a benchmark of 5,172 real-world tools and over 210,000 query-tool pairs for offline retrieval and dynamic reliability evaluation. Experimental results demonstrate that RATED achieves a 52.2% relative MRR improvement over the ToolLLM API retriever on real-world queries, and reduces fault selection rate from 86.2% to 2.9% under severe API outage scenarios with a 30% failure rate, while incurring negligible latency overhead of less than 1 ms over encode-only inference. The code and dataset are available at https://github.com/Elliotes/EcoAgent.
+Relevance score: 18.0
+Abstract: Training large language models is constrained by both wall-clock time and memory footprint, and recent matrix-aware optimizers sharpen this tradeoff: Muon can improve optimization but its dense polar update remains expensive. We propose Monarch-Muon, a structured matrix-aware optimizer for weights parameterized by Monarch factors. The resulting structure reduces weights, gradients, and optimizer state, and exposes small independent update subproblems in place of a single dense orthogonalization; we formalize this through a blockwise trust-region interpretation. In quality runs, Monarch-Muon improves over Monarch-AdamW at fixed structure: 3.06 vs. 3.09 in the dense 257M model and 2.68 vs. 2.77 in the 1B MoE model; the two-block MoE variant also matches dense AdamW while using 15% fewer active and 25.4% fewer total parameters. In 6.89B-parameter systems measurements, Monarch-Muon reduces peak memory from 68.9 to 52.9 GB, Muon optimizer state from 14.60 to 6.77 GB, and the Muon optimizer step from 1288 to 304 ms.
 
-2. Event-based Action Recognition by Pre-Training on Multi-Frame Representations
-Authors: Emma Norrby, Tomas Wilkinson, Per Nyblom, David Gustafsson
-Link: http://arxiv.org/abs/2610.13856v1
-Category: Not Relevant
-Paper type: Unclear
-Relevance score: 4.0
-Abstract: Action recognition is a crucial task in domains like robotics, patient monitoring, or surveillance. Recently, event-based action recognition has attracted much attention due to the event camera's ability to capture fast motions and its improved privacy over conventional vision cameras. While frame-based event representations work well for short event sequences, their discriminative ability declines sharply with longer and more complex event sequences. In this work, we introduce a multi-frame representation that greatly improves recognition performance over its single-frame counterpart. We adopt a masked auto-encoding framework to pre-train a Vision Transformer using a sparsity-aware masking algorithm and token selection mechanism to improve downstream performance and control computational complexity. We also introduce multiple mask tokens for the decoder with a position-aware attention mechanism, leading to further improved performance. Our proposed method shows impressive performance for challenging long-duration and complex event sequences, yielding state-of-the-art performance on THU-EACT-50 CHL and DailyDVS-200.
+2. From Parallel to Sequential: Small-Batch Noise Restores Simplicity Bias of Muon
+Authors: Tom Jacobs, Rebekka Burkholz
+Link: http://arxiv.org/abs/2610.16868v1
+Category: Muon Core
+Paper type: Experiment
+Relevance score: 18.0
+Abstract: Simplicity bias, which can arise from sequential feature learning during training, has been proposed as a general explanation for the success of deep learning. An important driver of this phenomenon is saddle-to-saddle behavior, in which the gradient flow trajectory remains close to a sequence of saddle manifolds while learning one feature at a time. However, Muon, a state-of-the-art optimizer based on spectral descent, does not exhibit such dynamics in the full-batch setting and instead learns features in parallel. How is it then that Muon is so successful in deep learning settings? We show that stochastic gradient noise fundamentally changes this behavior: small-batch noise restores sequential feature learning, providing a mechanism for simplicity bias that is absent from full-batch Muon. We explain this transition through stochastic smoothing of the spectral descent operator underlying Muon. When gradients are small relative to the noise scale, the expected spectral update becomes approximately proportional to the actual gradient, which restores gradient-flow-like dynamics. We formalize this mechanism for deep linear models by deriving the effective continuous dynamics of noisy spectral descent. Experiments on low-rank matrix reconstruction, vision transformers, and large language models (LLMs) support these findings.
 
-3. Partially Informed Stochastic Optimization via Zeroth-Order Residual Tracking
-Authors: El Mahdi Chayti, Alireza Mirrokni, Martin Jaggi
-Link: http://arxiv.org/abs/2610.13871v1
-Category: Not Relevant
+3. Taming Softmax at the Limits of Muon: A Unified Approach through Hilbert Geometry
+Authors: Aditya Somasundaram, Charles Guille-Escuret, Alexander Moreno, Zhengzhong Liu, Eric Xing
+Link: http://arxiv.org/abs/2610.17588v1
+Category: Muon Core
+Paper type: Theory
+Relevance score: 16.5
+Abstract: Muon controls weight updates through the RMS movement of a linear layer's output. This implicitly treats the linear output as a proxy for the full module, including the nonlinearity that follows. This proxy can be misleading for softmax, where the RMS shift in activations does not faithfully measure the change in the output distribution. We propose Hilbert distance as a natural metric for bounding changes in these output distributions. Hilbert distance bounds changes in cross-entropy loss and limits probability redistribution. For softmax, it takes the form of the variation seminorm of the preactivation perturbation, allowing probability constraints to be expressed as parameter constraints. Formulating the steepest descent problem with a Hilbert distance constraint brings two recently proposed methods under a unified mathematical framework. For the LM head, solving a row-wise approximation to the resulting diameter-constrained problem leads us to RowNorm \citep{pethick2025trainingdeeplearningmodels}. For scaled dot-product attention, the same principle yields the first-order query--key steepest descent problem underlying Compositional Muon \citep{keigwin2026compositional}. These connections motivate using Hilbert distance as a guiding principle for optimizer design in softmax modules.
+
+4. Clean: Second-order LLM Training at Linear Memory Cost via Nystr{ö}m Sketching
+Authors: Beheshteh T. Rakhshan, Sahar Rajabi, Maziar Sargordi, Shikai Fang, Guillaume Rabusseau, Sirisha Rambhatla
+Link: http://arxiv.org/abs/2610.04204v3
+Category: Muon-Adjacent Theory
+Paper type: Theory
+Relevance score: 13.5
+Abstract: Training large language models (LLMs) entails a fundamental trade-off: memory-efficient optimizers such as Adam discard cross-parameter curvature, whereas full-curvature methods such as SOAP can accelerate convergence at prohibitive memory costs. We introduce Clean, a memory-efficient and full-curvature optimizer designed to resolve this bottleneck. Clean leverages the randomized Nystrom method to accurately approximate the left and right preconditioners in SOAP, and to reduce the optimizer's memory complexity from quadratic to linear in terms of model dimensions. We subsequently reintegrate the off-subspace components to capture curvature information beyond the low-rank approximation, preserving rich curvature at minimal memory cost. We further propose Q-Clean, a low-precision variant that aggressively compresses optimizer states. Q-Clean reduces optimizer memory consumption by over 50% compared to Muon when pre-training a LLaMA-1.3B architecture, all while maintaining strong and competitive predictive performance. Notably, Clean operates with a smaller optimizer-state footprint than standard AdamW while reaching AdamW's final performance 26% faster in wall-clock time. Furthermore, our methods uniquely enable the pre-training of a 13B-parameter model on a single 80GB GPU, providing a scalable, efficient, and accessible approach to large-scale model optimization.
+
+5. The Best Optimizer Depends on Batch Size
+Authors: Xingyu Dang, Kaiyue Wen, Sadhika Malladi
+Link: http://arxiv.org/abs/2610.08975v2
+Category: Muon-Adjacent Theory+Experiments
 Paper type: Theory + Experiment
-Relevance score: 3.5
-Abstract: Many optimization problems provide direct access to only part of the gradient, while the remaining component must be inferred from function evaluations. This structure arises in performative prediction, performative reinforcement learning, and bilevel optimization with a black-box lower level. We introduce Partially Informed Stochastic Optimization (PISO), which combines the available gradient component with a running estimate of the residual. By centring each zeroth-order observation on this estimate, PISO makes the variance due to random probing depend on the tracking error rather than the residual's magnitude. This yields a randomized sketch iteration with an explicit contraction mechanism and a principled interpretation of momentum. For smooth nonconvex objectives, we establish convergence guarantees that depend on the residual's variation and initial magnitude, without requiring a uniform bound on the unavailable gradient component. With independently sampled function evaluations and Gaussian or spherical probes, PISO attains leading function-evaluation complexities of \(O(d^{2}\varepsilon^{-6})\) under Lipschitz gradients and \(O(d^{2}\varepsilon^{-5})\) under an additional Lipschitz-Hessian assumption. These rates require only one probe direction, two function samples, and one known-component sample per update. The analysis also quantifies how batching trades observations for fewer deployments. Across five settings, PISO variants improve on the tested baselines with comparable oracle access in three, reach a comparable solution faster in bilevel routing, and perform best among methods without response-model derivatives in performative reinforcement learning.
-
-4. Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
-Authors: Yucheng Yang, Xiaoxiao Sun, Shusheng Yang, Jiakang Chen, Serena Yeung-Levy
-Link: http://arxiv.org/abs/2610.13941v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 2.0
-Abstract: Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find that image-to-text (I2T) feedback can preserve the objects and attributes already represented in the evolving image, including errors. Transplanting I2T messages can rescue failures or disrupt successes. At matched intervention strengths, suppressing the influence of I2T feedback improves generation, whereas opposite controls degrade it. These findings motivate Semantic Feedback Guidance (SFG), which suppresses the influence of I2T feedback by guiding away from an auxiliary branch that strengthens this feedback and weakens text-to-image conditioning. The in-place variant, iSFG, directly suppresses I2T feedback and strengthens text-to-image conditioning, requiring no extra model evaluations. Temporal interventions motivate running the SFG branch during the first 20% of image sampling steps, requiring about $1.2\times$ the base NFE without classifier-free guidance (CFG). Experiments across three image-generation backbones show gains in alignment and preference-model scores. On FLUX, adding SFG to CFG raises GenEval from $0.6661$ to $0.7479$; on SD3.5M, iSFG adds $+1.33$ HPSv2.1 over CFG at zero extra NFE. The control also transfers to text-to-video and image-to-video generation, improving VBench scores. Code is available at https://github.com/yyc1215lll-creator/SFG.
-
-5. Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning
-Authors: Sajjad Baghaeea, Aimin Lib, Shanmugarajan Balasubramanian, Elif Uysal
-Link: http://arxiv.org/abs/2610.13923v1
-Category: Not Relevant
-Paper type: Unclear
-Relevance score: 2.0
-Abstract: Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be allocated to bundles most valuable to downstream mission objectives. Conventional schedulers, such as FIFO, do not explicitly optimize task utility and may provide unfair service across heterogeneous planetary sources. This paper presents a closed-loop modeling and learning framework for relay-side bundle and flow management in a contact-driven deep-space network, where lunar and Martian updates are forwarded through a shared-buffer relay to Earth. We quantify destination-side information freshness using excess age $Δ_i^e(t)=[Δ_i(t)-d_i(t)]^+$, where $Δ_i(t)$ denotes the Age of Information of source $i$ and $d_i(t)$ is a source-dependent delay baseline. Based on this metric, we define a goal-oriented loss that supports source-dependent nonlinear penalties, allowing prioritization according to mission relevance. We formulate relay control as a constrained semi-Markov decision process (CSMDP) and solve it using masked Lagrangian Proximal Policy Optimization (PPO). Feasibility-aware action masking restricts transmissions to bundles that can complete within the remaining contact window. DTNSim simulations indicate improved age-based utility and inter-flow fairness compared with baseline schedulers. The proposed framework jointly optimizes relay-side bundle scheduling, dropping, and flow control under contact-driven dynamics with explicit fairness considerations across heterogeneous sources.
+Relevance score: 13.0
+Abstract: A plethora of new adaptive optimizers are designed to efficiently estimate and use minibatch gradient statistics to shape parameter updates, but they are typically benchmarked at a single batch size. Hyperparameter scaling rules promise to preserve performance as batch size and gradient noise change, suggesting that the best optimizer at one batch size should remain the best at another. We challenge this approach to developing and evaluating optimizers by showing: (1) no principled scaling rule for Muon works consistently across training settings, and (2) the best optimizer for language model pretraining changes with batch size even after extensive hyperparameter tuning. To understand these failures, we analyze a noisy quadratic model and show that the batch-size scaling rule that preserves performance is direction-dependent, shifting from square-root to linear as a direction's curvature-to-noise ratio rises. We further prove that gradient noise drives a bias-variance tradeoff in preconditioning that can reverse optimizer rankings across batch sizes, even under optimal learning rate and momentum tuning. Consistent with this, when we increase the batch size $16\times$ partway through language model pretraining, keeping small-batch updates in only the sharpest $0.001\%$ of directions removes up to $59.5\%$ of the resulting loss gap over the next $8\%$ of training, while a random subspace of the same size barely helps. Taken together, our results show that principled optimizer design must account for batch size and empirical benchmarking should be performed across batch sizes.
 
 ## Additional Papers
 
-6. RSI-Anything: Unlocking Recursive Self-Improvement with World Models | Not Relevant | Experiment | Score: 2.0 | http://arxiv.org/abs/2610.13912v1
-7. Task Context Shapes Component Roles in Language Models | Not Relevant | Unclear | Score: 2.0 | http://arxiv.org/abs/2610.13895v1
-8. How Social Reinforcement Shapes Word-of-Mouth: A Conviction-Based Model for Marketing Diffusion and Network Targeting | Not Relevant | Experiment | Score: 2.0 | http://arxiv.org/abs/2610.13890v1
-9. Prediction Is Not a Sufficient Memory State | Not Relevant | Theory + Experiment | Score: 2.0 | http://arxiv.org/abs/2610.13881v1
-10. Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations | Not Relevant | Experiment | Score: 2.0 | http://arxiv.org/abs/2610.13853v1
+6. A Refresh Interval Does Not Fully Specify a Refresh Schedule: Learning-Rate-Dependent Placement in Kronecker-Preconditioned Language Model Training | Muon-Adjacent Experiments | Experiment | Score: 10.0 | http://arxiv.org/abs/2610.18695v1
+7. Which Optimizer Leaks Most? Optimizer Implicit Bias as a Training-Data Privacy Controller | Muon-Adjacent Experiments | Experiment | Score: 9.0 | http://arxiv.org/abs/2610.18294v1
+8. NBCLT: Parameter-Agnostic Norm-Ball Clipped Local Training | Muon-Adjacent Theory+Experiments | Theory + Experiment | Score: 9.0 | http://arxiv.org/abs/2610.17913v1
+9. Neural Dimensional Analysis: Foundations of Dimensionless and Scale-Consistent Computation | Muon Core | Theory + Experiment | Score: 8.0 | http://arxiv.org/abs/2610.17969v1
+10. Rate-Splitting Multiple Access for RIS-Enabled Full-Duplex Communications with User Relaying | Not Relevant | Experiment | Score: 8.5 | http://arxiv.org/abs/2610.18578v1

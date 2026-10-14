@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-15T16:05:55.154472Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-16T16:06:08.600090Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-13T16:16:47.471268Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-14T16:14:55.954940Z"
     }
   ],
   "papers": {
@@ -8355,6 +8355,13 @@
       "relevance_score": 14.5,
       "title": "Clean: Second-order LLM Training at Linear Memory Cost via Nystr\u00f6m Sketching"
     },
+    "2610.04204v3": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-14T16:14:55.954916Z",
+      "link": "http://arxiv.org/abs/2610.04204v3",
+      "relevance_score": 13.5,
+      "title": "Clean: Second-order LLM Training at Linear Memory Cost via Nystr{\u00f6}m Sketching"
+    },
     "2610.04249v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-10-06T16:16:56.954892Z",
@@ -8479,6 +8486,13 @@
       "last_sent_at": "2026-10-08T16:17:50.901600Z",
       "link": "http://arxiv.org/abs/2610.08975v1",
       "relevance_score": 11.0,
+      "title": "The Best Optimizer Depends on Batch Size"
+    },
+    "2610.08975v2": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-14T16:14:55.954921Z",
+      "link": "http://arxiv.org/abs/2610.08975v2",
+      "relevance_score": 13.0,
       "title": "The Best Optimizer Depends on Batch Size"
     },
     "2610.09476v1": {
@@ -8865,6 +8879,62 @@
       "link": "http://arxiv.org/abs/2610.13941v1",
       "relevance_score": 2.0,
       "title": "Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback"
+    },
+    "2610.16868v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-14T16:14:55.954909Z",
+      "link": "http://arxiv.org/abs/2610.16868v1",
+      "relevance_score": 18.0,
+      "title": "From Parallel to Sequential: Small-Batch Noise Restores Simplicity Bias of Muon"
+    },
+    "2610.17429v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-14T16:14:55.954896Z",
+      "link": "http://arxiv.org/abs/2610.17429v1",
+      "relevance_score": 18.0,
+      "title": "Monarch-Muon: Structure-Aware Muon for Fast and Memory-Efficient Pretraining"
+    },
+    "2610.17588v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-14T16:14:55.954913Z",
+      "link": "http://arxiv.org/abs/2610.17588v1",
+      "relevance_score": 16.5,
+      "title": "Taming Softmax at the Limits of Muon: A Unified Approach through Hilbert Geometry"
+    },
+    "2610.17913v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-14T16:14:55.954932Z",
+      "link": "http://arxiv.org/abs/2610.17913v1",
+      "relevance_score": 9.0,
+      "title": "NBCLT: Parameter-Agnostic Norm-Ball Clipped Local Training"
+    },
+    "2610.17969v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-14T16:14:55.954939Z",
+      "link": "http://arxiv.org/abs/2610.17969v1",
+      "relevance_score": 8.0,
+      "title": "Neural Dimensional Analysis: Foundations of Dimensionless and Scale-Consistent Computation"
+    },
+    "2610.18294v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-14T16:14:55.954926Z",
+      "link": "http://arxiv.org/abs/2610.18294v1",
+      "relevance_score": 9.0,
+      "title": "Which Optimizer Leaks Most? Optimizer Implicit Bias as a Training-Data Privacy Controller"
+    },
+    "2610.18578v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-14T16:14:55.954936Z",
+      "link": "http://arxiv.org/abs/2610.18578v1",
+      "relevance_score": 8.5,
+      "title": "Rate-Splitting Multiple Access for RIS-Enabled Full-Duplex Communications with User Relaying"
+    },
+    "2610.18695v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-14T16:14:55.954924Z",
+      "link": "http://arxiv.org/abs/2610.18695v1",
+      "relevance_score": 10.0,
+      "title": "A Refresh Interval Does Not Fully Specify a Refresh Schedule: Learning-Rate-Dependent Placement in Kronecker-Preconditioned Language Model Training"
     }
   }
 }
