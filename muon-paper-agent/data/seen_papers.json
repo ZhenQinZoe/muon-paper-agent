@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-17T16:07:19.665247Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-18T16:09:08.833234Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-15T16:14:56.098574Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-16T16:14:53.337037Z"
     }
   ],
   "papers": {
@@ -3258,6 +3258,13 @@
       "link": "http://arxiv.org/abs/2607.11183v2",
       "relevance_score": 10.0,
       "title": "Amplitude-Only FFN Intervention for Tool-Structured LLM Inference Method: Gated Evaluation Protocol, and Cross-Model Empirical Results"
+    },
+    "2607.11183v4": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-16T16:14:53.337013Z",
+      "link": "http://arxiv.org/abs/2607.11183v4",
+      "relevance_score": 10.0,
+      "title": "Amplitude-Only FFN Intervention for Tool-Structured LLM Inference: Method, Gated Evaluation Protocol, and Cross-Model Empirical Results"
     },
     "2607.11577v1": {
       "category": "Not Relevant",
@@ -9005,6 +9012,69 @@
       "link": "http://arxiv.org/abs/2610.20610v1",
       "relevance_score": 7.0,
       "title": "Can Learning to Answer Spatial Questions Improve Novel-View Generation?"
+    },
+    "2610.21337v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-16T16:14:53.337015Z",
+      "link": "http://arxiv.org/abs/2610.21337v1",
+      "relevance_score": 9.0,
+      "title": "Does On-Policy Distillation Need to Complete Every Rollout?"
+    },
+    "2610.21549v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-16T16:14:53.336999Z",
+      "link": "http://arxiv.org/abs/2610.21549v1",
+      "relevance_score": 22.0,
+      "title": "When Is Muon Optimal? Radial Fragility and Minimax Geometry"
+    },
+    "2610.21555v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-16T16:14:53.337010Z",
+      "link": "http://arxiv.org/abs/2610.21555v1",
+      "relevance_score": 15.0,
+      "title": "When Does Muon Actually Win? A Paired Data-, Time-, and Tuning-Budget Benchmark"
+    },
+    "2610.21630v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337032Z",
+      "link": "http://arxiv.org/abs/2610.21630v1",
+      "relevance_score": 6.5,
+      "title": "Local Temporal Contrasts on Human Motion Data Induce a Latent Geometry"
+    },
+    "2610.22085v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337029Z",
+      "link": "http://arxiv.org/abs/2610.22085v1",
+      "relevance_score": 6.5,
+      "title": "Coverage-Preserving Self-Healing in Partially Observable 3D UAV Swarm Networks via an Advection-Diffusion Graph Transformer"
+    },
+    "2610.22204v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337035Z",
+      "link": "http://arxiv.org/abs/2610.22204v1",
+      "relevance_score": 6.0,
+      "title": "Learning Variable Metrics for Convergent Proximal Splitting Algorithms"
+    },
+    "2610.22293v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337017Z",
+      "link": "http://arxiv.org/abs/2610.22293v1",
+      "relevance_score": 8.5,
+      "title": "Towards Continual Learning: Mitigating Forgetting With Subspace Tuning"
+    },
+    "2610.22311v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337022Z",
+      "link": "http://arxiv.org/abs/2610.22311v1",
+      "relevance_score": 7.0,
+      "title": "Velox: Spatial Memory Makes World Models Efficient"
+    },
+    "2610.22371v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-16T16:14:53.337020Z",
+      "link": "http://arxiv.org/abs/2610.22371v1",
+      "relevance_score": 7.0,
+      "title": "Gen4P: Video Generators are 4D Perceivers"
     }
   }
 }
