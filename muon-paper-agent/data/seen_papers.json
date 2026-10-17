@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-18T16:09:08.833234Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-19T16:08:56.634053Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-16T16:14:53.337037Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-17T16:12:52.664917Z"
     }
   ],
   "papers": {
@@ -9055,6 +9055,27 @@
       "relevance_score": 6.0,
       "title": "Learning Variable Metrics for Convergent Proximal Splitting Algorithms"
     },
+    "2610.22276v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664916Z",
+      "link": "http://arxiv.org/abs/2610.22276v1",
+      "relevance_score": 5.0,
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching"
+    },
+    "2610.22282v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664914Z",
+      "link": "http://arxiv.org/abs/2610.22282v1",
+      "relevance_score": 5.0,
+      "title": "Routing Policy Optimization for Online Diffusion Reinforcement Learning"
+    },
+    "2610.22290v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664912Z",
+      "link": "http://arxiv.org/abs/2610.22290v1",
+      "relevance_score": 5.0,
+      "title": "EliteReplay: Preserving Diverse Solutions in RL Post-Training via Quality-Diversity Search"
+    },
     "2610.22293v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-16T16:14:53.337017Z",
@@ -9062,12 +9083,61 @@
       "relevance_score": 8.5,
       "title": "Towards Continual Learning: Mitigating Forgetting With Subspace Tuning"
     },
+    "2610.22295v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664907Z",
+      "link": "http://arxiv.org/abs/2610.22295v1",
+      "relevance_score": 5.0,
+      "title": "Grounded Human-Attributed Description and Activity Recognition in Videos"
+    },
     "2610.22311v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-16T16:14:53.337022Z",
       "link": "http://arxiv.org/abs/2610.22311v1",
       "relevance_score": 7.0,
       "title": "Velox: Spatial Memory Makes World Models Efficient"
+    },
+    "2610.22316v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664906Z",
+      "link": "http://arxiv.org/abs/2610.22316v1",
+      "relevance_score": 5.0,
+      "title": "Learning to Steer LLM Agents and Multi-Agent Systems"
+    },
+    "2610.22320v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664904Z",
+      "link": "http://arxiv.org/abs/2610.22320v1",
+      "relevance_score": 5.0,
+      "title": "Not Just a Subject: Capturing Adaptive Scene-Specific Variance for Visual Storytelling"
+    },
+    "2610.22324v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664902Z",
+      "link": "http://arxiv.org/abs/2610.22324v1",
+      "relevance_score": 5.0,
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas"
+    },
+    "2610.22330v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664900Z",
+      "link": "http://arxiv.org/abs/2610.22330v1",
+      "relevance_score": 5.0,
+      "title": "Designing Transformers for Continuous Diffusion Language Models"
+    },
+    "2610.22344v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664898Z",
+      "link": "http://arxiv.org/abs/2610.22344v1",
+      "relevance_score": 5.0,
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering"
+    },
+    "2610.22363v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-17T16:12:52.664887Z",
+      "link": "http://arxiv.org/abs/2610.22363v1",
+      "relevance_score": 5.0,
+      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation"
     },
     "2610.22371v1": {
       "category": "Not Relevant",
