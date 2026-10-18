@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-19T16:08:56.634053Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-20T16:10:09.794443Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-17T16:12:52.664917Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-18T16:13:16.238087Z"
     }
   ],
   "papers": {
@@ -9041,6 +9041,13 @@
       "relevance_score": 6.5,
       "title": "Local Temporal Contrasts on Human Motion Data Induce a Latent Geometry"
     },
+    "2610.21691v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238053Z",
+      "link": "http://arxiv.org/abs/2610.21691v1",
+      "relevance_score": 4.5,
+      "title": "A hidden Markov model for unsupervised EEG-based tracking of auditory attention to a single voice"
+    },
     "2610.22085v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-16T16:14:53.337029Z",
@@ -9048,12 +9055,75 @@
       "relevance_score": 6.5,
       "title": "Coverage-Preserving Self-Healing in Partially Observable 3D UAV Swarm Networks via an Advection-Diffusion Graph Transformer"
     },
+    "2610.22177v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238085Z",
+      "link": "http://arxiv.org/abs/2610.22177v1",
+      "relevance_score": 4.0,
+      "title": "Motion- and Gravity-Aware Feedforward 3D Reconstruction"
+    },
+    "2610.22186v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238083Z",
+      "link": "http://arxiv.org/abs/2610.22186v1",
+      "relevance_score": 4.0,
+      "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment"
+    },
+    "2610.22196v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238080Z",
+      "link": "http://arxiv.org/abs/2610.22196v1",
+      "relevance_score": 4.0,
+      "title": "Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing"
+    },
     "2610.22204v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-16T16:14:53.337035Z",
       "link": "http://arxiv.org/abs/2610.22204v1",
       "relevance_score": 6.0,
       "title": "Learning Variable Metrics for Convergent Proximal Splitting Algorithms"
+    },
+    "2610.22217v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238075Z",
+      "link": "http://arxiv.org/abs/2610.22217v1",
+      "relevance_score": 4.0,
+      "title": "Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models"
+    },
+    "2610.22245v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238073Z",
+      "link": "http://arxiv.org/abs/2610.22245v1",
+      "relevance_score": 4.0,
+      "title": "Disagreement-Guided Weak-to-Strong Routing"
+    },
+    "2610.22249v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238071Z",
+      "link": "http://arxiv.org/abs/2610.22249v1",
+      "relevance_score": 4.0,
+      "title": "Not X, but When: Diagnosing a Mandarin LLM Writing Tic through Contextual Appropriateness"
+    },
+    "2610.22264v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238068Z",
+      "link": "http://arxiv.org/abs/2610.22264v1",
+      "relevance_score": 4.0,
+      "title": "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation"
+    },
+    "2610.22269v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238066Z",
+      "link": "http://arxiv.org/abs/2610.22269v1",
+      "relevance_score": 4.0,
+      "title": "X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning"
+    },
+    "2610.22273v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-18T16:13:16.238063Z",
+      "link": "http://arxiv.org/abs/2610.22273v1",
+      "relevance_score": 4.0,
+      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries"
     },
     "2610.22276v1": {
       "category": "Not Relevant",
