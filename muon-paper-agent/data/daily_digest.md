@@ -1,53 +1,51 @@
 # Daily Muon Paper Digest
 
-No strong matches today. Showing the best available 10 candidates.
-
 ## Top Highlights
 
-1. A hidden Markov model for unsupervised EEG-based tracking of auditory attention to a single voice
-Authors: Tianyi Li, Simon Geirnaert, Davina Van den Broek, Elien Bellon, Bert De Smedt, Alexander Bertrand
-Link: http://arxiv.org/abs/2610.21691v1
-Category: Not Relevant
-Paper type: Theory + Experiment
-Relevance score: 4.5
-Abstract: Objective: Absolute auditory attention decoding (aAAD) aims to track how strongly a listener attends to a single speech source using electroencephalography (EEG). Unlike selective auditory attention decoding, aAAD lacks a competing speech reference, making reliable attention tracking challenging. Approach: We propose a fully unsupervised aAAD pipeline combining neural envelope tracking (NET) with hidden Markov model (HMM)-based temporal inference. Using EEG signals and the target speech envelope, the framework estimates a continuous attention trajectory without explicit attention-state labels. We evaluate the approach using EEG recordings from 30 adults, investigate the impact of analysis window length, and compare HMM post-processing with moving-average (MA) smoothing and alternative EEG features. Main results: With 1-s analysis windows, non-causal HMM post-processing improves the area under the receiver operating characteristic curve (AUC) for all 30 participants, increasing mean AUC from 0.547 for raw NET to 0.832. A 5-s window achieves the highest mean AUC of 0.858. Compared with non-causal MA smoothing, the HMM achieves higher AUC across the examined smoothing scales. Individual switch detection times are comparable, while the HMM generally achieves lower group-level detection times. NET also outperforms alpha power and spectral entropy as an observation feature in the unsupervised HMM framework. Significance: The proposed framework provides a label-free approach for estimating temporal fluctuations in auditory attention, demonstrating the utility of probabilistic temporal inference for continuous attention tracking in single-speaker listening scenarios.
-
-2. Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries
-Authors: Anikait Singh, Teresa Zhang, Yoonho Lee, Roshen Sanjay Nair, Aviral Kumar, Chelsea Finn
-Link: http://arxiv.org/abs/2610.22273v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to efficiently serve diverse future queries. We build on a key asymmetry in modern agentic harnesses (e.g., Claude Code): while LLM agents are adept at navigating existing filesystems to solve an immediate task, they are rarely trained to construct reusable workspaces for future use. To instantiate this capability, we introduce Librarian Agents, a framework in which a builder agent transforms raw documents into a hierarchical filesystem of synthetic files and reference links, which forms a workspace tailored for a downstream answering agent. We formulate workspace construction as a Markov decision process and optimize the builder policy via reinforcement learning to directly maximize downstream answering accuracy. Empirically, Librarian Agents outperforms the strongest retrieval and precomputation baselines by 33 percentage points on BrowseComp-Plus, amortizes upfront construction costs across repeated queries, and generalizes zero-shot to unseen domains on BRIGHT with a 31-point average accuracy improvement.
-
-3. X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning
-Authors: Adhwaa Al-Chaab, Ayman Younis, Dario Pompili
-Link: http://arxiv.org/abs/2610.22269v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: The O-RAN ALLIANCE introduces architectural flexibility through disaggregation and AI-driven control. While the RAN Intelligent Controller (RIC) enables centralized optimization, current AI approaches lack reasoning capabilities and explainability. We propose eXplainable RIC (X-RIC), a novel framework integrating agentic AI into O-RAN architectures. X-RIC combines reactive Reinforcement Learning (RL) with strategic agentic reasoning through: (i) automated Behavioral Cloning (BC) using domain heuristics for sample-efficient training, (ii) a Telecom Language Model (TLM), a transformer-based reasoning module providing contextual abstraction and interpretability, and (iii) closed-loop co-adaptation within the Near-RT RIC control loop enabling continuous policy refinement. To ensure deployment readiness, we introduce BARX (Benchmarking Agentic Reasoning for RAN), a domain-specific evaluation framework assessing agentic control across latency, compliance, and determinism metrics. We validate X-RIC on SLA-aware network slicing in simulation and O-RAN-compliant testbed deployments. X-RIC achieves 89% operational cost reduction while maintaining SLA compliance, converging 75% faster with 50% fewer training steps and 46% lower variance.
-
-4. SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation
-Authors: Yufei Jiao, Jinfa Huang, Zeyue Xue, Tianyu Xie, Yuexiao Ma, Rongrong Ji
-Link: http://arxiv.org/abs/2610.22264v1
-Category: Not Relevant
-Paper type: Theory + Experiment
-Relevance score: 4.0
-Abstract: Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimization (GRPO) that aligns update weighting with this structure. The rewriter jointly generates an enhanced prompt and its semantic partition. SCOPE pools shifts in policy log probabilities within each span to derive a shared coefficient for its token losses while retaining a single advantage for each completion. It requires neither separate span rewards nor additional image renders. Across Qwen-Image, SD3, and FLUX.1-dev, SCOPE achieves average relative gains over vanilla GRPO of 9.48% on GeneVal and 7.62% on T2I-CompBench. Ablation studies show that both semantic boundaries and pooling within spans contribute to these gains, supporting semantic structure as a practical inductive bias for prompt engineering with RL.
-
-5. Not X, but When: Diagnosing a Mandarin LLM Writing Tic through Contextual Appropriateness
-Authors: Yihang Peng, Yi Jing, Dewen Liu, Weihan Meng, Ying Liu
-Link: http://arxiv.org/abs/2610.22249v1
-Category: Not Relevant
+1. BMuon: Budgeting Muon's Spectral Geometry for Structured Compressibility
+Authors: Rida Assalouh, Tom Jacobs, Rebekka Burkholz, Yani Ioannou, Umut Şimşekli
+Link: http://arxiv.org/abs/2610.23571v1
+Category: Muon Core
 Paper type: Unclear
-Relevance score: 4.0
-Abstract: Recurring expressions in model-written text are often treated as signatures of machine authorship, yet most of them serve legitimate functions. Whether such an expression is a tic depends on whether the model knows when it is called for. This judgment of appropriateness, central to communicative competence, remains largely unexamined for language models. We study it through the Mandarin corrective construction bushi X, ershi Y ("not X, but Y"). Drawing on Gricean pragmatics and corrective negation, we introduce a decision tree that classifies uses as substantive, optional, or defective by testing whether the context makes X a live alternative and whether rejecting X is informative. Five commercial models use the construction 2.5 to 9.2 times as densely as a human reference. Of 307 annotated uses, only 1.30% are defective while 52.8% are optional, that is, correct but unneeded, so models fall short in appropriateness far more often than in correctness. Several reward models favor the construction even over quality-matched variants, an LLM judge favors it even where the context does not license it, and both supervised fine-tuning and preference optimization tend to raise its frequency in open-weight models. We hope this work encourages the development of models attentive to the appropriateness of their expressions.
+Relevance score: 16.0
+Abstract: Muon has emerged as a strong optimizer for neural network training and admits an interpretation as steepest descent under a spectral-norm geometry. Yet we find that Muon-trained Transformers can degrade sharply when their MLP hidden channels are pruned after training. To reconcile Muon's optimization performance with structured compressibility, we introduce Budget Muon (BMuon), which modifies Muon's spectral geometry so that hidden channels across blocks compete for a shared allocation budget. The resulting oracle is exactly normalized steepest descent under a family of norms that interpolate between Muon's geometry and structured sparse geometries. Our principal sparsity control is an interpretable global channel-allocation budget, rather than a setting-dependent sparsity-penalty coefficient. For linear factorization models, we show that Muon admits minimum-cost exact representations with redundant hidden width, whereas under the BMuon oracle geometry and a sufficiently scarce budget, every minimum-cost representation is width-minimal. For practical training, we derive a minorization-maximization surrogate for the exact allocation problem. On ImageNet-1K with ViT-S/16, BMuon improves over Muon under gradual structured MLP pruning, and its learned allocations provide a more effective pruning criterion than weight magnitude. On a 1B-parameter LLaMA-style model trained on FineWeb, BMuon improves over Muon under post-training MLP channel pruning.
+
+2. Bridging Compressed Communication and Local Steps via Spectral Method in Federated Learning
+Authors: Dmitriy Bystrov, George Chirkov, Daniil Medyakov, Dmitry Bylinkin, Aleksandr Beznosikov
+Link: http://arxiv.org/abs/2610.23434v1
+Category: Muon-Adjacent Theory+Experiments
+Paper type: Theory + Experiment
+Relevance score: 10.5
+Abstract: Federated Learning (FL) enables collaborative training of complex models across large-scale networks of edge devices while keeping data localized. However, data heterogeneity and high communication overhead remain fundamental bottlenecks. Recently, the spectral optimizer Muon has demonstrated remarkable advantages over Adam-like methods in centralized training. While recent efforts have attempted to transition Muon to FL, naive integrations into traditional architectures fail short. Crucially, existing approaches do not support the the communication compression and local steps --- the two foundational techniques of efficient FL. To address this limitation, we introduce a novel spectral FL method that utilizes both local updates and compression. We establish rigorous convergence guarantees under mild assumptions, notably eliminating the restrictive bounded heterogeneity condition. Empirical evaluation on standard image classification benchmarks validates the efficiency and robustness of our approach.
+
+3. Towards Hyperparameter Transfer for Differentially Private Optimization
+Authors: Tianze Wang, Zhiqi Bu, Linjun Zhang
+Link: http://arxiv.org/abs/2610.22976v1
+Category: Muon Core
+Paper type: Theory + Experiment
+Relevance score: 9.0
+Abstract: Scaling laws and hyperparameter tuning remain central challenges in training large-scale models, particularly under differential privacy (DP), where optimization is further complicated by noise injection and per-sample gradient clipping. While Maximal Update Parametrization ($μ$P) allows for zero-shot hyperparameter transfer in standard training, we show that it fails under DP constraints due to the distinct spectral properties of high-dimensional noise versus low-rank gradients. In this work, we introduce DP-$μ$P, a theoretically grounded framework that extends $μ$P to the privacy-preserving setting. By analyzing the interaction between gradient clipping, noise injection, and feature learning, we derive a Signal-to-Noise Ratio (SNR) condition that governs layer-wise learning rate scaling. Combining this with our proposed spectral scaling formulation, we provide specific scaling rules for DP-SGD, DP-Adam, and DP-Muon optimizers. Empirically, we demonstrate that DP-$μ$P enables effective zero-shot transfer of learning rates across model widths on diverse architectures (MLP, ViT, GPT-2), matching or exceeding the performance of individually tuned baselines while significantly reducing computational costs.
+
+4. How Finite-Rank Bottlenecks Shape the Low-Rank Adaptation Landscape
+Authors: Long Nguyen-Chi, Quynh Nguyen, Thanh Nguyen-Cung, Binh T. Nguyen
+Link: http://arxiv.org/abs/2610.23343v1
+Category: Muon-Adjacent Theory
+Paper type: Theory
+Relevance score: 8.0
+Abstract: Low-rank adaptation (LoRA) has become the standard method for parameter-efficient fine-tuning of large pretrained models, yet theoretical explanations for why low-rank updates suffice remain incomplete. Most existing analyses rely on the Neural Tangent Kernel (NTK) regime, which linearizes the network around the pretrained weights. In this work, we take a different approach that requires no linearization: our key observation is that, once the backbone is frozen, the loss sees each adapted weight matrix only through a finite-rank linear map induced by the frozen activations. Trace-norm regularization then forces the optimizer to pick a low-rank matrix among all matrices that produce the same observed output. This yields global minimizers whose ranks are controlled by the rank of this map, which we call the \emph{bottleneck rank}, rather than the sample size. For multi-head attention, we obtain tighter rank upper bounds by exploiting two additional invariances: row-wise softmax is insensitive to additive row constants in the score matrix, and value updates are observable only after attention weighting and frozen output projection. For the factorized LoRA objective with weight decay, we prove a complementary result on the nonconvex side: after an arbitrarily small generic positive semidefinite perturbation, every first-order stationary point is rank-deficient once the LoRA rank exceeds a threshold determined by the bottleneck rank. Finally, we show that global minimizers of the perturbed objective are near-optimal for the original trace-norm problem, and we provide uniform generalization bounds governed by the spectral structure of the frozen features.
+
+5. Does On-Policy Distillation Need to Complete Every Rollout?
+Authors: Zhengxin Zhang, Maosen Tang, Ning Wang, Changhao Li, Jingren Zhou, Bo Dai
+Link: http://arxiv.org/abs/2610.21337v2
+Category: Muon-Adjacent Theory
+Paper type: Theory
+Relevance score: 8.0
+Abstract: On-policy distillation (OPD) effectively transfers capabilities from a teacher to a student through feedback on student-generated rollouts. However, generating complete student rollouts and computing teacher feedback for every token make OPD computationally expensive. We introduce Stochastic Truncated On-Policy Distillation (STOPD), which accelerates OPD by randomly truncating student rollouts and correcting the resulting sampling bias with blockwise inverse-probability weighting (IPW). At each training step, we sample a stopping position for each rollout before generation and let the student generate until that position or natural termination. We obtain teacher feedback on every generated token and use blockwise IPW to compensate for the lower probability of retaining later tokens while controlling the weights. We prove that this weighting preserves Vanilla OPD's gradient sum in expectation and derive one-step update-error bounds for SGD, Adam, and Muon. We evaluate STOPD across multiple teacher-student model pairs, task domains, and optimizers. STOPD reduces generated tokens by 25-48% while maintaining accuracy comparable to Vanilla OPD, achieving 1.3-2.2x training speedups.
 
 ## Additional Papers
 
-6. Disagreement-Guided Weak-to-Strong Routing | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2610.22245v1
-7. Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2610.22217v1
-8. Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2610.22196v1
-9. EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2610.22186v1
-10. Motion- and Gravity-Aware Feedforward 3D Reconstruction | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2610.22177v1
+6. The Ephemeral Cost of Switching Optimizers Across LLM Training Stages | Muon Core | Experiment | Score: 7.0 | http://arxiv.org/abs/2610.22650v1
+7. CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models | Muon-Adjacent Experiments | Experiment | Score: 5.5 | http://arxiv.org/abs/2610.23324v1
+8. ToPA: Block-wise Toeplitz Adaptation for Expressive and Efficient Fine-Tuning | Muon-Adjacent Theory+Experiments | Theory + Experiment | Score: 5.5 | http://arxiv.org/abs/2610.22883v1
+9. Ori: Drift-Aware Streaming $k$-PCA for Very Low-Rank LLM Training | Muon-Adjacent Experiments | Experiment | Score: 5.5 | http://arxiv.org/abs/2610.22794v1
+10. Anisotropic Representation Dynamics in Transformers | Not Relevant | Theory + Experiment | Score: 6.0 | http://arxiv.org/abs/2610.23242v1

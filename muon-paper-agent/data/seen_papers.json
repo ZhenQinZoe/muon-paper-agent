@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-20T16:10:09.794443Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-21T16:09:56.609718Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-18T16:13:16.238087Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-19T16:17:15.266674Z"
     }
   ],
   "papers": {
@@ -9020,6 +9020,13 @@
       "relevance_score": 9.0,
       "title": "Does On-Policy Distillation Need to Complete Every Rollout?"
     },
+    "2610.21337v2": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-19T16:17:15.266657Z",
+      "link": "http://arxiv.org/abs/2610.21337v2",
+      "relevance_score": 8.0,
+      "title": "Does On-Policy Distillation Need to Complete Every Rollout?"
+    },
     "2610.21549v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-10-16T16:14:53.336999Z",
@@ -9215,6 +9222,69 @@
       "link": "http://arxiv.org/abs/2610.22371v1",
       "relevance_score": 7.0,
       "title": "Gen4P: Video Generators are 4D Perceivers"
+    },
+    "2610.22650v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-19T16:17:15.266660Z",
+      "link": "http://arxiv.org/abs/2610.22650v1",
+      "relevance_score": 7.0,
+      "title": "The Ephemeral Cost of Switching Optimizers Across LLM Training Stages"
+    },
+    "2610.22794v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-19T16:17:15.266673Z",
+      "link": "http://arxiv.org/abs/2610.22794v1",
+      "relevance_score": 5.5,
+      "title": "Ori: Drift-Aware Streaming $k$-PCA for Very Low-Rank LLM Training"
+    },
+    "2610.22883v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-19T16:17:15.266670Z",
+      "link": "http://arxiv.org/abs/2610.22883v1",
+      "relevance_score": 5.5,
+      "title": "ToPA: Block-wise Toeplitz Adaptation for Expressive and Efficient Fine-Tuning"
+    },
+    "2610.22976v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-19T16:17:15.266653Z",
+      "link": "http://arxiv.org/abs/2610.22976v1",
+      "relevance_score": 9.0,
+      "title": "Towards Hyperparameter Transfer for Differentially Private Optimization"
+    },
+    "2610.23242v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-19T16:17:15.266663Z",
+      "link": "http://arxiv.org/abs/2610.23242v1",
+      "relevance_score": 6.0,
+      "title": "Anisotropic Representation Dynamics in Transformers"
+    },
+    "2610.23324v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-19T16:17:15.266667Z",
+      "link": "http://arxiv.org/abs/2610.23324v1",
+      "relevance_score": 5.5,
+      "title": "CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models"
+    },
+    "2610.23343v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-19T16:17:15.266655Z",
+      "link": "http://arxiv.org/abs/2610.23343v1",
+      "relevance_score": 8.0,
+      "title": "How Finite-Rank Bottlenecks Shape the Low-Rank Adaptation Landscape"
+    },
+    "2610.23434v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-19T16:17:15.266650Z",
+      "link": "http://arxiv.org/abs/2610.23434v1",
+      "relevance_score": 10.5,
+      "title": "Bridging Compressed Communication and Local Steps via Spectral Method in Federated Learning"
+    },
+    "2610.23571v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-19T16:17:15.266643Z",
+      "link": "http://arxiv.org/abs/2610.23571v1",
+      "relevance_score": 16.0,
+      "title": "BMuon: Budgeting Muon's Spectral Geometry for Structured Compressibility"
     }
   }
 }
