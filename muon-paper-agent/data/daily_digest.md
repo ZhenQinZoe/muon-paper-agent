@@ -2,50 +2,50 @@
 
 ## Top Highlights
 
-1. BMuon: Budgeting Muon's Spectral Geometry for Structured Compressibility
-Authors: Rida Assalouh, Tom Jacobs, Rebekka Burkholz, Yani Ioannou, Umut Şimşekli
-Link: http://arxiv.org/abs/2610.23571v1
-Category: Muon Core
-Paper type: Unclear
-Relevance score: 16.0
-Abstract: Muon has emerged as a strong optimizer for neural network training and admits an interpretation as steepest descent under a spectral-norm geometry. Yet we find that Muon-trained Transformers can degrade sharply when their MLP hidden channels are pruned after training. To reconcile Muon's optimization performance with structured compressibility, we introduce Budget Muon (BMuon), which modifies Muon's spectral geometry so that hidden channels across blocks compete for a shared allocation budget. The resulting oracle is exactly normalized steepest descent under a family of norms that interpolate between Muon's geometry and structured sparse geometries. Our principal sparsity control is an interpretable global channel-allocation budget, rather than a setting-dependent sparsity-penalty coefficient. For linear factorization models, we show that Muon admits minimum-cost exact representations with redundant hidden width, whereas under the BMuon oracle geometry and a sufficiently scarce budget, every minimum-cost representation is width-minimal. For practical training, we derive a minorization-maximization surrogate for the exact allocation problem. On ImageNet-1K with ViT-S/16, BMuon improves over Muon under gradual structured MLP pruning, and its learned allocations provide a more effective pruning criterion than weight magnitude. On a 1B-parameter LLaMA-style model trained on FineWeb, BMuon improves over Muon under post-training MLP channel pruning.
-
-2. Bridging Compressed Communication and Local Steps via Spectral Method in Federated Learning
-Authors: Dmitriy Bystrov, George Chirkov, Daniil Medyakov, Dmitry Bylinkin, Aleksandr Beznosikov
-Link: http://arxiv.org/abs/2610.23434v1
-Category: Muon-Adjacent Theory+Experiments
-Paper type: Theory + Experiment
-Relevance score: 10.5
-Abstract: Federated Learning (FL) enables collaborative training of complex models across large-scale networks of edge devices while keeping data localized. However, data heterogeneity and high communication overhead remain fundamental bottlenecks. Recently, the spectral optimizer Muon has demonstrated remarkable advantages over Adam-like methods in centralized training. While recent efforts have attempted to transition Muon to FL, naive integrations into traditional architectures fail short. Crucially, existing approaches do not support the the communication compression and local steps --- the two foundational techniques of efficient FL. To address this limitation, we introduce a novel spectral FL method that utilizes both local updates and compression. We establish rigorous convergence guarantees under mild assumptions, notably eliminating the restrictive bounded heterogeneity condition. Empirical evaluation on standard image classification benchmarks validates the efficiency and robustness of our approach.
-
-3. Towards Hyperparameter Transfer for Differentially Private Optimization
-Authors: Tianze Wang, Zhiqi Bu, Linjun Zhang
-Link: http://arxiv.org/abs/2610.22976v1
+1. Polar Switch: Fast Muon Orthogonalization with Polynomial Circuits
+Authors: Zhehang Du, Weijie Su
+Link: http://arxiv.org/abs/2610.26742v1
 Category: Muon Core
 Paper type: Theory + Experiment
-Relevance score: 9.0
-Abstract: Scaling laws and hyperparameter tuning remain central challenges in training large-scale models, particularly under differential privacy (DP), where optimization is further complicated by noise injection and per-sample gradient clipping. While Maximal Update Parametrization ($μ$P) allows for zero-shot hyperparameter transfer in standard training, we show that it fails under DP constraints due to the distinct spectral properties of high-dimensional noise versus low-rank gradients. In this work, we introduce DP-$μ$P, a theoretically grounded framework that extends $μ$P to the privacy-preserving setting. By analyzing the interaction between gradient clipping, noise injection, and feature learning, we derive a Signal-to-Noise Ratio (SNR) condition that governs layer-wise learning rate scaling. Combining this with our proposed spectral scaling formulation, we provide specific scaling rules for DP-SGD, DP-Adam, and DP-Muon optimizers. Empirically, we demonstrate that DP-$μ$P enables effective zero-shot transfer of learning rates across model widths on diverse architectures (MLP, ViT, GPT-2), matching or exceeding the performance of individually tuned baselines while significantly reducing computational costs.
+Relevance score: 23.0
+Abstract: Muon, a 2024-born optimizer for language models, differs from the 2015-born spectral gradient descent mainly in its fast, GPU-friendly Newton--Schulz polynomial for orthogonalizing the gradient matrix. Accordingly, a line of research proposes faster polynomial iterations for gradient orthogonalization, such as Polar Express and Gram Newton--Schulz, both built on quintic polynomials. In this paper, we introduce Polar Switch, a new approach to polynomial gradient orthogonalization. Using simple polynomial circuits, Polar Switch reaches a given high polynomial degree at a lower FLOP cost than quintic iterations. We define a circuit as a short sequence of symmetric matrix products on a few square buffers, and circuits with $k$ products form a restricted family of odd polynomials of degree up to $2^{k+1}+1$. We choose the sequence of products in each circuit, their coefficients, and how the circuits are composed by numerically minimizing a worst-case bound on the polar approximation error. This minimization is subject to a FLOP budget that accounts for symmetric matrix multiplication kernels and a rounding constraint for numerical stability in half precision. Our two recommended Polar Switch methods have 15.5--18.7\% lower runtime than Polar Express on square matrices and 8.6--16.2\% lower runtime than Gram Newton--Schulz on rectangular matrices with aspect ratios 3.25, 3.5, and 8, with comparable approximation accuracy. In pretraining Modded-NanoGPT \#91, Qwen3-0.6B, and Gemma 3-1B, Polar Switch reaches final validation losses similar to those of established orthogonalization methods. Across the more than 14 million matrices that each of the two recommended methods orthogonalized in these runs, the estimated output spectral norms never exceed the designed bounds by more than 3\%, demonstrating their numerical stability.
 
-4. How Finite-Rank Bottlenecks Shape the Low-Rank Adaptation Landscape
-Authors: Long Nguyen-Chi, Quynh Nguyen, Thanh Nguyen-Cung, Binh T. Nguyen
-Link: http://arxiv.org/abs/2610.23343v1
-Category: Muon-Adjacent Theory
-Paper type: Theory
-Relevance score: 8.0
-Abstract: Low-rank adaptation (LoRA) has become the standard method for parameter-efficient fine-tuning of large pretrained models, yet theoretical explanations for why low-rank updates suffice remain incomplete. Most existing analyses rely on the Neural Tangent Kernel (NTK) regime, which linearizes the network around the pretrained weights. In this work, we take a different approach that requires no linearization: our key observation is that, once the backbone is frozen, the loss sees each adapted weight matrix only through a finite-rank linear map induced by the frozen activations. Trace-norm regularization then forces the optimizer to pick a low-rank matrix among all matrices that produce the same observed output. This yields global minimizers whose ranks are controlled by the rank of this map, which we call the \emph{bottleneck rank}, rather than the sample size. For multi-head attention, we obtain tighter rank upper bounds by exploiting two additional invariances: row-wise softmax is insensitive to additive row constants in the score matrix, and value updates are observable only after attention weighting and frozen output projection. For the factorized LoRA objective with weight decay, we prove a complementary result on the nonconvex side: after an arbitrarily small generic positive semidefinite perturbation, every first-order stationary point is rank-deficient once the LoRA rank exceeds a threshold determined by the bottleneck rank. Finally, we show that global minimizers of the perturbed objective are near-optimal for the original trace-norm problem, and we provide uniform generalization bounds governed by the spectral structure of the frozen features.
+2. T-MUON: Tensorizing Muon via t-SVD for Large Language Model Pre-training
+Authors: Dongyang Li, Mingsong Yan, Zheng Zhang, Sui Tang
+Link: http://arxiv.org/abs/2610.24938v1
+Category: Muon Core
+Paper type: Theory + Experiment
+Relevance score: 19.5
+Abstract: Muon has recently emerged as a strong optimizer for large language model pretraining by exploiting matrix structure through polar orthogonalization. However, it processes each parameter matrix independently, whereas recent tensor-aware extensions of Muon jointly update groups of eligible matrix parameters through matrix unfoldings. In contrast, we propose T-MUON, a t-SVD-based generalization that groups structurally related Transformer gradients into third-order tensors and defines the corresponding Muon-style update directly through the $M$-transform. We show that the exact T-MUON update is a steepest-descent direction under the $\star_M$-spectral norm and establish a convergence guarantee. Across GPT-2-style and LLaMA-style models from 51M to 1.3B parameters trained on FineWeb and FineWeb-Edu, head-wise T-MUON with the identity transform consistently achieves lower validation perplexity than AdamW, Muon, and variants using DFT, DCT, or DST transforms. These gains persist in additional experiments with longer context lengths and larger token budgets, although the preferred tensorization mode varies across settings.
 
-5. Does On-Policy Distillation Need to Complete Every Rollout?
-Authors: Zhengxin Zhang, Maosen Tang, Ning Wang, Changhao Li, Jingren Zhou, Bo Dai
-Link: http://arxiv.org/abs/2610.21337v2
-Category: Muon-Adjacent Theory
-Paper type: Theory
-Relevance score: 8.0
-Abstract: On-policy distillation (OPD) effectively transfers capabilities from a teacher to a student through feedback on student-generated rollouts. However, generating complete student rollouts and computing teacher feedback for every token make OPD computationally expensive. We introduce Stochastic Truncated On-Policy Distillation (STOPD), which accelerates OPD by randomly truncating student rollouts and correcting the resulting sampling bias with blockwise inverse-probability weighting (IPW). At each training step, we sample a stopping position for each rollout before generation and let the student generate until that position or natural termination. We obtain teacher feedback on every generated token and use blockwise IPW to compensate for the lower probability of retaining later tokens while controlling the weights. We prove that this weighting preserves Vanilla OPD's gradient sum in expectation and derive one-step update-error bounds for SGD, Adam, and Muon. We evaluate STOPD across multiple teacher-student model pairs, task domains, and optimizers. STOPD reduces generated tokens by 25-48% while maintaining accuracy comparable to Vanilla OPD, achieving 1.3-2.2x training speedups.
+3. How Does Muon Work in Private Deep Learning? Scalable Differentially Private Training via Orthogonalization
+Authors: Alexander Gaponov, Grigory Malinovsky, Egor Shulgin, Peter Richtarik
+Link: http://arxiv.org/abs/2610.24736v1
+Category: Muon Core
+Paper type: Theory + Experiment
+Relevance score: 17.0
+Abstract: Training deep neural networks requires optimizers that balance computational efficiency with formal data privacy. While orthogonalized update rules, such as the recently introduced Muon optimizer, have shown strong empirical performance and scalability, their behavior under Differential Privacy (DP) is not yet understood. In this paper, we propose DP-Muon, a differentially private variant of the Muon optimizer. By analyzing Muon's orthogonalized updates through the lens of a Linear Minimization Oracle (LMO), we show that the leading effect of per-example clipping is a positive rescaling of the gradient, to which the LMO is blind, so that only a small directional residual controlled by the centered gradient variance enters the optimization error. This yields an $\mathcal O(K^{-1/4})$ convergence rate, up to logarithmic factors, to a clipping-dependent neighborhood at a fixed noise scale and, with noise calibrated to a fixed $(\varepsilon,δ)$ budget, the standard $(\sqrt d/(n\varepsilon))^{1/2}$ privacy--utility bound of DP-SGD, without assuming bounded gradients. Furthermore, we investigate the hyperparameter landscape of DP-Muon and document how the optimal learning rate, momentum, and batch size change under privacy. Empirically, on image classification DP-Muon matches or improves on DP-SGD and DP-Adam, whereas on language modeling the best optimizer depends on the batch size, with DP-Muon best at small batches and DP-Adam best near the privacy-optimal batch size.
+
+4. A Statistical Viewpoint on Adam, Shampoo and Muon
+Authors: Tetiana Parshakova, Robert M. Gower, Paulo Orenstein
+Link: http://arxiv.org/abs/2610.24839v1
+Category: Muon Core
+Paper type: Experiment
+Relevance score: 14.0
+Abstract: We provide new statistical insights into designing stochastic optimization methods. By modeling the gradient via a normal distribution, we argue that the stochastic gradient should be whitened using its covariance. We give an online method for estimating the mean and variance of the gradients based on regularized likelihood or, equivalently, through a maximum a posteriori estimate. We then show how to use structured approximations to the covariance within this same framework, which includes diagonal and Kronecker-factored approximations. The diagonal approximation results in a method that is very closely related to Adam and performs as well in practice. The Kronecker approximation results in the new MN method, which is a variant of Shampoo and KL-Shampoo. We also recover Muon by applying this same statistical framework to the gradient direction rather than the full gradient. By combining this with a whitening step, we arrive at MN-Muon, a novel preconditioned version of Muon. Our experiments on GPT-2-type models at Chinchilla scale indicate that MND, the diagonal implementation of MN, outperforms both the Distributed Shampoo and the KL-Shampoo implementations in terms of stability, final validation loss and time taken. MND-Muon, the diagonal implementation of MN-Muon, improves on Muon in 21 of 24 paired GPT-small runs and achieves a lower best validation loss on GPT-medium, where it remains stable over the six tested learning rates. However, we found that NorMuon was comparable to MND-Muon and achieved a slightly lower validation loss on GPT-medium and at GPT-small batch 512 on FineWeb.
+
+5. Muon Operates Beyond the Edge of Stability
+Authors: Niko Covic, Baraq Lipshitz, Alexander Padula, Stefan Visnjic
+Link: http://arxiv.org/abs/2610.24305v1
+Category: Muon Core
+Paper type: Theory + Experiment
+Relevance score: 14.0
+Abstract: We study the Muon optimizer using sharpness and provide the first empirical evidence that the Flat Minima Hypothesis also applies to Muon. Further, we derive Muon's implicit preconditioner to analyze its potential Edge of Stability behavior. Experiments on CIFAR-10 show sharpness strongly correlates with generalization gap within each optimizer (Pearson $r = 0.45$-$0.69$, $p \leq 10^{-4}$), confirming the hypothesis holds for Muon similarly to Adam and SGD. However, Muon operates above the classical sharpness-based Adaptive Edge of Stability threshold that bounds diagonally-preconditioned optimizers like Adam and RMSprop, yet remains stable. Our findings suggest Muon operates in a fundamentally different regime than diagonally-adaptive methods. Defining the exact stability boundary for Muon remains an open question. All code is available at https://github.com/NikoCovic/DL-project.
 
 ## Additional Papers
 
-6. The Ephemeral Cost of Switching Optimizers Across LLM Training Stages | Muon Core | Experiment | Score: 7.0 | http://arxiv.org/abs/2610.22650v1
-7. CatchUp: Depth-Aware Re-Admission of Visual Tokens for Efficient Large Vision-Language Models | Muon-Adjacent Experiments | Experiment | Score: 5.5 | http://arxiv.org/abs/2610.23324v1
-8. ToPA: Block-wise Toeplitz Adaptation for Expressive and Efficient Fine-Tuning | Muon-Adjacent Theory+Experiments | Theory + Experiment | Score: 5.5 | http://arxiv.org/abs/2610.22883v1
-9. Ori: Drift-Aware Streaming $k$-PCA for Very Low-Rank LLM Training | Muon-Adjacent Experiments | Experiment | Score: 5.5 | http://arxiv.org/abs/2610.22794v1
-10. Anisotropic Representation Dynamics in Transformers | Not Relevant | Theory + Experiment | Score: 6.0 | http://arxiv.org/abs/2610.23242v1
+6. Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity | Muon-Adjacent Theory+Experiments | Theory + Experiment | Score: 9.5 | http://arxiv.org/abs/2610.26839v1
+7. recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models | Muon-Adjacent Experiments | Experiment | Score: 7.0 | http://arxiv.org/abs/2610.26747v1
+8. A Simple and Unified Method for Gradient-Variation Regret | Muon-Adjacent Theory | Theory | Score: 7.0 | http://arxiv.org/abs/2610.26473v1
+9. CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale Automotive Aerodynamic Flow Prediction | Not Relevant | Theory + Experiment | Score: 7.5 | http://arxiv.org/abs/2610.26337v1
+10. OrderGPT: Generation Order as a Learnable Modeling Choice | Not Relevant | Unclear | Score: 7.5 | http://arxiv.org/abs/2610.25949v1
