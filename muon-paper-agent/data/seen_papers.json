@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-22T16:05:44.868740Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-23T16:07:27.544364Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-20T16:16:29.206566Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-21T16:14:11.986078Z"
     }
   ],
   "papers": {
@@ -9027,6 +9027,13 @@
       "relevance_score": 8.0,
       "title": "Does On-Policy Distillation Need to Complete Every Rollout?"
     },
+    "2610.21337v3": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-21T16:14:11.986065Z",
+      "link": "http://arxiv.org/abs/2610.21337v3",
+      "relevance_score": 9.0,
+      "title": "Does On-Policy Distillation Need to Complete Every Rollout?"
+    },
     "2610.21549v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-10-16T16:14:53.336999Z",
@@ -9251,6 +9258,13 @@
       "relevance_score": 9.0,
       "title": "Towards Hyperparameter Transfer for Differentially Private Optimization"
     },
+    "2610.22976v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-21T16:14:11.986063Z",
+      "link": "http://arxiv.org/abs/2610.22976v2",
+      "relevance_score": 10.0,
+      "title": "Towards Hyperparameter Transfer for Differentially Private Optimization"
+    },
     "2610.23242v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-19T16:17:15.266663Z",
@@ -9355,6 +9369,62 @@
       "link": "http://arxiv.org/abs/2610.26839v1",
       "relevance_score": 9.5,
       "title": "Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity"
+    },
+    "2610.27674v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-21T16:14:11.986061Z",
+      "link": "http://arxiv.org/abs/2610.27674v1",
+      "relevance_score": 16.0,
+      "title": "Hybrid Momentum Methods for Optimizing Deep Learning Models"
+    },
+    "2610.27747v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-21T16:14:11.986058Z",
+      "link": "http://arxiv.org/abs/2610.27747v1",
+      "relevance_score": 17.5,
+      "title": "Constant Step Sizes for Muon-Type Spectral Optimizers on Strongly Convex Quadratics"
+    },
+    "2610.28072v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-21T16:14:11.986048Z",
+      "link": "http://arxiv.org/abs/2610.28072v1",
+      "relevance_score": 18.0,
+      "title": "MuPACE: Learning to Pace Muon for LoRA Fine-Tuning"
+    },
+    "2610.28327v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-21T16:14:11.986073Z",
+      "link": "http://arxiv.org/abs/2610.28327v1",
+      "relevance_score": 6.5,
+      "title": "Observation Assimilation Transformer: Probabilistic Weather Analysis from Sparse Station Observations"
+    },
+    "2610.28439v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-21T16:14:11.986068Z",
+      "link": "http://arxiv.org/abs/2610.28439v1",
+      "relevance_score": 6.5,
+      "title": "Do Neural Models Prefer Their Submodels?"
+    },
+    "2610.28598v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-21T16:14:11.986067Z",
+      "link": "http://arxiv.org/abs/2610.28598v1",
+      "relevance_score": 7.0,
+      "title": "Neural Implicit Energy Optimization for LiDAR Mapping"
+    },
+    "2610.28618v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-21T16:14:11.986077Z",
+      "link": "http://arxiv.org/abs/2610.28618v1",
+      "relevance_score": 5.5,
+      "title": "Efficient Edge-aware Attention Network for Graph Generation"
+    },
+    "2610.28632v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-21T16:14:11.986075Z",
+      "link": "http://arxiv.org/abs/2610.28632v1",
+      "relevance_score": 5.5,
+      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs"
     }
   }
 }
