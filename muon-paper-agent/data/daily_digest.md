@@ -2,50 +2,50 @@
 
 ## Top Highlights
 
-1. MuPACE: Learning to Pace Muon for LoRA Fine-Tuning
-Authors: Jan Kobiolka, Christian Frey, Josif Grabocka
-Link: http://arxiv.org/abs/2610.28072v1
-Category: Muon Core
-Paper type: Theory
-Relevance score: 18.0
-Abstract: Learning rate schedules are typically fixed before training begins, yet when fine-tuning large language models with low-rank adapters (LoRA), the appropriate scale varies substantially with the model, task, and adapter configuration. Practitioners re-tune a schedule for every new problem, yet a tuned schedule still cannot react to the training dynamics it encounters. We instead amortize learning rate selection across LoRA fine-tuning problems. We leave the base optimizer, Muon, untouched, so that its normalized update fixes the direction, and meta-learn only the global step size. Our method MuPACE is a small recurrent policy, meta-trained across a distribution of fine-tuning runs, that conditions on the observed trajectory and emits bounded adjustments to an interpretable analytic schedule. On 64 fine-tuning problems, MuPACE outperforms standard fixed schedules at a strong shared default on 64-78% of problems and is on par with the same schedules with per-task tuned peaks. Meta-trained only on models with up to 16 layers, MuPACE transfers one-shot to unseen tasks on models as deep as 64 layers, such as Qwen3-32B and Qwen3.8-27B, where a single run remains competitive with swept schedules.
-
-2. Constant Step Sizes for Muon-Type Spectral Optimizers on Strongly Convex Quadratics
-Authors: Pratik Jawanpuria, Bhabatosh Garai, Bamdev Mishra
-Link: http://arxiv.org/abs/2610.27747v1
-Category: Muon Core
-Paper type: Theory + Experiment
-Relevance score: 17.5
-Abstract: Muon and related optimizers update a weight matrix with a spectrally transformed gradient. In this work, we study such spectral optimizers with a constant step size on strongly convex matrix quadratics, which isolate the effect of the update from the confounds of nonconvexity, noise, and step size schedules. We analyze an update using two quantities: the gain, which is the factor by which it amplifies the gradient along each singular direction, and the length, which is the norm of the update. These two quantities place the popular spectral updates in three regimes with different behavior: (i) with a bounded gain, the iterates behave like preconditioned gradient descent and converge for step sizes set by the largest curvature; (ii) with an unbounded gain but a vanishing length, they still converge, with the admissible step sizes set by the total curvature instead; and (iii) with a non-vanishing length, they do not converge for almost every initialization. Interestingly, the practical variants of Muon fall in all three regimes, depending only on how the update is normalized and scaled and not on the polynomial that approximates the polar factor. Experiments validate these findings.
-
-3. Hybrid Momentum Methods for Optimizing Deep Learning Models
-Authors: Haifeng Xu, Yijin Ren, Qi Deng, Chenyu Zhou, Dongdong Ge, Yinyu Ye
-Link: http://arxiv.org/abs/2610.27674v1
+1. Hybrid Momentum Methods for Optimizing Deep Learning Models
+Authors: Haifeng Xu, Yijin Ren, Chenyu Zhou, Qi Deng, Dongdong Ge, Yinyu Ye
+Link: http://arxiv.org/abs/2610.27674v2
 Category: Muon-Adjacent Experiments
 Paper type: Experiment
 Relevance score: 16.0
 Abstract: Momentum is central to stochastic optimization in deep learning, including the training of large language models. Classical momentum methods typically rely on a fast exponential moving average (EMA) scheme, which discounts past gradients on a fixed timescale and may underweight older gradients that remain informative. This creates a trade-off between retaining long-term history and adapting to recent changes. We introduce Hybrid Momentum (HyM), which combines a linearly weighted average of past gradients with a geometrically discounted fast momentum. The former assigns weights proportional to the gradients' iteration indices and retains a growing span of history, while the latter emphasizes recent gradients. This hybrid construction is modular and can be combined with adaptive preconditioning and other update transformations. In particular, we propose HyMUON, which applies Newton--Schulz orthogonalization to the hybrid direction. Illustrative examples and controlled experiments demonstrate the benefits of combining gradient information across these two timescales. Across image classification, machine translation, and language modeling, HyM and HyMUON match or improve upon strong baselines. HyMUON improves over Muon on IWSLT14, and in both the 100k- and 600k-step GPT-2 124M OpenWebText regimes. For LLaMA-1.3B pretraining on C4, HyMUON achieves a final validation loss of 2.777, compared with 2.903 for Muon.
 
-4. Towards Hyperparameter Transfer for Differentially Private Optimization
-Authors: Tianze Wang, Zhiqi Bu, Linjun Zhang
-Link: http://arxiv.org/abs/2610.22976v2
-Category: Muon Core
+2. Training-free Acceleration for Blind Compressed Image Restoration via Activation-Calibrated Singular Value Decomposition
+Authors: Suhang Yao, Xin Li, Xijun Wang, Yufei Wang, Yeying Jin, Zhibo Chen
+Link: http://arxiv.org/abs/2610.29959v1
+Category: Muon-Adjacent Theory+Experiments
 Paper type: Theory + Experiment
-Relevance score: 10.0
-Abstract: Scaling laws and hyperparameter tuning remain central challenges in training large-scale models, particularly under differential privacy (DP), where optimization is further complicated by noise injection and per-sample gradient clipping. While Maximal Update Parametrization ($μ$P) allows for zero-shot hyperparameter transfer in standard training, we show that it fails under DP constraints due to the distinct spectral properties of high-dimensional noise versus low-rank gradients. In this work, we introduce DP-$μ$P, a theoretically grounded framework that extends $μ$P to the privacy-preserving setting. By analyzing the interaction between gradient clipping, noise injection, and feature learning, we derive a Signal-to-Noise Ratio (SNR) condition that governs layer-wise learning rate scaling. Combining this with our proposed spectral scaling formulation, we provide specific scaling rules for DP-SGD, DP-Adam, and DP-Muon optimizers. Empirically, we demonstrate that DP-$μ$P enables effective zero-shot transfer of learning rates across model widths on diverse architectures (MLP, ViT, GPT-2), matching or exceeding the performance of individually tuned baselines while significantly reducing computational costs.
+Relevance score: 7.0
+Abstract: Transformer-based models achieve strong performance on blind compressed image restoration (CIR) under unknown compression settings, but their densely stacked projection operators make deployment costly. We study training-free acceleration for such models through an empirical, operator-level analysis. Specifically, we profile where computation is concentrated, characterize channel-wise activation distributions under compressed inputs, and examine the singular-value decay of representative projection weights. These measurements identify the recurring projections in the attention, feed-forward, convolutional, and prompt-conditioning pathways as effective low-rank replacement targets that preserve the original inference graph. They further establish truncated SVD (TSVD) as a principled training-free baseline for blind CIR and reveal why a uniform low-rank objective is mismatched to the channel-imbalanced feature distributions of compressed images. Accordingly, we formulate Activation-Calibrated Singular Value Decomposition (ASVD) for this restoration setting, deriving low-rank factors entirely offline from pretrained weights and lightweight activation statistics gathered from only a few compressed calibration images. By weighting the decomposition with channel-wise activation magnitudes, our ASVD assigns larger penalties to errors on more active channels, requiring neither retraining nor online calibration and leaving the restoration pipeline intact. When instantiated on PromptCIR at rank 64, ASVD consistently improves PSNR-B over TSVD across four standard benchmarks under identical parameter and MAC budgets. At this operating point, the factorized model cuts parameters by 59% (34.75M to 14.34M) and computation by 16.1% (258.79 to 217.16 GMACs for a 256 x 256 input), enabling acceleration without retraining.
 
-5. Does On-Policy Distillation Need to Complete Every Rollout?
-Authors: Zhengxin Zhang, Maosen Tang, Ning Wang, Changhao Li, Jingren Zhou, Bo Dai
-Link: http://arxiv.org/abs/2610.21337v3
-Category: Muon-Adjacent Theory
-Paper type: Theory
-Relevance score: 9.0
-Abstract: On-policy distillation (OPD) transfers teacher knowledge to a student through feedback on student-generated rollouts, but generating complete rollouts and computing per-token teacher feedback are computationally expensive. Existing truncation methods save computation by stopping rollouts early. However, they do not compensate for truncated token gradients, which biases the gradient estimates and changes Vanilla OPD's original training objective. Furthermore, their truncation decisions rely on assumptions about supervision quality or criteria that may not generalize across settings. We introduce Stochastic Truncated On-Policy Distillation (STOPD), which accelerates OPD by randomly truncating student rollouts and correcting the resulting sampling bias with blockwise inverse-probability weighting (IPW). At each training step, we sample a stopping position for each rollout before generation and let the student generate until that position or natural termination. We obtain teacher feedback on every generated token and use blockwise IPW to compensate for the lower probability of retaining later tokens while controlling the weights. We prove that this weighting preserves Vanilla OPD's gradient sum in expectation and derive one-step update-error bounds for SGD, Adam, and Muon. We evaluate STOPD across multiple teacher-student model pairs, task domains, and optimizers. STOPD reduces generated tokens by 25-48% while maintaining accuracy comparable to Vanilla OPD, achieving 1.3-2.2x training speedups.
+3. Building SQL Equivalence Proofs from Query Rewrite Rules
+Authors: Chunyu Chen, Xinyi Huang, Zhengjie Miao
+Link: http://arxiv.org/abs/2610.30100v1
+Category: Muon-Adjacent Theory+Experiments
+Paper type: Theory + Experiment
+Relevance score: 5.5
+Abstract: Query rewriting and semantic evaluation of text-to-SQL systems both depend on deciding whether two SQL queries return the same result on every database satisfying the schema constraints. Decades of equivalence-preserving optimizer rules provide a natural basis for constructive proofs: two queries are equivalent when admitted rewrites transform them to a common logical expression. Building on this observation, \sys{} organizes query-rewriting knowledge as a standalone proof-producing system. It separates rule validation from proof discovery, explicitly aligns alternative query representations, and returns the resulting rewrite derivation. Across three corpus classes, EquiTrace proves 648/1,106 expected-equivalent text-to-SQL pairs (58.6%), 229/266 curated pairs (86.1%), and 97/240 LLM-generated rewrites whose results agree under benchmark execution (40.4%). On the query rewrite corpus, EquiTrace proves 97 pairs, compared with 35 for QED and 38 for SQLSolver. An analysis of 1,242 recorded proofs shows that coverage depends on a small number of transformations, while many frequently used rules are individually substitutable. The resulting derivations make each proof replayable and expose the specific transformations on which it depends.
+
+4. How Does Orthogonalization Adapt to the Neural Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization
+Authors: Shenyang Deng, Garvit Goyal, Tianyu Pang, Shuhua Yu, Yaoqing Yang
+Link: http://arxiv.org/abs/2610.28975v1
+Category: Not Relevant
+Paper type: Theory + Experiment
+Relevance score: 16.0
+Abstract: Muon orthogonalizes a weight matrix's momentum before each step, and on neural networks this simple preconditioner beats AdamW in a wide range of tasks. Existing analyses explain Muon within general optimization frameworks or on a few specific models, and many of them view orthogonalization as a preconditioner. Since the Hessian is the optimal preconditioner under a quadratic approximation of the loss, these works leave a basic question open: what makes orthogonalization suited to the Hessian of a neural network? Prior work shows that the layer-wise Hessian of a neural network is row-block diagonally dominant, and Muon's implicit preconditioner, the Kronecker product $(\mathbf{V}\mathbf{V}^\top)^{1/2}\otimes\mathbf{I}$ with $\mathbf{V}$ the momentum, has the same row-block structure exactly when $\mathbf{V}\mathbf{V}^\top$ is diagonally dominant. Diagonal dominance of $\mathbf{V}\mathbf{V}^\top$ has been observed in language models, but why a neural network produces it has not been explained. This work provides a quantitative asymptotic theory for neural networks at initialization, and points out the intuition that the overparameterization of the weight matrices drives the diagonal dominance. We analyze $\mathbb{E}[\mathbf{G}\mathbf{G}^\top]$, which equals $\mathbb{E}[\mathbf{V}\mathbf{V}^\top]$ at initialization, in four canonical models: symmetric matrix factorization, deep linear networks, two-layer ReLU networks, and single-layer linear attention. In each case the diagonal entries outgrow the off-diagonal ones at explicit rates as the hidden dimensions grow; for the query, key and value weights of attention the off-diagonal vanishes altogether. Simulations of the four models and experiments on language models at initialization confirm the predicted scaling.
+
+5. Speedrunning Relational Foundation Model Pretraining
+Authors: Gabriel Wedson Mendonça de Souza Veloso, Luan Borges Teodoro Reis Sena, Denis Oliveira Correa, Francisco Galuppo Azevedo
+Link: http://arxiv.org/abs/2610.28855v1
+Category: Not Relevant
+Paper type: Experiment
+Relevance score: 11.0
+Abstract: Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception. Recipes are developed inside individual labs, reported under private protocols, and do not accumulate. Speedrun leaderboards remove that barrier by decentralizing the search rather than the training run. The problem is fixed, the stack is open, entries are ranked by wall-clock time to a quality target, and one GPU is enough to hold the record. We introduce modded-nanoRT, the first such leaderboard for Relational Transformers. Which database to hold out decides whether the benchmark can resolve improvements at all, so we fix it by calibration, ranking six candidates by how sharply a 45-minute learning curve separates improvement from seed noise. We open the leaderboard with typed trilinear attention, a relational operator that conditions attention scores and values on the foreign key traversed, together with Muon and SIGReg. The recipe reaches the target in 305.63 seconds on one NVIDIA H200, 8.11x faster than the reference implementation, and wins 13 of 15 pairs outside the development database. We will release the benchmark, its frozen artifacts, and the record runs. Our code is available at https://github.com/kunumi/nanoRT.
 
 ## Additional Papers
 
-6. Neural Implicit Energy Optimization for LiDAR Mapping | Muon-Adjacent Experiments | Experiment | Score: 7.0 | http://arxiv.org/abs/2610.28598v1
-7. Do Neural Models Prefer Their Submodels? | Not Relevant | Theory + Experiment | Score: 6.5 | http://arxiv.org/abs/2610.28439v1
-8. Observation Assimilation Transformer: Probabilistic Weather Analysis from Sparse Station Observations | Not Relevant | Theory + Experiment | Score: 6.5 | http://arxiv.org/abs/2610.28327v1
-9. Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs | Not Relevant | Experiment | Score: 5.5 | http://arxiv.org/abs/2610.28632v1
-10. Efficient Edge-aware Attention Network for Graph Generation | Not Relevant | Theory + Experiment | Score: 5.5 | http://arxiv.org/abs/2610.28618v1
+6. BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes | Not Relevant | Experiment | Score: 9.0 | http://arxiv.org/abs/2610.29320v1
+7. NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction | Not Relevant | Experiment | Score: 7.5 | http://arxiv.org/abs/2610.29815v1
+8. Worst-Case Finite-Horizon Analysis of Perturbed LQR via Performance Estimation Problem | Not Relevant | Theory | Score: 7.0 | http://arxiv.org/abs/2610.29910v1
+9. BlazeVGGT: 13x Faster VGGT at 2,000 Frames via Camera Token without Training | Not Relevant | Theory + Experiment | Score: 6.5 | http://arxiv.org/abs/2610.29454v1
+10. GaP-MoE : Explicit Expert Specialization in Mixture-of-Experts via Orthogonal Gradient Accumulation and Projection | Not Relevant | Experiment | Score: 6.0 | http://arxiv.org/abs/2610.29355v1

@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-23T16:07:27.544364Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-24T16:12:58.773588Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-21T16:14:11.986078Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-22T16:15:57.160159Z"
     }
   ],
   "papers": {
@@ -9377,6 +9377,13 @@
       "relevance_score": 16.0,
       "title": "Hybrid Momentum Methods for Optimizing Deep Learning Models"
     },
+    "2610.27674v2": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-22T16:15:57.160124Z",
+      "link": "http://arxiv.org/abs/2610.27674v2",
+      "relevance_score": 16.0,
+      "title": "Hybrid Momentum Methods for Optimizing Deep Learning Models"
+    },
     "2610.27747v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-10-21T16:14:11.986058Z",
@@ -9425,6 +9432,69 @@
       "link": "http://arxiv.org/abs/2610.28632v1",
       "relevance_score": 5.5,
       "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs"
+    },
+    "2610.28855v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160137Z",
+      "link": "http://arxiv.org/abs/2610.28855v1",
+      "relevance_score": 11.0,
+      "title": "Speedrunning Relational Foundation Model Pretraining"
+    },
+    "2610.28975v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160134Z",
+      "link": "http://arxiv.org/abs/2610.28975v1",
+      "relevance_score": 16.0,
+      "title": "How Does Orthogonalization Adapt to the Neural Network Hessian Structure? A Gradient Self Outer-Product Analysis at Initialization"
+    },
+    "2610.29320v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160139Z",
+      "link": "http://arxiv.org/abs/2610.29320v1",
+      "relevance_score": 9.0,
+      "title": "BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes"
+    },
+    "2610.29355v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160155Z",
+      "link": "http://arxiv.org/abs/2610.29355v1",
+      "relevance_score": 6.0,
+      "title": "GaP-MoE : Explicit Expert Specialization in Mixture-of-Experts via Orthogonal Gradient Accumulation and Projection"
+    },
+    "2610.29454v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160152Z",
+      "link": "http://arxiv.org/abs/2610.29454v1",
+      "relevance_score": 6.5,
+      "title": "BlazeVGGT: 13x Faster VGGT at 2,000 Frames via Camera Token without Training"
+    },
+    "2610.29815v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160142Z",
+      "link": "http://arxiv.org/abs/2610.29815v1",
+      "relevance_score": 7.5,
+      "title": "NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction"
+    },
+    "2610.29910v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-22T16:15:57.160147Z",
+      "link": "http://arxiv.org/abs/2610.29910v1",
+      "relevance_score": 7.0,
+      "title": "Worst-Case Finite-Horizon Analysis of Perturbed LQR via Performance Estimation Problem"
+    },
+    "2610.29959v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-22T16:15:57.160144Z",
+      "link": "http://arxiv.org/abs/2610.29959v1",
+      "relevance_score": 7.0,
+      "title": "Training-free Acceleration for Blind Compressed Image Restoration via Activation-Calibrated Singular Value Decomposition"
+    },
+    "2610.30100v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-22T16:15:57.160157Z",
+      "link": "http://arxiv.org/abs/2610.30100v1",
+      "relevance_score": 5.5,
+      "title": "Building SQL Equivalence Proofs from Query Rewrite Rules"
     }
   }
 }
