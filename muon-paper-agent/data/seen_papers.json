@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-24T16:12:58.773588Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-25T16:14:38.652435Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-22T16:15:57.160159Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-23T16:15:20.563786Z"
     }
   ],
   "papers": {
@@ -7389,6 +7389,13 @@
       "relevance_score": 8.5,
       "title": "FlashBoB: I/O-Efficient Exact Backward-over-Backward for Softmax Attention"
     },
+    "2609.24089v2": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-23T16:15:20.563769Z",
+      "link": "http://arxiv.org/abs/2609.24089v2",
+      "relevance_score": 8.5,
+      "title": "FlashBoB: I/O-Efficient Exact Backward-over-Backward for Softmax Attention"
+    },
     "2609.24370v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-09-22T16:14:44.517246Z",
@@ -9495,6 +9502,69 @@
       "link": "http://arxiv.org/abs/2610.30100v1",
       "relevance_score": 5.5,
       "title": "Building SQL Equivalence Proofs from Query Rewrite Rules"
+    },
+    "2610.30280v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-23T16:15:20.563757Z",
+      "link": "http://arxiv.org/abs/2610.30280v1",
+      "relevance_score": 20.0,
+      "title": "A Quadratic Lens on Muon's Polar Update: Benefits, Pitfalls, and the Role of Newton-Schulz"
+    },
+    "2610.30949v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563766Z",
+      "link": "http://arxiv.org/abs/2610.30949v1",
+      "relevance_score": 9.0,
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems"
+    },
+    "2610.30951v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563775Z",
+      "link": "http://arxiv.org/abs/2610.30951v1",
+      "relevance_score": 6.5,
+      "title": "OpenAttention: One Percent Is Enough with Tail Proxies"
+    },
+    "2610.31235v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563771Z",
+      "link": "http://arxiv.org/abs/2610.31235v1",
+      "relevance_score": 7.5,
+      "title": "Muting Tokens: Exploring Token Sparsification for Efficient Audio Transformers"
+    },
+    "2610.31565v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563773Z",
+      "link": "http://arxiv.org/abs/2610.31565v1",
+      "relevance_score": 7.0,
+      "title": "Squaring-the-Sphere: Distortion-Free and Seamless Panorama Generation via CubeAtlas"
+    },
+    "2610.31624v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563785Z",
+      "link": "http://arxiv.org/abs/2610.31624v1",
+      "relevance_score": 5.5,
+      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3"
+    },
+    "2610.31633v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563783Z",
+      "link": "http://arxiv.org/abs/2610.31633v1",
+      "relevance_score": 5.5,
+      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing"
+    },
+    "2610.31659v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563776Z",
+      "link": "http://arxiv.org/abs/2610.31659v1",
+      "relevance_score": 6.0,
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing"
+    },
+    "2610.31662v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-23T16:15:20.563781Z",
+      "link": "http://arxiv.org/abs/2610.31662v1",
+      "relevance_score": 5.5,
+      "title": "Reliable AI-Assisted Decisions via Selective Auditing"
     }
   }
 }
