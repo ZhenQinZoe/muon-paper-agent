@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-08-25T16:14:38.652435Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-08-26T16:35:31.038155Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-23T16:15:20.563786Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-24T16:12:46.396035Z"
     }
   ],
   "papers": {
@@ -9510,6 +9510,13 @@
       "relevance_score": 20.0,
       "title": "A Quadratic Lens on Muon's Polar Update: Benefits, Pitfalls, and the Role of Newton-Schulz"
     },
+    "2610.30863v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396019Z",
+      "link": "http://arxiv.org/abs/2610.30863v1",
+      "relevance_score": 4.5,
+      "title": "Cross-Spectral Feature Fusion for Multispectral Document Binarization"
+    },
     "2610.30949v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-23T16:15:20.563766Z",
@@ -9531,12 +9538,68 @@
       "relevance_score": 7.5,
       "title": "Muting Tokens: Exploring Token Sparsification for Efficient Audio Transformers"
     },
+    "2610.31320v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396034Z",
+      "link": "http://arxiv.org/abs/2610.31320v1",
+      "relevance_score": 4.0,
+      "title": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention"
+    },
+    "2610.31371v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396031Z",
+      "link": "http://arxiv.org/abs/2610.31371v1",
+      "relevance_score": 4.0,
+      "title": "Probabilistic Energy Modeling Unifies Versatile Swarm Control"
+    },
+    "2610.31412v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396028Z",
+      "link": "http://arxiv.org/abs/2610.31412v1",
+      "relevance_score": 4.0,
+      "title": "SQuAT: Spherical Lattice Vector Quantization-Aware Training"
+    },
+    "2610.31421v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396024Z",
+      "link": "http://arxiv.org/abs/2610.31421v1",
+      "relevance_score": 4.0,
+      "title": "How Depth Growth and Looping Shape In-Context Learning in Language Models"
+    },
+    "2610.31479v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396021Z",
+      "link": "http://arxiv.org/abs/2610.31479v1",
+      "relevance_score": 4.0,
+      "title": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon"
+    },
+    "2610.31558v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396012Z",
+      "link": "http://arxiv.org/abs/2610.31558v1",
+      "relevance_score": 5.0,
+      "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks"
+    },
     "2610.31565v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-23T16:15:20.563773Z",
       "link": "http://arxiv.org/abs/2610.31565v1",
       "relevance_score": 7.0,
       "title": "Squaring-the-Sphere: Distortion-Free and Seamless Panorama Generation via CubeAtlas"
+    },
+    "2610.31600v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396017Z",
+      "link": "http://arxiv.org/abs/2610.31600v1",
+      "relevance_score": 4.5,
+      "title": "SympFormer: Inertial Attention Blocks from Damped Hamiltonian Dynamics on Spaces of Probability Measures"
+    },
+    "2610.31608v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396004Z",
+      "link": "http://arxiv.org/abs/2610.31608v1",
+      "relevance_score": 5.0,
+      "title": "Humanoid Mobility via Attention-based Contacts"
     },
     "2610.31624v1": {
       "category": "Not Relevant",
@@ -9551,6 +9614,13 @@
       "link": "http://arxiv.org/abs/2610.31633v1",
       "relevance_score": 5.5,
       "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing"
+    },
+    "2610.31635v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-24T16:12:46.396014Z",
+      "link": "http://arxiv.org/abs/2610.31635v1",
+      "relevance_score": 4.5,
+      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction"
     },
     "2610.31659v1": {
       "category": "Not Relevant",
