@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 0,
-      "sent_at": "2026-08-26T16:35:31.038155Z"
-    },
-    {
       "paper_count": 10,
       "sent_at": "2026-08-27T19:34:39.022942Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-24T16:12:46.396035Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-25T16:12:39.785228Z"
     }
   ],
   "papers": {
@@ -9510,12 +9510,68 @@
       "relevance_score": 20.0,
       "title": "A Quadratic Lens on Muon's Polar Update: Benefits, Pitfalls, and the Role of Newton-Schulz"
     },
+    "2610.30623v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785227Z",
+      "link": "http://arxiv.org/abs/2610.30623v1",
+      "relevance_score": 4.0,
+      "title": "Refining Open-Vocabulary Semantic Segmentation via Regional Semantics and Visual Prototypes"
+    },
+    "2610.30639v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785225Z",
+      "link": "http://arxiv.org/abs/2610.30639v1",
+      "relevance_score": 4.0,
+      "title": "CODI: Improving Self-Supervised Vision Transformers with Cross Distillation"
+    },
+    "2610.30694v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785223Z",
+      "link": "http://arxiv.org/abs/2610.30694v1",
+      "relevance_score": 4.0,
+      "title": "Live Thread Reconstruction for Autonomous Manipulation"
+    },
+    "2610.30705v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785218Z",
+      "link": "http://arxiv.org/abs/2610.30705v1",
+      "relevance_score": 4.0,
+      "title": "ULME: Predictive Coupling for Mutually Reinforcing Embedding and Language Modeling"
+    },
+    "2610.30834v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785216Z",
+      "link": "http://arxiv.org/abs/2610.30834v1",
+      "relevance_score": 4.0,
+      "title": "RECAP: Looking Once Is Not Enough for Vision-Language Reasoning"
+    },
+    "2610.30854v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785215Z",
+      "link": "http://arxiv.org/abs/2610.30854v1",
+      "relevance_score": 4.0,
+      "title": "CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation"
+    },
     "2610.30863v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-24T16:12:46.396019Z",
       "link": "http://arxiv.org/abs/2610.30863v1",
       "relevance_score": 4.5,
       "title": "Cross-Spectral Feature Fusion for Multispectral Document Binarization"
+    },
+    "2610.30913v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785213Z",
+      "link": "http://arxiv.org/abs/2610.30913v1",
+      "relevance_score": 4.0,
+      "title": "Watch and Learn: Teaching Visual In-Context Learning by Removing Textual Shortcuts"
+    },
+    "2610.30928v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785211Z",
+      "link": "http://arxiv.org/abs/2610.30928v1",
+      "relevance_score": 4.0,
+      "title": "ICGF-CXRMate: Image-Conditioned Clinical Context Compression and Gated Fusion for Chest X-ray Report Generation"
     },
     "2610.30949v1": {
       "category": "Not Relevant",
@@ -9531,12 +9587,26 @@
       "relevance_score": 6.5,
       "title": "OpenAttention: One Percent Is Enough with Tail Proxies"
     },
+    "2610.31098v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785209Z",
+      "link": "http://arxiv.org/abs/2610.31098v1",
+      "relevance_score": 4.0,
+      "title": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training"
+    },
     "2610.31235v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-23T16:15:20.563771Z",
       "link": "http://arxiv.org/abs/2610.31235v1",
       "relevance_score": 7.5,
       "title": "Muting Tokens: Exploring Token Sparsification for Efficient Audio Transformers"
+    },
+    "2610.31295v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-25T16:12:39.785198Z",
+      "link": "http://arxiv.org/abs/2610.31295v1",
+      "relevance_score": 4.0,
+      "title": "Model Predictive Control of Wind Turbines: A Model-Oriented Review of Prediction Models, Control Objectives, and Nonlinear Aerodynamic Formulations"
     },
     "2610.31320v1": {
       "category": "Not Relevant",
