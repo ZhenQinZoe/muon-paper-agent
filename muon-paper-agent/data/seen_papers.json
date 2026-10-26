@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-27T19:34:39.022942Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-28T20:01:40.311077Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-25T16:12:39.785228Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-26T16:17:28.515096Z"
     }
   ],
   "papers": {
@@ -9705,6 +9705,76 @@
       "link": "http://arxiv.org/abs/2610.31662v1",
       "relevance_score": 5.5,
       "title": "Reliable AI-Assisted Decisions via Selective Auditing"
+    },
+    "2610.32075v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515077Z",
+      "link": "http://arxiv.org/abs/2610.32075v1",
+      "relevance_score": 5.5,
+      "title": "RADIANT: Object-Centric Feed-Forward Global Illumination"
+    },
+    "2610.32465v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-26T16:17:28.515069Z",
+      "link": "http://arxiv.org/abs/2610.32465v1",
+      "relevance_score": 13.0,
+      "title": "Sharpness-aware Orthogonalized Momentum Algorithms"
+    },
+    "2610.32500v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515094Z",
+      "link": "http://arxiv.org/abs/2610.32500v1",
+      "relevance_score": 4.0,
+      "title": "Distortion-Aware Spatiotemporal Learning for Real-Time Wide-Angle Video Rectification"
+    },
+    "2610.32502v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-26T16:17:28.515092Z",
+      "link": "http://arxiv.org/abs/2610.32502v1",
+      "relevance_score": 4.0,
+      "title": "Fast and Scalable Influence Estimation in the Independent Cascade Model: a unified framework"
+    },
+    "2610.32784v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515075Z",
+      "link": "http://arxiv.org/abs/2610.32784v1",
+      "relevance_score": 7.0,
+      "title": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding"
+    },
+    "2610.32871v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515090Z",
+      "link": "http://arxiv.org/abs/2610.32871v1",
+      "relevance_score": 4.0,
+      "title": "J-Comm: Jacobian-Guided Latent Communication between LLM Agents"
+    },
+    "2610.32891v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515085Z",
+      "link": "http://arxiv.org/abs/2610.32891v1",
+      "relevance_score": 4.0,
+      "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations"
+    },
+    "2610.32933v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515083Z",
+      "link": "http://arxiv.org/abs/2610.32933v1",
+      "relevance_score": 4.0,
+      "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model"
+    },
+    "2610.32951v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515081Z",
+      "link": "http://arxiv.org/abs/2610.32951v1",
+      "relevance_score": 4.0,
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning"
+    },
+    "2610.32977v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-26T16:17:28.515079Z",
+      "link": "http://arxiv.org/abs/2610.32977v1",
+      "relevance_score": 4.0,
+      "title": "UniAction: Unified Action Conditioning for World Models"
     }
   }
 }
