@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-28T20:01:40.311077Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-29T16:13:12.524998Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-26T16:17:28.515096Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-27T16:12:24.084916Z"
     }
   ],
   "papers": {
@@ -3264,6 +3264,13 @@
       "last_sent_at": "2026-10-16T16:14:53.337013Z",
       "link": "http://arxiv.org/abs/2607.11183v4",
       "relevance_score": 10.0,
+      "title": "Amplitude-Only FFN Intervention for Tool-Structured LLM Inference: Method, Gated Evaluation Protocol, and Cross-Model Empirical Results"
+    },
+    "2607.11183v5": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-27T16:12:24.084903Z",
+      "link": "http://arxiv.org/abs/2607.11183v5",
+      "relevance_score": 8.0,
       "title": "Amplitude-Only FFN Intervention for Tool-Structured LLM Inference: Method, Gated Evaluation Protocol, and Cross-Model Empirical Results"
     },
     "2607.11577v1": {
@@ -9775,6 +9782,69 @@
       "link": "http://arxiv.org/abs/2610.32977v1",
       "relevance_score": 4.0,
       "title": "UniAction: Unified Action Conditioning for World Models"
+    },
+    "2610.33477v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-27T16:12:24.084801Z",
+      "link": "http://arxiv.org/abs/2610.33477v1",
+      "relevance_score": 13.5,
+      "title": "A Unified Analysis of Importance-Corrected Momentum Actor-Critic over a Markovian Trajectory"
+    },
+    "2610.34158v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-27T16:12:24.084788Z",
+      "link": "http://arxiv.org/abs/2610.34158v1",
+      "relevance_score": 17.0,
+      "title": "Last-Iterate Stationarity of Muon with Finitely Many Newton-Schulz Iterations"
+    },
+    "2610.34945v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-27T16:12:24.084905Z",
+      "link": "http://arxiv.org/abs/2610.34945v1",
+      "relevance_score": 8.0,
+      "title": "Relational Composition as Parallel Transport: What Per-Entity Frames Force in Attention"
+    },
+    "2610.34971v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-27T16:12:24.084911Z",
+      "link": "http://arxiv.org/abs/2610.34971v1",
+      "relevance_score": 7.0,
+      "title": "SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers"
+    },
+    "2610.35066v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-27T16:12:24.084916Z",
+      "link": "http://arxiv.org/abs/2610.35066v1",
+      "relevance_score": 6.5,
+      "title": "MemVLN: Streaming Episodic Memory for Vision-Language Navigation"
+    },
+    "2610.35130v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-27T16:12:24.084799Z",
+      "link": "http://arxiv.org/abs/2610.35130v1",
+      "relevance_score": 13.5,
+      "title": "TUON: A Tensor-Aware Optimizer Utilizing Tensor-SVD and Polarization for Large Language Model Pretraining"
+    },
+    "2610.35209v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-27T16:12:24.084803Z",
+      "link": "http://arxiv.org/abs/2610.35209v1",
+      "relevance_score": 12.0,
+      "title": "Understanding Practical Optimization in Machine Learning"
+    },
+    "2610.35522v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-27T16:12:24.084914Z",
+      "link": "http://arxiv.org/abs/2610.35522v1",
+      "relevance_score": 6.5,
+      "title": "Generative Structure from Motion with Native 3D Diffusion"
+    },
+    "2610.35787v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-27T16:12:24.084907Z",
+      "link": "http://arxiv.org/abs/2610.35787v1",
+      "relevance_score": 7.5,
+      "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization"
     }
   }
 }
