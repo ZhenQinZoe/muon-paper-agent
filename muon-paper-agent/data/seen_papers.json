@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-29T16:13:12.524998Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-30T16:13:08.981409Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-27T16:12:24.084916Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-28T16:11:43.139783Z"
     }
   ],
   "papers": {
@@ -9845,6 +9845,76 @@
       "link": "http://arxiv.org/abs/2610.35787v1",
       "relevance_score": 7.5,
       "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization"
+    },
+    "2610.36625v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139770Z",
+      "link": "http://arxiv.org/abs/2610.36625v1",
+      "relevance_score": 6.5,
+      "title": "Polarity--Time Interaction and Multi-Level Reliability for Event-Based Spacecraft Pose Estimation"
+    },
+    "2610.37000v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139767Z",
+      "link": "http://arxiv.org/abs/2610.37000v1",
+      "relevance_score": 6.5,
+      "title": "GPA-VGGT: Geometry-Preserving Acceleration of VGGT"
+    },
+    "2610.37062v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-28T16:11:43.139752Z",
+      "link": "http://arxiv.org/abs/2610.37062v1",
+      "relevance_score": 20.5,
+      "title": "EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training"
+    },
+    "2610.37225v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-28T16:11:43.139761Z",
+      "link": "http://arxiv.org/abs/2610.37225v1",
+      "relevance_score": 17.5,
+      "title": "Sharpness-Aware Muon: Matrix-Aware Optimization with Momentum-Guided Perturbations"
+    },
+    "2610.37584v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139782Z",
+      "link": "http://arxiv.org/abs/2610.37584v1",
+      "relevance_score": 5.5,
+      "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation"
+    },
+    "2610.37599v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139765Z",
+      "link": "http://arxiv.org/abs/2610.37599v1",
+      "relevance_score": 6.5,
+      "title": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices"
+    },
+    "2610.37633v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139780Z",
+      "link": "http://arxiv.org/abs/2610.37633v1",
+      "relevance_score": 5.5,
+      "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence"
+    },
+    "2610.37645v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-28T16:11:43.139777Z",
+      "link": "http://arxiv.org/abs/2610.37645v1",
+      "relevance_score": 5.5,
+      "title": "Multi-State Linear Attention with Generalized Second-Order Routing"
+    },
+    "2610.37647v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-28T16:11:43.139763Z",
+      "link": "http://arxiv.org/abs/2610.37647v1",
+      "relevance_score": 15.5,
+      "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control"
+    },
+    "2610.37651v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-28T16:11:43.139772Z",
+      "link": "http://arxiv.org/abs/2610.37651v1",
+      "relevance_score": 5.5,
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents"
     }
   }
 }
