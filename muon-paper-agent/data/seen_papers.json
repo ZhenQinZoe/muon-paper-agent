@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-30T16:13:08.981409Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-08-31T16:15:22.703469Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-28T16:11:43.139783Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-29T16:12:40.044223Z"
     }
   ],
   "papers": {
@@ -9846,6 +9846,13 @@
       "relevance_score": 7.5,
       "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization"
     },
+    "2610.36393v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044198Z",
+      "link": "http://arxiv.org/abs/2610.36393v1",
+      "relevance_score": 4.5,
+      "title": "SpecLST: Spectral-Enhanced Long-Short Term Spatio-Temporal Multimodal Modeling for Traffic Forecasting"
+    },
     "2610.36625v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-28T16:11:43.139770Z",
@@ -9873,6 +9880,69 @@
       "link": "http://arxiv.org/abs/2610.37225v1",
       "relevance_score": 17.5,
       "title": "Sharpness-Aware Muon: Matrix-Aware Optimization with Momentum-Guided Perturbations"
+    },
+    "2610.37236v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044221Z",
+      "link": "http://arxiv.org/abs/2610.37236v1",
+      "relevance_score": 4.0,
+      "title": "HDVS: semi-supervised semantic segmentation via heterogeneous dual-branch voting supervision"
+    },
+    "2610.37314v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044218Z",
+      "link": "http://arxiv.org/abs/2610.37314v1",
+      "relevance_score": 4.0,
+      "title": "A Lightweight Attention-Based CNN with Saliency-Map Interpretability for Skin Cancer Detection"
+    },
+    "2610.37390v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044215Z",
+      "link": "http://arxiv.org/abs/2610.37390v1",
+      "relevance_score": 4.0,
+      "title": "LinMix: Data Mixing as Linear Domain Attribution"
+    },
+    "2610.37428v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044209Z",
+      "link": "http://arxiv.org/abs/2610.37428v1",
+      "relevance_score": 4.0,
+      "title": "Joint Antenna Positioning and Pilot Power Allocation for Uplink Fluid Antenna-Aided Cell-Free Massive MIMO Systems"
+    },
+    "2610.37429v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044206Z",
+      "link": "http://arxiv.org/abs/2610.37429v1",
+      "relevance_score": 4.0,
+      "title": "Bayes-Adaptive MDPs for Rollout Allocation to Enhance GRPO Training"
+    },
+    "2610.37466v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044203Z",
+      "link": "http://arxiv.org/abs/2610.37466v1",
+      "relevance_score": 4.0,
+      "title": "Kernel Performance Engineering under Physical Non-Idealities"
+    },
+    "2610.37471v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044201Z",
+      "link": "http://arxiv.org/abs/2610.37471v1",
+      "relevance_score": 4.0,
+      "title": "PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions"
+    },
+    "2610.37510v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044194Z",
+      "link": "http://arxiv.org/abs/2610.37510v1",
+      "relevance_score": 5.0,
+      "title": "A note on data-efficient finetuning of vision foundation models"
+    },
+    "2610.37524v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-29T16:12:40.044183Z",
+      "link": "http://arxiv.org/abs/2610.37524v1",
+      "relevance_score": 5.0,
+      "title": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time"
     },
     "2610.37584v1": {
       "category": "Not Relevant",
