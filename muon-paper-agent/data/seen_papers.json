@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-08-31T16:15:22.703469Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-01T16:38:28.296615Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-29T16:12:40.044223Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-30T16:10:40.126036Z"
     }
   ],
   "papers": {
@@ -9985,6 +9985,76 @@
       "link": "http://arxiv.org/abs/2610.37651v1",
       "relevance_score": 5.5,
       "title": "GEPA-Curator: Curated Learning for Self Improving Agents"
+    },
+    "2610.37914v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-10-30T16:10:40.126013Z",
+      "link": "http://arxiv.org/abs/2610.37914v1",
+      "relevance_score": 14.0,
+      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance"
+    },
+    "2610.38773v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-30T16:10:40.126005Z",
+      "link": "http://arxiv.org/abs/2610.38773v1",
+      "relevance_score": 14.5,
+      "title": "Rennala NSGD: Asynchronous Stochastic Optimization Beyond Euclidean Geometry"
+    },
+    "2610.39412v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-10-30T16:10:40.126015Z",
+      "link": "http://arxiv.org/abs/2610.39412v1",
+      "relevance_score": 13.0,
+      "title": "Dobb: Shard-Local Preconditioning in Block-Diagonal Eigenbases"
+    },
+    "2610.39467v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-10-30T16:10:40.126025Z",
+      "link": "http://arxiv.org/abs/2610.39467v1",
+      "relevance_score": 7.0,
+      "title": "Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs"
+    },
+    "2610.39534v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-30T16:10:40.126033Z",
+      "link": "http://arxiv.org/abs/2610.39534v1",
+      "relevance_score": 6.0,
+      "title": "MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI"
+    },
+    "2610.40453v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-30T16:10:40.126023Z",
+      "link": "http://arxiv.org/abs/2610.40453v1",
+      "relevance_score": 7.0,
+      "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions"
+    },
+    "2610.40485v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-10-30T16:10:40.126018Z",
+      "link": "http://arxiv.org/abs/2610.40485v1",
+      "relevance_score": 9.5,
+      "title": "The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra"
+    },
+    "2610.40545v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-30T16:10:40.126020Z",
+      "link": "http://arxiv.org/abs/2610.40545v1",
+      "relevance_score": 7.0,
+      "title": "Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents"
+    },
+    "2610.40647v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-30T16:10:40.126029Z",
+      "link": "http://arxiv.org/abs/2610.40647v1",
+      "relevance_score": 6.0,
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers"
+    },
+    "2610.40653v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-30T16:10:40.126035Z",
+      "link": "http://arxiv.org/abs/2610.40653v1",
+      "relevance_score": 5.5,
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film"
     }
   }
 }
