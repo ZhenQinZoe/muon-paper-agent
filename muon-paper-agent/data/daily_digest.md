@@ -1,51 +1,53 @@
 # Daily Muon Paper Digest
 
+No strong matches today. Showing the best available 10 candidates.
+
 ## Top Highlights
 
-1. Rennala NSGD: Asynchronous Stochastic Optimization Beyond Euclidean Geometry
-Authors: Igor Sokolov, Alexander Tyurin, Peter Richtárik
-Link: http://arxiv.org/abs/2610.38773v1
-Category: Muon-Adjacent Theory+Experiments
-Paper type: Theory + Experiment
-Relevance score: 14.5
-Abstract: The empirical success of matrix-aware optimizers, such as Muon (Jordan et al., 2024) and Shampoo (arXiv:1802.09568), highlights the potential of non-Euclidean geometry for deep learning, including large language model (LLM) training. Despite this progress, the theoretical understanding of stochastic optimization in general normed spaces remains limited, particularly in distributed settings. We analyze minibatch stochastic gradient descent (SGD) for smooth nonconvex optimization with respect to an arbitrary norm on a finite-dimensional space. Using the framework of $κ$-regular normed spaces (arXiv:0809.0813), we derive high-probability oracle complexity bounds under a light-tail condition stated directly in the dual norm induced by the update norm. The bounds make the dependence on geometry explicit through the regularity constant $κ$ of the dual space. In the Euclidean case, our bound recovers the standard minibatch SGD rate up to logarithmic factors. For some non-Euclidean geometries and noise models, it is sharper than bounds obtained by converting a Euclidean noise assumption, reducing a linear dimension dependence to a logarithmic one. Building on this framework, we introduce Rennala NSGD, a semi-asynchronous distributed algorithm, and establish wall-clock time complexity guarantees under fixed, heterogeneous worker computation times. In the Euclidean case ($κ=1$), our bound matches the parameter dependence of classical Rennala SGD up to logarithmic factors.
-
-2. Muon Makes the First Mixture-of-Experts Layer Harder to Balance
-Authors: Marcos Hernanz
-Link: http://arxiv.org/abs/2610.37914v1
-Category: Muon Core
+1. RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection
+Authors: Joaquín Figueira, Giacomo D'Amicantonio, Egor Bondarau
+Link: http://arxiv.org/abs/2610.40580v1
+Category: Not Relevant
 Paper type: Experiment
-Relevance score: 14.0
-Abstract: Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias on each expert's routing score, adjusted after every step. Their recipes disagree on whether Muon should also train the router. In models with 55M and 108M active parameters, we measure how the optimizer changes the span of these biases, the largest minus the smallest in a layer. The span grows when all tokens favor the same experts, so it shows how hard a layer is to balance. At learning rates tuned on shorter runs, Muon raised the span of the first MoE layer at every seed, roughly doubling it on average, while the other layers changed much less. The rise came from Muon on the rest of the network, whichever optimizer trained the router. In those runs, the inputs to the first router shared a direction, and soon after the warmup its busiest expert averaged four to seven times its fair share. Over the first 3,000 steps, subtracting the batch mean from these inputs removed this overload while barely changing the loss. On the smaller model, halving Muon's learning rate removed most of the rise and slightly improved the loss. Moving only the router to AdamW made the loads shift more during the warmup and slightly raised the loss, so at this scale the results favor keeping the router on Muon.
+Relevance score: 5.0
+Abstract: Current zero-shot anomaly detection methods often rely on complex prompt-learning techniques or computationally expensive sliding-window strategies to achieve fine-grained visual alignment to detect small-scale anomalies. This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized anomaly features. While prompt-learning approaches aim to bridge this gap, they typically require a large number of ground-truth segmentation masks from auxiliary datasets, which are often unavailable in specialized domains. In this work, we show an emerging property of multi-head attention pooling in vision-language models: remarkable zero-shot anomaly localization and detection right out of the box. We translate this property into a single-pass anomaly detection technique, RADIOlogy, that does not require dense, windowed execution and significantly outperforms other training-free baselines. Instead, the method relies on a simple contrastive scoring approach that compares the average similarity between vision features and a suite of normal and abnormal prompts. Furthermore, we leverage the agglomerative features of RADIO models to enhance pixel-level anomaly segmentation using a dense anomaly refinement pipeline. Finally, we show how the vision-language family of training-free zero-shot anomaly detection techniques can be applied successfully to the medical domain with minimal modifications. Code is available at https://github.com/jacomof/RADIOlogy.
 
-3. Dobb: Shard-Local Preconditioning in Block-Diagonal Eigenbases
-Authors: Shi-Yuk Fong, Shuhua Yu, Jiawei Zhang
-Link: http://arxiv.org/abs/2610.39412v1
-Category: Muon-Adjacent Experiments
-Paper type: Experiment
-Relevance score: 13.0
-Abstract: Training language models whose parameters and optimizer state exceed a single node's memory requires sharding these tensors across devices. Under tensor parallelism (TP) or fully sharded data parallelism (FSDP), matrix-aware optimizers such as Muon introduce communication to perform global matrix operations across shards. We propose Dobb (Distributed Optimizer with Block-diagonal Eigenbases), a matrix-aware optimizer designed to compute updates locally within parameter shards. Dobb approximates the input-activation second moment with diagonal blocks and tracks a complete basis within each block. It projects momentum into these bases, applies sign normalization to the coefficients, and reconstructs the update. When each block lies within one shard under TP or FSDP, Dobb applies its matrix update locally, requiring no communication beyond data-parallel synchronization of the activation second moments. We benchmark Dobb against Dion, a distributed matrix-aware optimizer designed to retain the benefits of orthonormalized updates while reducing communication. On GPT-2 XL (1.56B parameters), Dobb with 16 blocks reaches a validation loss of 2.476, compared with 2.511 for Dion at rank fraction 1/16. Under FSDP on 32 H100 GPUs, Dobb reduces the amortized optimizer-call time from 124.1 ms for Dion to 9.2 ms.
-
-4. The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra
-Authors: Lngel Kyo
-Link: http://arxiv.org/abs/2610.40485v1
-Category: Muon-Adjacent Theory
+2. The Privacy and Security Risks of Edge LLM Optimization
+Authors: Mingchen Li, Ren-Yi Huang, Dumindu Samaraweera, Prashant Shekhar, J. Morris Chang
+Link: http://arxiv.org/abs/2610.40543v1
+Category: Not Relevant
 Paper type: Theory
-Relevance score: 9.5
-Abstract: In low-rank matrix sensing of a rank-$D$ factor $U^\ast \in \mathbb{R}^{V \times D}$, replacing isotropic Gaussian designs with power-law measurement covariance $Σ= \mathrm{diag}(j^{-s})_{j=1}^V$ leaves the Burer--Monteiro landscape free of spurious local minima, yet division-normalised first-order optimizers stall above a critical exponent $s^\ast$. We trace this failure to a numerical precision wall. At the ground truth, the smallest non-gauge expected Hessian eigenvalue scales at leading order as $V^{-(s+1)}D^{-s}$. When this curvature drops below the effective denominator floor $ε_O$ of optimizer $O$, normalisation noise overwhelms rare-direction gradients, yielding the leading-order boundary $s^\ast_O(V, D) = [\log(1/ε_O) - \log V]/\log(VD) + δ_O$, where $δ_O$ is a metric-dependent detection lag. With $δ_{\mathrm{Adam}}$ calibrated on four configurations and frozen, this formula predicts Adam's onset within $0.45$ across all 16 cells of a held-out grid ($V \in \{64,128,256,512\} \times D \in \{4,8,16,32\}$), separates fixed-$VD$ pairs, and distinguishes denominator-precision walls from conditioning and sign-quantisation walls. The approximation fails at $D = 2$, reflects a finite-$D$ spectral crossover, and saturates below $\varepsilon_0 = 10^{-8}$ at a dynamical floor.
+Relevance score: 5.0
+Abstract: Edge deployment of Large Language Models requires optimization techniques that reduce memory, computation, and energy costs. However, preserving task performance does not necessarily preserve security. We argue that optimization is an information transformation that can alter representations, decision pathways, and trust boundaries, creating security drift and optimization-induced attack surfaces.
 
-5. Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs
-Authors: Zimeng Wu, Qijian Tian, Penghui Du, Changqian Yu, Jiaxin Chen, Yunhong Wang
-Link: http://arxiv.org/abs/2610.39467v1
-Category: Muon-Adjacent Theory+Experiments
-Paper type: Theory + Experiment
-Relevance score: 7.0
-Abstract: Unified Multimodal Models (UMMs) enable powerful multi-image synthesis but incur substantial computation from long visual contexts. While token pruning offers a direct route to accelerating inference, existing methods are primarily adapted from understanding tasks, suffering from insufficient reference image exploration, confused conditional guidance, and pooling-induced ambiguity that degrades generation quality. To address these issues, we propose CATP, the first training-free context-compression method tailored to UMM generation, which \textbf{C}alibrates the discrepancies of general \textbf{A}ttention-based \textbf{T}oken \textbf{P}runing for better quality-efficiency trade-off. Concretely, building on independent layer-wise pruning during denoising, we introduce Guidance-Consistent Pruning (GCP) to synchronize pruning decisions across conditioning branches, and a Taylor-Calibrated Attention Metric (TCAM) that derives a theoretically grounded second-order correction for pooling-induced bias. In addition, a Fast Scoring Operator (FSO) fuses the calibration into tiled online Softmax to reduce pruning cost. Extensive experiments across representative UMMs and benchmarks demonstrate that CATP consistently outperforms state-of-the-art token-reduction methods, achieving up to 2.09$\times$ attention-core speedup.
+3. LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation
+Authors: Oliver Hahn, Rodrigo Marcuzzi, Sangeetha Grama Srinivasan, Alessandro Burzio, Sherwin Bahmani, Jiahui Huang
+Link: http://arxiv.org/abs/2610.40495v1
+Category: Not Relevant
+Paper type: Experiment
+Relevance score: 4.5
+Abstract: We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in robotics and physical AI require not only visual realism but also access to scene semantics and object identities. Existing 3D understanding approaches, however, require captured multi-view scenes, have limited generalization capabilities, or rely on expensive per-scene processing and optimization. To bridge this gap, our method distills complementary knowledge from a camera-controlled video diffusion model and frozen 2D vision foundation models into a unified model to jointly infer 3D Gaussians encoding geometry, appearance, open-vocabulary semantics, and class-agnostic instance cues. The resulting scenes support novel-view rendering, open-vocabulary segmentation, and object grouping without per-scene optimization, while training requires neither manual 3D annotations nor captured multi-view data. Our method outperforms baselines combining state-of-the-art 3DGS segmentation approaches with generative 3D scene reconstruction on curated synthetic and real-image-conditioned benchmarks, while preserving reconstruction quality. Furthermore, our latent formulation naturally extends to monocular video, reconstructing structured dynamic 3D scenes across time. By turning renderable but unstructured outputs into queryable 3D worlds, LucidLyra enables downstream applications including 3D scene editing, 3D asset mining, and robotic simulation.
+
+4. IMPACT: Inverter-Informed Multimodal Learning for Photovoltaic Generation Forecasting
+Authors: Anushka Katiyar, Cong Feng, Jing Wang, Tristan Liu, Simon Julien, Zachary Jacobs
+Link: http://arxiv.org/abs/2610.40418v1
+Category: Not Relevant
+Paper type: Experiment
+Relevance score: 4.5
+Abstract: This work develops a physics-informed multimodal deep learning framework for 10- to 110-minute-ahead probabilistic photovoltaic power forecasting. The forecasting model is built on a four-branch architecture that separately encodes plant-level temporal history and inverter-level spatial cloud dynamics through a graph attention encoder with a learned adjacency, known-future solar geometry, and the current meteorological state, fused through gated cross-attention. The geometry branch adds two forward-looking physical signals, spatial cloud heterogeneity and inverter ramp-down activity, each empirically weighted toward the horizon where it is most predictive. The decoder anchors its prediction to a smart persistence baseline, learning a horizon-conditioned correction, and the resulting quantile forecasts are calibrated online through a kernel-weighted adaptive conformal calibration step. The proposed model outperforms all 14 baselines, achieving a forecast skill score (FSS) of 0.2950, 0.099 above the next-best model. A branch-composition ablation shows that every branch contributes positively and the model retains substantial skill in challenging overcast and variable sky conditions (FSS 0.198 and 0.255).
+
+5. First-Order Bilevel Optimization for Non-truthful Auction Design
+Authors: Shing-Hei Ho, April Niu, Ellen Vitercik, Kai Wang
+Link: http://arxiv.org/abs/2610.40403v1
+Category: Not Relevant
+Paper type: Experiment
+Relevance score: 4.5
+Abstract: Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders' equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized. In this work, we formulate auction design as a Stackelberg game with multiple strategic followers and develop a fully first-order algorithm for revenue optimization in non-truthful auctions. We establish non-asymptotic guarantees for hypergradient approximation and show that, under standard smoothness and strong-monotonicity assumptions, our method reaches an $O(ε)$-stationary point using $\tilde{\mathcal{O}}(ε^{-2})$ first-order oracle calls. Experiments on symmetric and asymmetric single-item auctions, as well as multi-item auctions, show that our method converges faster than second- and zeroth-order baselines and scales better as the number of bidders increases. Our method also discovers auctions that achieve revenue close to truthful baselines. These results provide a scalable framework for automated mechanism design beyond truthful auctions.
 
 ## Additional Papers
 
-6. Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents | Not Relevant | Theory + Experiment | Score: 7.0 | http://arxiv.org/abs/2610.40545v1
-7. PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions | Not Relevant | Experiment | Score: 7.0 | http://arxiv.org/abs/2610.40453v1
-8. Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers | Not Relevant | Unclear | Score: 6.0 | http://arxiv.org/abs/2610.40647v1
-9. MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI | Not Relevant | Experiment | Score: 6.0 | http://arxiv.org/abs/2610.39534v1
-10. Micro-Edits: Computational Support for Fine-Scale Edits in Film | Not Relevant | Unclear | Score: 5.5 | http://arxiv.org/abs/2610.40653v1
+6. Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2610.40350v1
+7. A Unified Hessian-Guided Framework for Post-Training Quantization | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2610.40345v1
+8. DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2610.40214v1
+9. Understanding axial attention in TSFMs through single location regression | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2610.40188v1
+10. How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2610.40039v1

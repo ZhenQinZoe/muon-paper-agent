@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-01T16:38:28.296615Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-02T16:16:38.549129Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-30T16:10:40.126036Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-10-31T16:08:10.376810Z"
     }
   ],
   "papers": {
@@ -10021,6 +10021,55 @@
       "relevance_score": 6.0,
       "title": "MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI"
     },
+    "2610.40039v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376809Z",
+      "link": "http://arxiv.org/abs/2610.40039v1",
+      "relevance_score": 4.0,
+      "title": "How Far Are We From On-Device VLM Inference? A Measurement Study on Edge NPUs"
+    },
+    "2610.40188v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376807Z",
+      "link": "http://arxiv.org/abs/2610.40188v1",
+      "relevance_score": 4.0,
+      "title": "Understanding axial attention in TSFMs through single location regression"
+    },
+    "2610.40214v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376805Z",
+      "link": "http://arxiv.org/abs/2610.40214v1",
+      "relevance_score": 4.0,
+      "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning"
+    },
+    "2610.40345v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376800Z",
+      "link": "http://arxiv.org/abs/2610.40345v1",
+      "relevance_score": 4.0,
+      "title": "A Unified Hessian-Guided Framework for Post-Training Quantization"
+    },
+    "2610.40350v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376799Z",
+      "link": "http://arxiv.org/abs/2610.40350v1",
+      "relevance_score": 4.0,
+      "title": "Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation"
+    },
+    "2610.40403v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376797Z",
+      "link": "http://arxiv.org/abs/2610.40403v1",
+      "relevance_score": 4.5,
+      "title": "First-Order Bilevel Optimization for Non-truthful Auction Design"
+    },
+    "2610.40418v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376795Z",
+      "link": "http://arxiv.org/abs/2610.40418v1",
+      "relevance_score": 4.5,
+      "title": "IMPACT: Inverter-Informed Multimodal Learning for Photovoltaic Generation Forecasting"
+    },
     "2610.40453v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-30T16:10:40.126023Z",
@@ -10035,12 +10084,33 @@
       "relevance_score": 9.5,
       "title": "The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra"
     },
+    "2610.40495v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376793Z",
+      "link": "http://arxiv.org/abs/2610.40495v1",
+      "relevance_score": 4.5,
+      "title": "LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation"
+    },
+    "2610.40543v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376791Z",
+      "link": "http://arxiv.org/abs/2610.40543v1",
+      "relevance_score": 5.0,
+      "title": "The Privacy and Security Risks of Edge LLM Optimization"
+    },
     "2610.40545v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-30T16:10:40.126020Z",
       "link": "http://arxiv.org/abs/2610.40545v1",
       "relevance_score": 7.0,
       "title": "Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents"
+    },
+    "2610.40580v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-10-31T16:08:10.376780Z",
+      "link": "http://arxiv.org/abs/2610.40580v1",
+      "relevance_score": 5.0,
+      "title": "RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection"
     },
     "2610.40647v1": {
       "category": "Not Relevant",
