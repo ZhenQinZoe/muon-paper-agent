@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-02T16:16:38.549129Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-03T16:15:27.929037Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-10-31T16:08:10.376810Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-01T17:06:56.346045Z"
     }
   ],
   "papers": {
@@ -10007,6 +10007,13 @@
       "relevance_score": 13.0,
       "title": "Dobb: Shard-Local Preconditioning in Block-Diagonal Eigenbases"
     },
+    "2610.39416v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346040Z",
+      "link": "http://arxiv.org/abs/2610.39416v1",
+      "relevance_score": 3.5,
+      "title": "Decoding Geometry, Not Tokens: Efficient VLMs for Robot Affordance and Trajectory Prediction"
+    },
     "2610.39467v1": {
       "category": "Muon-Adjacent Theory+Experiments",
       "last_sent_at": "2026-10-30T16:10:40.126025Z",
@@ -10014,12 +10021,54 @@
       "relevance_score": 7.0,
       "title": "Calibrating Attention-Based Token Pruning for Efficient Multi-Image Synthesis in UMMs"
     },
+    "2610.39478v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346035Z",
+      "link": "http://arxiv.org/abs/2610.39478v1",
+      "relevance_score": 4.0,
+      "title": "Regional Anchor Routing for Multi-Object Motion Transfer"
+    },
     "2610.39534v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-30T16:10:40.126033Z",
       "link": "http://arxiv.org/abs/2610.39534v1",
       "relevance_score": 6.0,
       "title": "MOSAIC-Flow: Orthogonal-Axis and Status-Conditioned Fusion for Missing-Sequence Completion in Brain Tumor MRI"
+    },
+    "2610.39610v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346033Z",
+      "link": "http://arxiv.org/abs/2610.39610v1",
+      "relevance_score": 4.0,
+      "title": "GistRank: Gist-Compressed Listwise Ranking with Large Language Models"
+    },
+    "2610.39649v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346031Z",
+      "link": "http://arxiv.org/abs/2610.39649v1",
+      "relevance_score": 4.0,
+      "title": "Look at Where You Think: Localization-Head Alignment for Fine-Grained Perception in Thinking VLMs"
+    },
+    "2610.39663v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346029Z",
+      "link": "http://arxiv.org/abs/2610.39663v1",
+      "relevance_score": 4.0,
+      "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers"
+    },
+    "2610.39727v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346027Z",
+      "link": "http://arxiv.org/abs/2610.39727v1",
+      "relevance_score": 4.0,
+      "title": "Cross-Encoder Anchor Refinement for Zero-Shot Anomaly Detection"
+    },
+    "2610.39854v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346020Z",
+      "link": "http://arxiv.org/abs/2610.39854v1",
+      "relevance_score": 4.0,
+      "title": "Attention, Dynamic Wave and Hybrid Sequence Mixers in Language Models"
     },
     "2610.40039v1": {
       "category": "Not Relevant",
@@ -10041,6 +10090,13 @@
       "link": "http://arxiv.org/abs/2610.40214v1",
       "relevance_score": 4.0,
       "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning"
+    },
+    "2610.40325v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-01T17:06:56.346036Z",
+      "link": "http://arxiv.org/abs/2610.40325v1",
+      "relevance_score": 3.5,
+      "title": "How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference"
     },
     "2610.40345v1": {
       "category": "Not Relevant",
@@ -10111,6 +10167,20 @@
       "link": "http://arxiv.org/abs/2610.40580v1",
       "relevance_score": 5.0,
       "title": "RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection"
+    },
+    "2610.40586v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346044Z",
+      "link": "http://arxiv.org/abs/2610.40586v1",
+      "relevance_score": 2.0,
+      "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond"
+    },
+    "2610.40644v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-01T17:06:56.346043Z",
+      "link": "http://arxiv.org/abs/2610.40644v1",
+      "relevance_score": 2.0,
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model"
     },
     "2610.40647v1": {
       "category": "Not Relevant",
