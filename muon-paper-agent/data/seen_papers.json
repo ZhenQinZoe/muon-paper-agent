@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-03T16:15:27.929037Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-04T16:15:15.986337Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-01T17:06:56.346045Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-02T17:08:32.134840Z"
     }
   ],
   "papers": {
@@ -10195,6 +10195,76 @@
       "link": "http://arxiv.org/abs/2610.40653v1",
       "relevance_score": 5.5,
       "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film"
+    },
+    "2610.41073v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134817Z",
+      "link": "http://arxiv.org/abs/2610.41073v1",
+      "relevance_score": 7.0,
+      "title": "bf16 Rounding Silently Discards Most RL Policy Updates: A Hidden Training-Inference Mismatch and an Unbiased One-Line Fix"
+    },
+    "2610.41086v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-02T17:08:32.134822Z",
+      "link": "http://arxiv.org/abs/2610.41086v1",
+      "relevance_score": 6.0,
+      "title": "Stochastic and Noisy Oracles in Smooth Continuous Optimization"
+    },
+    "2610.41104v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-02T17:08:32.134807Z",
+      "link": "http://arxiv.org/abs/2610.41104v1",
+      "relevance_score": 21.5,
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation"
+    },
+    "2610.41408v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-02T17:08:32.134819Z",
+      "link": "http://arxiv.org/abs/2610.41408v1",
+      "relevance_score": 6.0,
+      "title": "SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models"
+    },
+    "2610.41556v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134838Z",
+      "link": "http://arxiv.org/abs/2610.41556v1",
+      "relevance_score": 5.5,
+      "title": "TopoHyperClinicalGraph: A Geometry and Topology-Aware Multimodal Framework for Cancer Survival Prediction"
+    },
+    "2610.41909v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-02T17:08:32.134836Z",
+      "link": "http://arxiv.org/abs/2610.41909v1",
+      "relevance_score": 5.5,
+      "title": "Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling"
+    },
+    "2610.41949v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134833Z",
+      "link": "http://arxiv.org/abs/2610.41949v1",
+      "relevance_score": 5.5,
+      "title": "Optimizing Stochastic Policy Geometry for Few-Step Flow Reinforcement Learning"
+    },
+    "2610.42092v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134828Z",
+      "link": "http://arxiv.org/abs/2610.42092v1",
+      "relevance_score": 5.5,
+      "title": "Rethinking Asymmetry in Self-Supervised 3D Geometry Learning"
+    },
+    "2610.42112v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134826Z",
+      "link": "http://arxiv.org/abs/2610.42112v1",
+      "relevance_score": 5.5,
+      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer"
+    },
+    "2610.42136v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-02T17:08:32.134824Z",
+      "link": "http://arxiv.org/abs/2610.42136v1",
+      "relevance_score": 5.5,
+      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair"
     }
   }
 }
