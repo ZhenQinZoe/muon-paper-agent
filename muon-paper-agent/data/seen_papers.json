@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-04T16:15:15.986337Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-05T16:13:14.041744Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-02T17:08:32.134840Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-03T17:08:07.105396Z"
     }
   ],
   "papers": {
@@ -10265,6 +10265,76 @@
       "link": "http://arxiv.org/abs/2610.42136v1",
       "relevance_score": 5.5,
       "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair"
+    },
+    "2611.00236v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-03T17:08:07.105377Z",
+      "link": "http://arxiv.org/abs/2611.00236v1",
+      "relevance_score": 15.0,
+      "title": "ProLand: A New Infeasible Manifold Optimization Method for LoRA Fine-Tuning"
+    },
+    "2611.00593v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-03T17:08:07.105381Z",
+      "link": "http://arxiv.org/abs/2611.00593v1",
+      "relevance_score": 13.0,
+      "title": "Do Orthogonality Constraints Help Language-Model Training Beyond Sphere Optimization?"
+    },
+    "2611.02529v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-03T17:08:07.105379Z",
+      "link": "http://arxiv.org/abs/2611.02529v1",
+      "relevance_score": 13.0,
+      "title": "Tune the Baseline First: Most of Muon's Scaled Weight Decay Gain Is a Tuning Gap, but Its Small Real Advantage Grows With Model Size"
+    },
+    "2611.02671v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-03T17:08:07.105395Z",
+      "link": "http://arxiv.org/abs/2611.02671v1",
+      "relevance_score": 6.5,
+      "title": "TME-ContextNet: Class-Conditioned Spatial Supervision and Grouped Decoding for Joint Nuclei Instance Segmentation and Classification"
+    },
+    "2611.02756v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-03T17:08:07.105385Z",
+      "link": "http://arxiv.org/abs/2611.02756v1",
+      "relevance_score": 9.5,
+      "title": "DINOFAS: Bonafide-Centric Representation Learning for Face Anti-Spoofing"
+    },
+    "2611.02778v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-03T17:08:07.105393Z",
+      "link": "http://arxiv.org/abs/2611.02778v1",
+      "relevance_score": 7.0,
+      "title": "Spectral Degeneration of Self-Attention under Isotropic Score Geometry"
+    },
+    "2611.03012v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-03T17:08:07.105391Z",
+      "link": "http://arxiv.org/abs/2611.03012v1",
+      "relevance_score": 7.0,
+      "title": "Low-rank corrections to a shared reference Jacobian for GPU-parallel AC $N\\!-\\!1$ contingency analysis"
+    },
+    "2611.03513v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-03T17:08:07.105386Z",
+      "link": "http://arxiv.org/abs/2611.03513v1",
+      "relevance_score": 7.5,
+      "title": "RASP: Read-All, Sparse-Plasticity Continual Learning in a Stationary-Size LoRA"
+    },
+    "2611.03574v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-03T17:08:07.105383Z",
+      "link": "http://arxiv.org/abs/2611.03574v1",
+      "relevance_score": 12.0,
+      "title": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning"
+    },
+    "2611.03633v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-03T17:08:07.105367Z",
+      "link": "http://arxiv.org/abs/2611.03633v1",
+      "relevance_score": 15.5,
+      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap"
     }
   }
 }
