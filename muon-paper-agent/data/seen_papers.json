@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-05T16:13:14.041744Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-06T16:13:17.316474Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-03T17:08:07.105396Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-04T17:07:47.894336Z"
     }
   ],
   "papers": {
@@ -10335,6 +10335,76 @@
       "link": "http://arxiv.org/abs/2611.03633v1",
       "relevance_score": 15.5,
       "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap"
+    },
+    "2611.04423v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-04T17:07:47.894324Z",
+      "link": "http://arxiv.org/abs/2611.04423v1",
+      "relevance_score": 7.5,
+      "title": "SWAP-INR: Implicit Neural Representation with Switchable Attention Paths for Time-varying Multivariate Scientific Data Compression"
+    },
+    "2611.04465v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-04T17:07:47.894301Z",
+      "link": "http://arxiv.org/abs/2611.04465v1",
+      "relevance_score": 17.5,
+      "title": "Theoretical Analysis of Muon on Transformers for Next-Token Prediction"
+    },
+    "2611.04670v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-04T17:07:47.894322Z",
+      "link": "http://arxiv.org/abs/2611.04670v1",
+      "relevance_score": 7.5,
+      "title": "Sheaf-MPNN: A Library for Sheaf Neural Networks as Message Passing"
+    },
+    "2611.04712v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-04T17:07:47.894319Z",
+      "link": "http://arxiv.org/abs/2611.04712v1",
+      "relevance_score": 9.0,
+      "title": "VISAGE: Vertex-based Intrinsic Surface Appearance GEneration via Dual-Stream Diffusion for Arbitrary 3D Heads"
+    },
+    "2611.04987v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-04T17:07:47.894314Z",
+      "link": "http://arxiv.org/abs/2611.04987v1",
+      "relevance_score": 10.5,
+      "title": "ZEMA: confidence-calibrated signed descent with only one state"
+    },
+    "2611.05022v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-04T17:07:47.894311Z",
+      "link": "http://arxiv.org/abs/2611.05022v1",
+      "relevance_score": 16.5,
+      "title": "Finite Spectral Depth Controls Gaussian Entrance Rank and Avoidance of the First Gradient-Flow Saddle"
+    },
+    "2611.05099v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-04T17:07:47.894316Z",
+      "link": "http://arxiv.org/abs/2611.05099v1",
+      "relevance_score": 9.0,
+      "title": "Dual-VaDE: Efficient and Robust Prototype Learning via Variational Dual-Domain Mixture Priors"
+    },
+    "2611.05228v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-04T17:07:47.894332Z",
+      "link": "http://arxiv.org/abs/2611.05228v1",
+      "relevance_score": 7.0,
+      "title": "Beyond the Bochner Method: Optimal Spectral Gaps for Block Dynamics of Spin Systems like the $O(N)$ Model"
+    },
+    "2611.05264v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-04T17:07:47.894334Z",
+      "link": "http://arxiv.org/abs/2611.05264v1",
+      "relevance_score": 6.5,
+      "title": "Gaussian Partitioning for Reliable Learning of Multi-Index Models"
+    },
+    "2611.05334v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-04T17:07:47.894329Z",
+      "link": "http://arxiv.org/abs/2611.05334v1",
+      "relevance_score": 7.0,
+      "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry"
     }
   }
 }
