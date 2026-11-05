@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-06T16:13:17.316474Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-07T16:14:44.426333Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-04T17:07:47.894336Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-05T17:09:22.461413Z"
     }
   ],
   "papers": {
@@ -9797,6 +9797,13 @@
       "relevance_score": 17.0,
       "title": "Last-Iterate Stationarity of Muon with Finitely Many Newton-Schulz Iterations"
     },
+    "2610.34158v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-05T17:09:22.461380Z",
+      "link": "http://arxiv.org/abs/2610.34158v2",
+      "relevance_score": 18.0,
+      "title": "Last-Iterate Stationarity of Muon with Finitely Many Newton-Schulz Iterations"
+    },
     "2610.34945v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-10-27T16:12:24.084905Z",
@@ -10336,6 +10343,13 @@
       "relevance_score": 15.5,
       "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap"
     },
+    "2611.03633v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-05T17:09:22.461390Z",
+      "link": "http://arxiv.org/abs/2611.03633v2",
+      "relevance_score": 15.0,
+      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap"
+    },
     "2611.04423v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-04T17:07:47.894324Z",
@@ -10405,6 +10419,62 @@
       "link": "http://arxiv.org/abs/2611.05334v1",
       "relevance_score": 7.0,
       "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry"
+    },
+    "2611.05849v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-05T17:09:22.461401Z",
+      "link": "http://arxiv.org/abs/2611.05849v1",
+      "relevance_score": 6.5,
+      "title": "A low-rank decoder bottleneck bounds reliability in foundation-model perturbation prediction"
+    },
+    "2611.06247v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461395Z",
+      "link": "http://arxiv.org/abs/2611.06247v1",
+      "relevance_score": 7.5,
+      "title": "CAPE-JEPA - Cross-modal Adversarial Probabilistic Embedding JEPA"
+    },
+    "2611.06265v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461398Z",
+      "link": "http://arxiv.org/abs/2611.06265v1",
+      "relevance_score": 6.5,
+      "title": "Learning Pseudo-Riemannian Manifolds for Heterophilic Graphs via Graph Signature"
+    },
+    "2611.06432v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461393Z",
+      "link": "http://arxiv.org/abs/2611.06432v1",
+      "relevance_score": 8.5,
+      "title": "PARGAR: Pilot-Aware Graph Attention for Sparse-Pilot Neural OFDM Receivers"
+    },
+    "2611.06854v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461412Z",
+      "link": "http://arxiv.org/abs/2611.06854v1",
+      "relevance_score": 5.5,
+      "title": "Visual Token Routing: Learning to keep tokens that matter"
+    },
+    "2611.06876v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461410Z",
+      "link": "http://arxiv.org/abs/2611.06876v1",
+      "relevance_score": 5.5,
+      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification"
+    },
+    "2611.06879v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-05T17:09:22.461408Z",
+      "link": "http://arxiv.org/abs/2611.06879v1",
+      "relevance_score": 5.5,
+      "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes"
+    },
+    "2611.06913v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-05T17:09:22.461403Z",
+      "link": "http://arxiv.org/abs/2611.06913v1",
+      "relevance_score": 5.5,
+      "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning"
     }
   }
 }
