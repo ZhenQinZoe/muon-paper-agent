@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-09-07T16:14:44.426333Z"
-    },
-    {
       "paper_count": 5,
       "sent_at": "2026-09-08T16:16:09.834827Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-05T17:09:22.461413Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-06T17:08:01.325811Z"
     }
   ],
   "papers": {
@@ -346,6 +346,13 @@
       "link": "http://arxiv.org/abs/2605.17806v2",
       "relevance_score": 18.5,
       "title": "AMO: Operator-level Adaptive Muon Orthogonalization"
+    },
+    "2605.25880v2": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-06T17:08:01.325791Z",
+      "link": "http://arxiv.org/abs/2605.25880v2",
+      "relevance_score": 12.5,
+      "title": "The Quantization Benefits of Residual-Free Transformers"
     },
     "2606.00542v2": {
       "category": "Matrix Preconditioning / Shampoo / Second-order",
@@ -10475,6 +10482,69 @@
       "link": "http://arxiv.org/abs/2611.06913v1",
       "relevance_score": 5.5,
       "title": "cuRoboV2-Fast: Fast Torque-Limited Collision-Free Motion Planning"
+    },
+    "2611.07084v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-06T17:08:01.325778Z",
+      "link": "http://arxiv.org/abs/2611.07084v1",
+      "relevance_score": 17.0,
+      "title": "DMuon: Scaling Matrix Optimizers in Data Parallelism with Topology-Aware Matrix Ownership and Communication"
+    },
+    "2611.07543v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-06T17:08:01.325795Z",
+      "link": "http://arxiv.org/abs/2611.07543v1",
+      "relevance_score": 9.5,
+      "title": "OptIMerge: Optimization-Based Merging of Diffusion Models"
+    },
+    "2611.07828v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-06T17:08:01.325809Z",
+      "link": "http://arxiv.org/abs/2611.07828v1",
+      "relevance_score": 6.5,
+      "title": "STAG-Net: Structure-Aware Attention over Landmark Groups for Lightweight Head Pose Estimation"
+    },
+    "2611.07948v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-06T17:08:01.325807Z",
+      "link": "http://arxiv.org/abs/2611.07948v1",
+      "relevance_score": 6.5,
+      "title": "Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency"
+    },
+    "2611.07955v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-06T17:08:01.325793Z",
+      "link": "http://arxiv.org/abs/2611.07955v1",
+      "relevance_score": 9.5,
+      "title": "Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers"
+    },
+    "2611.08082v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-06T17:08:01.325804Z",
+      "link": "http://arxiv.org/abs/2611.08082v1",
+      "relevance_score": 6.5,
+      "title": "DictLLM: Post-training Compression of Large Language Model with Dictionary Kernels"
+    },
+    "2611.08376v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-06T17:08:01.325799Z",
+      "link": "http://arxiv.org/abs/2611.08376v1",
+      "relevance_score": 7.0,
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout"
+    },
+    "2611.08379v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-06T17:08:01.325789Z",
+      "link": "http://arxiv.org/abs/2611.08379v1",
+      "relevance_score": 14.0,
+      "title": "Module-Aware Optimization for Graph Neural Networks"
+    },
+    "2611.08414v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-06T17:08:01.325797Z",
+      "link": "http://arxiv.org/abs/2611.08414v1",
+      "relevance_score": 7.5,
+      "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning"
     }
   }
 }
