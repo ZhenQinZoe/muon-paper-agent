@@ -1,53 +1,51 @@
 # Daily Muon Paper Digest
 
-No strong matches today. Showing the best available 10 candidates.
-
 ## Top Highlights
 
-1. Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting
-Authors: Junyu Chen, Likai Chen, Weining Wang
-Link: http://arxiv.org/abs/2611.08160v1
-Category: Not Relevant
-Paper type: Theory + Experiment
-Relevance score: 4.0
-Abstract: Attention-based time series forecasters commonly group consecutive observations into patches. Patch length is known to have a substantial impact on forecasting performance, yet its selection remains largely empirical. We develop a theoretical framework that explains why patch length matters for forecasting accuracy and provides a principled basis for its selection. For linear state-space models, we derive an exact factorization of the forecasting coefficient matrix that separates forecast dynamics from filtering dynamics. We show that dominance of a single forecast component at long horizons does not generally imply a rank-one representation. This explains why longer horizons alone need not reduce representational complexity. We combine the factorization with estimation bounds to develop a patch-selection criterion that balances representation and estimation errors under temporal dependence. Our analysis establishes conditions under which balanced patching is justified and clarifies how predictive structure, head count, training sample size, and long-run dependence enter the selection criterion.
+1. DMuon-2: Scaling Matrix Optimizers in Data Parallelism with Topology-Aware Matrix Ownership and Communication
+Authors: Starrick Liu, Ruizhi Chengze, Lufang Chen, Michael Zhao, Ran Yu, Xiaofan Li
+Link: http://arxiv.org/abs/2611.07084v2
+Category: Muon Core
+Paper type: Unclear
+Relevance score: 16.0
+Abstract: Matrix optimizers such as Muon update whole weight matrices, which conflicts with the element- or row-wise sharding of data-parallel runtimes. Once parameters are sharded as well, matrix optimizers incur extra communication or repeated computation. We present DMuon, a matrix-granular optimizer runtime for PyTorch FSDP (ZeRO-2/3) and HSDP. DMuon assigns each matrix a unique owner, which performs the Newton--Schulz (NS) iteration and optimizer update on the full matrix, and balances the load across owners by computational cost. On HSDP, ownership is global across replicas, so the cluster keeps a single copy of gradients and optimizer state, and updated parameters are published across nodes as soon as they are ready, overlapping subsequent computation. This layout makes every collective sparse and variable in length, so DMuon schedules these collectives as their data becomes ready and routes them along the cluster's two-level network. On up to 256 H100 GPUs, across three dense LLMs and two VLA models, DMuon matches or exceeds the training throughput of PyTorch FSDP2 with AdamW, reaching 1.05$\times$ that of FSDP2 with AdamW at the median on 256 GPUs. The optimized parameter gathering and gradient reduction absorb the extra communication and computation a matrix optimizer requires. Against a gather-then-replicate Muon baseline, DMuon's throughput is 2.1 times as high at the median.
 
-2. Improving Context-Shift Robustness of Convolutional Networks via Context-Regularized Cross-Entropy
-Authors: Jinen Setpal, Chaoyue Liu
-Link: http://arxiv.org/abs/2611.08157v1
-Category: Not Relevant
-Paper type: Theory + Experiment
-Relevance score: 4.0
-Abstract: Image classification models often encounter objects in diverse and unpredictable contexts at test time, which may differ substantially from those seen during training. This phenomenon, termed context shift, exposes a key fragility in neural networks: when models rely on non-causal contextual cues for prediction, shifts in context can lead to significant performance degradation. In this paper, we propose a novel training framework to improve the robustness of convolutional neural networks under context shift. Our approach leverages spatial feature attribution to guide models toward making predictions that rely less on contextual regions and more on object-relevant features. As a first step, recognizing a theoretical limitation of existing feature attribution methods we introduce a new variant, ContrastiveCAMs, which produces more faithful attribution maps of model predictions. Building on ContrastiveCAMs, we further propose Context-Regularized Cross-Entropy (CR-CE), a modification of the standard cross-entropy loss that regularizes the model's attention by suppressing the influence of contextual regions, thereby improving robustness to context shift. We evaluate the effectiveness of our approach on several medium-to-large scale datasets (Waterbirds, Spawrious, ImageNet/ImageNet-BG, Hard-ImageNet), and report consistent improvements in context-shift robustness.
+2. Multi-Mode Pinching-Antenna-Based OFDM Systems: A Robust Design Perspective
+Authors: Hao Liang, Xidong Mu, Mingzhe Chen, Hyundong Shin, Michail Matthaiou
+Link: http://arxiv.org/abs/2611.09591v1
+Category: Muon-Adjacent Experiments
+Paper type: Experiment
+Relevance score: 7.0
+Abstract: A robust transmission framework is proposed for a multi-mode pinching-antenna (MPA)-based orthogonal frequency-division multiplexing (OFDM) system under both channel state information (CSI) errors and PA positioning errors. A physical model is first developed based on the multi-mode coupled-mode equations (CMEs), which characterizes the frequency-dependent guided-mode propagation and the coupling among guided modes and PAs over the OFDM band. Based on this model, a worst-case sum-rate maximization problem is formulated to jointly optimize the baseband beamformer and the intended PA positions under CSI and PA positioning errors, subject to user quality-of-service (QoS) and transmit-power constraints. To solve the resulting non convex problem, the worst-case CSI is exactly obtained for any given PA positions by solving trust-region subproblems, while the PA positioning errors are handled by grid-based and second-order approximation-based scenario constructions. Then, an alternating optimization (AO) algorithm is developed, where the baseband beamformer and the intended PA positions are updated via the weighted minimum mean-square error (WMMSE) method and successive convex approximation (SCA), respectively. Both subproblems are solved efficiently by exploiting the Karush--Kuhn--Tucker (KKT) conditions. Numerical results show that the proposed robust design outperforms the non-robust and conventional robust benchmarks with the same multi-mode architecture in terms of both worst-case sum rate and QoS satisfaction. They also demonstrate that the proposed robust design satisfies the QoS requirements of all users more reliably than the baselines that consider either CSI errors or PA positioning errors.
 
-3. MUSS: A Multi-scale and Sequence-based Model for Single-cell Gene Regulation
-Authors: Kangjie Zheng, Amirhossein Vahidi, Liying Jin, Joseph Clarke, Vijaya Baskar MS, Connor Rogerson
-Link: http://arxiv.org/abs/2611.08086v1
+3. Fixed-point acceleration on Neural Wasserstein manifolds
+Authors: Vitalii Aksenov, Sebastian Gutierrez Hernandez
+Link: http://arxiv.org/abs/2611.09723v1
+Category: Muon-Adjacent Experiments
+Paper type: Experiment
+Relevance score: 5.5
+Abstract: We propose a fixed-point acceleration method for optimization over probability measures, applicable to a variety of machine learning problems. We represent probability measures as pushforwards of a reference distribution through a neural network map and equip the parameter space with the induced pullback Wasserstein metric. This geometric structure allows natural gradient descent to be interpreted as a fixed-point iteration on a Riemannian manifold. We accelerate this iteration using Riemannian Anderson mixing method, which exploits historical residuals to capture approximate second-order information without forming Hessians. In the present parametric setting, the manifold is represented by Euclidean coordinates endowed with a point-dependent metric, simplifying retraction and vector transport. We evaluate the method on multimodal sampling, PDE-based inverse problems, aggregation dynamics, Bayesian logistic regression, and generative modeling. Across the tested tasks, Anderson mixing reduces the number of natural-gradient iterations and achieves competitive performance relative to SGD and Adam in terms of both loss-gradient evaluations and wall-clock time. These results suggest that fixed-point acceleration is an efficient tool for improving the computational efficiency of training on parametric Wasserstein methods.
+
+4. Steerable Multi-Objective Group-Relative Preference Optimization with Jointly Trained Low-Rank Adapters
+Authors: Constantinos Karouzos, Nikolaos Aletras
+Link: http://arxiv.org/abs/2611.09634v1
+Category: Muon-Adjacent Experiments
+Paper type: Experiment
+Relevance score: 5.5
+Abstract: Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a preference conditioned family of policies with group-relative online reinforcement learning. LambdaMix jointly trains one low-rank adapter per objective over a frozen base model. One preference vector selects the adapter mixture that generates responses and weights the separately normalized rewards used to update the adapters. A single training run supports changing preferences at inference without further optimization. We experiment with four models on helpfulness and harmlessness and on solving math problems while following instructions. We also evaluate the two largest models on rewriting comments to preserve wording while reducing clues about personal attributes. On the first two tasks, LambdaMix achieves higher hypervolume than all evaluated conditioned and policy merging baselines across all four models. LambdaMix uses fewer training completions and stores fewer adapter parameters than a set of GRPO specialist policies. With architecture and initialization fixed, varying adapter mixtures and objective weights together gives wider score ranges and higher coverage than varying either alone.
+
+5. DeepRT-Cal: Learning to Calibrate Ray-Traced Twin Channel Statistics with Low-Fidelity Environmental Geometry
+Authors: Shaoyi Liu, Jianhua Zhang, Li Yu, Yichen Cai, Tao Wu, Yuxiang Zhang
+Link: http://arxiv.org/abs/2611.09079v1
 Category: Not Relevant
 Paper type: Experiment
-Relevance score: 4.0
-Abstract: Modeling gene regulation in single cells requires jointly representing DNA sequence, chromatin accessibility, and gene expression across regulatory scales. Sequence-based models capture DNA-level regulatory grammar but often lack cell-level resolution, whereas many single-cell omics models represent genes and peaks as fixed-vocabulary tokens without their underlying sequence. Here, we present MUSS, a sequence-based multi-scale model for single-cell gene regulation that preserves both DNA-level and cell-level resolution. MUSS derives peak- and gene-level representations from DNA using a frozen pre-trained sequence encoder and integrates them through peak-peak self-attention and distance-biased peak-gene interactions. Peak masked language modeling followed by training on paired scATAC-seq and scRNA-seq aligns these representations with cell-specific regulatory states. Across gene expression prediction, enhancer-gene linking, motif-guided regulatory prioritization, and zero-shot cell clustering, MUSS achieves strong performance against sequence-based and single-cell omics baselines. It further predicts expression for genes and peaks unseen during task training. These results support sequence-grounded, multi-scale representations for decoding cell-type-specific regulatory programs. Code, datasets, and model checkpoints are available at https://github.com/Lotfollahi-lab/MUSS_neurips26.
-
-4. AttnSR: Attention Step Reward for Long-Horizon Agentic RL
-Authors: Mengsong Wu, Tianchen Zhou, Zhaochen Su, Zhenhua Liu, Zhe Cui, Aimin Zhou
-Link: http://arxiv.org/abs/2611.07932v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: Long-horizon LLM agents make multi-step decisions, yet outcome-reward-only reinforcement learning provides little direct supervision for individual steps. We introduce AttnSR, a step-level reward augmentation method that derives reward allocations from policy attention extracted during training replay, without a separately trained reward model or additional rollouts. AttnSR traces backward through the policy model attention graph to estimate the relevance of earlier steps to the final response. The terminal step, measured relative to a running baseline, determines whether these rewards reinforce or penalize the selected steps. In a controlled Qwen2.5-7B-Instruct study, AttnSR consistently outperforms the PPO baseline across all evaluated checkpoints on ALFWorld, raising final held-out success from 91.2% to 97.1%. The ablation experiment shows that the benefit depends on how intermediate rewards are assigned, rather than simple accumulation of step rewards over time. AttnSR also improves ScienceWorld at every checkpoint while cutting environment interactions by 29.9%. These results support policy attention as a practical prior for step-level reward allocation in long-horizon agentic RL. Code is available at https://github.com/fairyshine/AttnSR .
-
-5. Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval
-Authors: Dohoon Kim, Junho Park, Hyunwoong Bae, Seyoon Kim, Taesup Moon
-Link: http://arxiv.org/abs/2611.07820v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: As LLMs are increasingly asked questions about a user's personal experiences, retrieval must distinguish memories by time, place, person, and event. Current personal-memory pipelines rely on frozen dense embedding models to embed memories for retrieval, but we find that these models do not capture the four axes well. Swapping a memory's date or place barely shifts its embedding, and a trained projection on top of the frozen embedding does not recover the missing signal. The problem lives inside the model, where each axis is encoded by a distinct attention-head pattern. Guided by these findings, we propose Axis-LoRA, a per-axis adapter that places four LoRA branches inside the embedding model and combines them via a per-query gate. Across three standard embedding models evaluated on LongMemEval, ATM-Bench, and LoCoMo, Axis-LoRA improves 4-benchmark mean R@10 by $+1.28$ to $+1.56$~pp while training only a small fraction of the base parameters on a small axis-counterfactual training set. Code is available at https://github.com/dohoonkim-ai/axis-lora.
+Relevance score: 5.5
+Abstract: Sixth-generation (6G) wireless systems increasingly rely on digital twin channels (DTCs) to represent and interact with physical radio environments. Ray tracing (RT) is naturally suited to DTC construction because it provides deterministic and physically interpretable channel predictions. However, high-fidelity three-dimensional environment models are expensive to obtain, whereas geometric inaccuracies in low-fidelity models can alter the detected multipath components (MPCs) and consequently distort received-power and delay-domain twin channel statistics. Building on the DeepRT ray-tracing framework, this paper proposes DeepRT-Cal, a geometry-aware cross-fidelity calibration framework that predicts high-fidelity twin channel statistics from low-fidelity geometry and RT features.The network encodes global link descriptors, masked low-fidelity MPC tokens, propagation-corridor geometry, and link-centered environmental objects. During training, detailed geometry is introduced as privileged information with structured masking, while deployment requires only low-fidelity geometry and low-fidelity RT information. A link-conditioned cross-attention module retrieves the environmental context relevant to each Tx--Rx link. The prediction heads estimate high-fidelity twin channel statistics, including total received power, RMS delay spread, mean excess delay, and a normalized power-weighted power-delay profile (PDP). Outdoor evaluation shows that, in an non-line of sight (NLoS) region, the method reduces power MAE from 16.80 to 3.88 dB and RMS delay-spread MAE from 304.89 to 98.19 ns. In a LoS-dominated region, power prediction improves, while RMS delay-spread accuracy remains comparable to direct RT.
 
 ## Additional Papers
 
-6. The Gating Mechanism of KV Cache Eviction | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2611.07605v1
-7. WeLM-Image: A Unified Image Generation Model towards Visual Intelligence | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.07392v1
-8. Breaking the Modality Barrier: Multimodal Fusion With Missing Modalities for Cybersickness Prediction | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.07386v1
-9. Hierarchical Incremental Beta Splatting for Online Reconstruction | Not Relevant | Theory | Score: 3.5 | http://arxiv.org/abs/2611.08288v1
-10. Wedge-Jamming Mechanism for String Configuration | Not Relevant | Experiment | Score: 3.5 | http://arxiv.org/abs/2611.07748v1
+6. SSF-Net: A Spatial-Spectral Fusion Network for Accurate PDE Operator Learning | Not Relevant | Experiment | Score: 4.5 | http://arxiv.org/abs/2611.08912v1
+7. On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.09872v1
+8. BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.09825v1
+9. AR-Edit: Training-Free Autoregressive Video Editing without Inversion | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2611.09795v1
+10. MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.09721v1
