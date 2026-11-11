@@ -1,10 +1,6 @@
 {
   "history": [
     {
-      "paper_count": 10,
-      "sent_at": "2026-09-12T16:14:26.828618Z"
-    },
-    {
       "paper_count": 0,
       "sent_at": "2026-09-13T16:18:38.730395Z"
     },
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-10T17:07:50.796808Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-11T17:13:49.704911Z"
     }
   ],
   "papers": {
@@ -10825,6 +10825,76 @@
       "link": "http://arxiv.org/abs/2611.12883v1",
       "relevance_score": 5.5,
       "title": "Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs"
+    },
+    "2611.13231v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-11T17:13:49.704894Z",
+      "link": "http://arxiv.org/abs/2611.13231v1",
+      "relevance_score": 8.0,
+      "title": "Block-Sparse Gauss-Newton Optimization of Finite Basis Physics-Informed Neural Networks: Sparse Automatic Differentiation Approach"
+    },
+    "2611.13546v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704898Z",
+      "link": "http://arxiv.org/abs/2611.13546v1",
+      "relevance_score": 6.0,
+      "title": "Statistical Analysis of the Structure from Noise Phenomenon in Generalized Procrustes Problems"
+    },
+    "2611.13870v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704882Z",
+      "link": "http://arxiv.org/abs/2611.13870v1",
+      "relevance_score": 9.0,
+      "title": "Spatial-Spectral Coupling as Attention: Scaling Shape Correspondence to High-Resolution Surfaces"
+    },
+    "2611.14282v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704909Z",
+      "link": "http://arxiv.org/abs/2611.14282v1",
+      "relevance_score": 5.0,
+      "title": "From Worst-Case to Smoothed Complexity in Continuous Optimization"
+    },
+    "2611.14323v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704908Z",
+      "link": "http://arxiv.org/abs/2611.14323v1",
+      "relevance_score": 5.0,
+      "title": "Auditing the Judge: Internal Signals for LLM Reasoning Assurance"
+    },
+    "2611.14397v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-11T17:13:49.704891Z",
+      "link": "http://arxiv.org/abs/2611.14397v1",
+      "relevance_score": 8.0,
+      "title": "A Margin Perspective on LoRA: Robustness to Catastrophic Forgetting and Adapter Merging (MaLoRA)"
+    },
+    "2611.14399v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704901Z",
+      "link": "http://arxiv.org/abs/2611.14399v1",
+      "relevance_score": 5.5,
+      "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding"
+    },
+    "2611.14424v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704906Z",
+      "link": "http://arxiv.org/abs/2611.14424v1",
+      "relevance_score": 5.0,
+      "title": "DnNP: Denoising Input Uncertainty in Neural Processes"
+    },
+    "2611.14467v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704900Z",
+      "link": "http://arxiv.org/abs/2611.14467v1",
+      "relevance_score": 5.5,
+      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets"
+    },
+    "2611.14511v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-11T17:13:49.704896Z",
+      "link": "http://arxiv.org/abs/2611.14511v1",
+      "relevance_score": 7.0,
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents"
     }
   }
 }
