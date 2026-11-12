@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 0,
-      "sent_at": "2026-09-13T16:18:38.730395Z"
-    },
-    {
-      "paper_count": 0,
       "sent_at": "2026-09-14T16:18:16.036685Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-11T17:13:49.704911Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-12T17:07:57.991981Z"
     }
   ],
   "papers": {
@@ -10826,6 +10826,13 @@
       "relevance_score": 5.5,
       "title": "Beyond Modality Preference: Controlling Multimodal Arbitration under Modality Conflict in MLLMs"
     },
+    "2611.13137v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-12T17:07:57.991951Z",
+      "link": "http://arxiv.org/abs/2611.13137v1",
+      "relevance_score": 18.5,
+      "title": "Byzantine-Robust Muon: Resilient Momentum Orthogonalization for Distributed Learning"
+    },
     "2611.13231v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-11-11T17:13:49.704894Z",
@@ -10840,12 +10847,75 @@
       "relevance_score": 6.0,
       "title": "Statistical Analysis of the Structure from Noise Phenomenon in Generalized Procrustes Problems"
     },
+    "2611.13638v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991979Z",
+      "link": "http://arxiv.org/abs/2611.13638v1",
+      "relevance_score": 4.0,
+      "title": "picoEmergencyNet : Attention-Enhanced Ultra-Small Deep Learning Model for Aerial Image Classification in Emergency Monitoring"
+    },
+    "2611.13675v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991977Z",
+      "link": "http://arxiv.org/abs/2611.13675v1",
+      "relevance_score": 4.0,
+      "title": "OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation"
+    },
+    "2611.13819v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991975Z",
+      "link": "http://arxiv.org/abs/2611.13819v1",
+      "relevance_score": 4.0,
+      "title": "Game-Enhanced Embodied Learning with Event and Foresight Pretraining"
+    },
     "2611.13870v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-11T17:13:49.704882Z",
       "link": "http://arxiv.org/abs/2611.13870v1",
       "relevance_score": 9.0,
       "title": "Spatial-Spectral Coupling as Attention: Scaling Shape Correspondence to High-Resolution Surfaces"
+    },
+    "2611.14004v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991971Z",
+      "link": "http://arxiv.org/abs/2611.14004v1",
+      "relevance_score": 4.0,
+      "title": "LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation"
+    },
+    "2611.14035v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991969Z",
+      "link": "http://arxiv.org/abs/2611.14035v1",
+      "relevance_score": 4.0,
+      "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models"
+    },
+    "2611.14042v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991968Z",
+      "link": "http://arxiv.org/abs/2611.14042v1",
+      "relevance_score": 4.0,
+      "title": "Resilient Integrated Access and Backhaul Network Planning via Graph Neural Network Curriculum Learning"
+    },
+    "2611.14136v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991966Z",
+      "link": "http://arxiv.org/abs/2611.14136v1",
+      "relevance_score": 4.0,
+      "title": "HaiRuo: Forecasting Ocean Eddies as Fields and Objects with a Satellite-Altimetry Foundation Model"
+    },
+    "2611.14174v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991963Z",
+      "link": "http://arxiv.org/abs/2611.14174v1",
+      "relevance_score": 4.0,
+      "title": "Cross-Border Fulfillment Center Selection via Doubly Robust Estimation and Linear Programming"
+    },
+    "2611.14210v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-12T17:07:57.991961Z",
+      "link": "http://arxiv.org/abs/2611.14210v1",
+      "relevance_score": 4.0,
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits"
     },
     "2611.14282v1": {
       "category": "Not Relevant",
