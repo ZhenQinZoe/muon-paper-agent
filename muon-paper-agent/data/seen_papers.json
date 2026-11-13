@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 0,
-      "sent_at": "2026-09-14T16:18:16.036685Z"
-    },
-    {
-      "paper_count": 0,
       "sent_at": "2026-09-15T16:17:19.853625Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-12T17:07:57.991981Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-13T17:07:50.849122Z"
     }
   ],
   "papers": {
@@ -10770,6 +10770,13 @@
       "relevance_score": 24.5,
       "title": "BiMuon: A Geometry-Aware Stochastic Bilevel Optimization Approach"
     },
+    "2611.10188v2": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-13T17:07:50.849089Z",
+      "link": "http://arxiv.org/abs/2611.10188v2",
+      "relevance_score": 25.5,
+      "title": "BiMuon: A Geometry-Aware Stochastic Bilevel Optimization Approach"
+    },
     "2611.10212v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-11-10T17:07:50.796788Z",
@@ -10965,6 +10972,69 @@
       "link": "http://arxiv.org/abs/2611.14511v1",
       "relevance_score": 7.0,
       "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents"
+    },
+    "2611.15951v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-13T17:07:50.849118Z",
+      "link": "http://arxiv.org/abs/2611.15951v1",
+      "relevance_score": 6.0,
+      "title": "Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning"
+    },
+    "2611.16422v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-13T17:07:50.849103Z",
+      "link": "http://arxiv.org/abs/2611.16422v1",
+      "relevance_score": 9.0,
+      "title": "BlinkMimic: Training a Humanoid Motion Tracker in Minutes on a Single GPU"
+    },
+    "2611.16467v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-13T17:07:50.849101Z",
+      "link": "http://arxiv.org/abs/2611.16467v1",
+      "relevance_score": 11.0,
+      "title": "SS-HSDP: Efficient and Flexible Sharded Data Parallelism via Runtime-Update Decoupling"
+    },
+    "2611.16621v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-13T17:07:50.849113Z",
+      "link": "http://arxiv.org/abs/2611.16621v1",
+      "relevance_score": 6.5,
+      "title": "Studies on Sign Language Retrieval in Low-Resource Dictionary Settings"
+    },
+    "2611.16897v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-13T17:07:50.849109Z",
+      "link": "http://arxiv.org/abs/2611.16897v1",
+      "relevance_score": 6.5,
+      "title": "TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention"
+    },
+    "2611.16905v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-13T17:07:50.849098Z",
+      "link": "http://arxiv.org/abs/2611.16905v1",
+      "relevance_score": 13.0,
+      "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP"
+    },
+    "2611.17042v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-13T17:07:50.849107Z",
+      "link": "http://arxiv.org/abs/2611.17042v1",
+      "relevance_score": 6.5,
+      "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help"
+    },
+    "2611.17199v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-13T17:07:50.849116Z",
+      "link": "http://arxiv.org/abs/2611.17199v1",
+      "relevance_score": 6.0,
+      "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI"
+    },
+    "2611.17331v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-13T17:07:50.849105Z",
+      "link": "http://arxiv.org/abs/2611.17331v1",
+      "relevance_score": 7.0,
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models"
     }
   }
 }
