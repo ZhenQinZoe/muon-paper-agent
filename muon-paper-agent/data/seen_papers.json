@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-16T16:15:29.387520Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-17T16:16:15.924348Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-14T17:10:41.257733Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-15T17:06:54.196475Z"
     }
   ],
   "papers": {
@@ -9433,6 +9433,13 @@
       "relevance_score": 6.5,
       "title": "Do Neural Models Prefer Their Submodels?"
     },
+    "2610.28498v3": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196463Z",
+      "link": "http://arxiv.org/abs/2610.28498v3",
+      "relevance_score": 4.0,
+      "title": "Copied, Mixed or Computed? Testing Latent Intermediate Values with Minimal Pairs"
+    },
     "2610.28598v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-10-21T16:14:11.986067Z",
@@ -10973,12 +10980,68 @@
       "relevance_score": 7.0,
       "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents"
     },
+    "2611.15937v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196474Z",
+      "link": "http://arxiv.org/abs/2611.15937v1",
+      "relevance_score": 3.5,
+      "title": "MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes"
+    },
     "2611.15951v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-13T17:07:50.849118Z",
       "link": "http://arxiv.org/abs/2611.15951v1",
       "relevance_score": 6.0,
       "title": "Starscream: Reimagining LLM Sharding on AMD Instinct GPUs with GPU Partitioning"
+    },
+    "2611.15983v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196460Z",
+      "link": "http://arxiv.org/abs/2611.15983v1",
+      "relevance_score": 4.0,
+      "title": "TRACE: Trajectory Synchronization for Training-Free Resolution Extension in Video Generation"
+    },
+    "2611.16063v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196456Z",
+      "link": "http://arxiv.org/abs/2611.16063v1",
+      "relevance_score": 4.0,
+      "title": "Vocabulary-Free Next-Event Prediction on Temporal Graphs"
+    },
+    "2611.16172v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196454Z",
+      "link": "http://arxiv.org/abs/2611.16172v1",
+      "relevance_score": 4.0,
+      "title": "Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction"
+    },
+    "2611.16201v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196450Z",
+      "link": "http://arxiv.org/abs/2611.16201v1",
+      "relevance_score": 4.0,
+      "title": "An Extensive Evaluation of Machine Learning and Deep Learning Approaches for Sentiment Analysis: Insights from Amazon Customer Reviews"
+    },
+    "2611.16212v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196472Z",
+      "link": "http://arxiv.org/abs/2611.16212v1",
+      "relevance_score": 3.5,
+      "title": "SPEM: Scan-Prior Entropy Modeling for LiDAR Point Cloud Compression"
+    },
+    "2611.16269v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196470Z",
+      "link": "http://arxiv.org/abs/2611.16269v1",
+      "relevance_score": 3.5,
+      "title": "FlowIR: Depth-driven Rectified Flow for Resolving Thermal Ambiguity in Infrared Super-Resolution"
+    },
+    "2611.16345v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196444Z",
+      "link": "http://arxiv.org/abs/2611.16345v1",
+      "relevance_score": 4.0,
+      "title": "DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models"
     },
     "2611.16422v1": {
       "category": "Not Relevant",
@@ -11021,6 +11084,13 @@
       "link": "http://arxiv.org/abs/2611.16666v1",
       "relevance_score": 4.0,
       "title": "Natural Gradient Learning in Predictive Coding through Lateral Circuits"
+    },
+    "2611.16673v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-15T17:06:54.196465Z",
+      "link": "http://arxiv.org/abs/2611.16673v1",
+      "relevance_score": 3.5,
+      "title": "PIM: A Physical Intuition Model for Low-Latency Prediction of Object Interaction Outcomes"
     },
     "2611.16718v1": {
       "category": "Not Relevant",
