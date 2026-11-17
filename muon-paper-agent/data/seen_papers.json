@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-18T16:13:41.225028Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-19T16:12:53.908386Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-16T17:07:58.401916Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-17T17:08:38.874657Z"
     }
   ],
   "papers": {
@@ -11245,6 +11245,76 @@
       "link": "http://arxiv.org/abs/2611.18523v1",
       "relevance_score": 4.0,
       "title": "Mutable Inference: Architecting LLM Accelerators for Inference-Time Learning"
+    },
+    "2611.19059v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-17T17:08:38.874631Z",
+      "link": "http://arxiv.org/abs/2611.19059v1",
+      "relevance_score": 13.0,
+      "title": "High-dimensional limit theorems for adaptive variants of SGD I: Ballistic limits"
+    },
+    "2611.19419v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-17T17:08:38.874642Z",
+      "link": "http://arxiv.org/abs/2611.19419v1",
+      "relevance_score": 10.0,
+      "title": "Do Pretraining Optimizer Gains Transfer to KL Distillation?"
+    },
+    "2611.19477v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-17T17:08:38.874640Z",
+      "link": "http://arxiv.org/abs/2611.19477v1",
+      "relevance_score": 10.0,
+      "title": "Grokking Can Be Steered: Selecting Desirable Solutions By Choice Of Learning Rule"
+    },
+    "2611.20522v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874656Z",
+      "link": "http://arxiv.org/abs/2611.20522v1",
+      "relevance_score": 5.5,
+      "title": "AFRNet: Adaptive Frequency Redistribution Network for Image Deraining"
+    },
+    "2611.21423v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874643Z",
+      "link": "http://arxiv.org/abs/2611.21423v1",
+      "relevance_score": 8.0,
+      "title": "Emergent Steering Beyond Endpoint Alignment in Chemical Reaction Models"
+    },
+    "2611.21441v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874654Z",
+      "link": "http://arxiv.org/abs/2611.21441v1",
+      "relevance_score": 5.5,
+      "title": "Learning to Reason with Predictive Gains for Generative Recommendation"
+    },
+    "2611.21473v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874652Z",
+      "link": "http://arxiv.org/abs/2611.21473v1",
+      "relevance_score": 5.5,
+      "title": "Network Intrusion Detection Adaptability under Spurious Labels: A Noise-Aware Few-Shot Class-Incremental Learning Framework"
+    },
+    "2611.21539v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874648Z",
+      "link": "http://arxiv.org/abs/2611.21539v1",
+      "relevance_score": 5.5,
+      "title": "Seen but Unsaid: Locating and Repairing Cross-Image Comparison in Vision-Language Models"
+    },
+    "2611.21577v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874647Z",
+      "link": "http://arxiv.org/abs/2611.21577v1",
+      "relevance_score": 5.5,
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents"
+    },
+    "2611.21584v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-17T17:08:38.874646Z",
+      "link": "http://arxiv.org/abs/2611.21584v1",
+      "relevance_score": 5.5,
+      "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts"
     }
   }
 }
