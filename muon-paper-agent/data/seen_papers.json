@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-19T16:12:53.908386Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-20T16:13:49.221589Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-17T17:08:38.874657Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-18T17:13:45.530697Z"
     }
   ],
   "papers": {
@@ -11315,6 +11315,76 @@
       "link": "http://arxiv.org/abs/2611.21584v1",
       "relevance_score": 5.5,
       "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts"
+    },
+    "2611.22878v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530695Z",
+      "link": "http://arxiv.org/abs/2611.22878v1",
+      "relevance_score": 4.5,
+      "title": "Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies"
+    },
+    "2611.22922v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530673Z",
+      "link": "http://arxiv.org/abs/2611.22922v1",
+      "relevance_score": 7.5,
+      "title": "SWIR-cGAN: Synthesizing SWIR Bands Using VNIR Imagery from CBERS and AMAZONIA-1"
+    },
+    "2611.22941v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-18T17:13:45.530663Z",
+      "link": "http://arxiv.org/abs/2611.22941v1",
+      "relevance_score": 7.5,
+      "title": "A Transformer-Derived Iterative Preconditioner"
+    },
+    "2611.22956v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530691Z",
+      "link": "http://arxiv.org/abs/2611.22956v1",
+      "relevance_score": 5.0,
+      "title": "Is model self-assessment enough for diverse LVLM ensembles?"
+    },
+    "2611.22983v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530694Z",
+      "link": "http://arxiv.org/abs/2611.22983v1",
+      "relevance_score": 4.5,
+      "title": "3D-VASE: Volumetric-Aware Scalable and Efficient Multi-Layer Design Synthesis for 3D-Printed Microfluidics"
+    },
+    "2611.23034v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530686Z",
+      "link": "http://arxiv.org/abs/2611.23034v1",
+      "relevance_score": 5.0,
+      "title": "M3OPD-Reasoner: An Open Recipe for Post-Training Multimodal Reasoning with Multi-Teacher On-Policy Distillation"
+    },
+    "2611.23124v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530684Z",
+      "link": "http://arxiv.org/abs/2611.23124v1",
+      "relevance_score": 5.5,
+      "title": "Get Hint-Augmented GRPO Done Right Through Activation Steering"
+    },
+    "2611.23179v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530682Z",
+      "link": "http://arxiv.org/abs/2611.23179v1",
+      "relevance_score": 5.5,
+      "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models"
+    },
+    "2611.23203v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-18T17:13:45.530679Z",
+      "link": "http://arxiv.org/abs/2611.23203v1",
+      "relevance_score": 5.5,
+      "title": "Identifying and Repairing Energy Smells with Agent Skills"
+    },
+    "2611.23219v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-18T17:13:45.530676Z",
+      "link": "http://arxiv.org/abs/2611.23219v1",
+      "relevance_score": 5.5,
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?"
     }
   }
 }
