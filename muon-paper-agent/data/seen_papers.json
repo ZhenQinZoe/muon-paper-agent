@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-20T16:13:49.221589Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-21T16:15:12.456950Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-18T17:13:45.530697Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-19T17:12:07.518344Z"
     }
   ],
   "papers": {
@@ -10308,6 +10308,13 @@
       "relevance_score": 5.5,
       "title": "Profile-aware diagnostics of discarded parameter-Hessian mass"
     },
+    "2611.01335v3": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518326Z",
+      "link": "http://arxiv.org/abs/2611.01335v3",
+      "relevance_score": 6.5,
+      "title": "Profile-aware assessment of block-diagonal Hessian approximations in neural networks"
+    },
     "2611.02529v1": {
       "category": "Muon Core",
       "last_sent_at": "2026-11-03T17:08:07.105379Z",
@@ -11385,6 +11392,69 @@
       "link": "http://arxiv.org/abs/2611.23219v1",
       "relevance_score": 5.5,
       "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?"
+    },
+    "2611.23933v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518323Z",
+      "link": "http://arxiv.org/abs/2611.23933v1",
+      "relevance_score": 7.0,
+      "title": "TRoPE: Topology-aware Relative Positional Encoding for 4D Generation"
+    },
+    "2611.24124v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518321Z",
+      "link": "http://arxiv.org/abs/2611.24124v1",
+      "relevance_score": 7.0,
+      "title": "QuantAtlas-OM: Taming Neural Spectral Bias in Long-Horizon Spatiotemporal Ocean Dynamics"
+    },
+    "2611.24494v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518328Z",
+      "link": "http://arxiv.org/abs/2611.24494v1",
+      "relevance_score": 6.5,
+      "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback"
+    },
+    "2611.24540v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518317Z",
+      "link": "http://arxiv.org/abs/2611.24540v1",
+      "relevance_score": 11.0,
+      "title": "Do Frontier Model Ingredients Add Up? A Replicated Factorial Study of Small Language Models"
+    },
+    "2611.24641v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518343Z",
+      "link": "http://arxiv.org/abs/2611.24641v1",
+      "relevance_score": 5.0,
+      "title": "Choosing the Right Representations: Task-Aware Fusion for Multimodal Materials Language Models"
+    },
+    "2611.24644v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-19T17:12:07.518304Z",
+      "link": "http://arxiv.org/abs/2611.24644v1",
+      "relevance_score": 20.5,
+      "title": "Equal Steps, Unequal Curvature: Where Muon's Update Goes Wrong"
+    },
+    "2611.24650v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518341Z",
+      "link": "http://arxiv.org/abs/2611.24650v1",
+      "relevance_score": 5.0,
+      "title": "Self-Rewarded Reinforcement Learning for Better-Structured Medical Explanations in Small Language Models"
+    },
+    "2611.24785v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518337Z",
+      "link": "http://arxiv.org/abs/2611.24785v1",
+      "relevance_score": 5.5,
+      "title": "Read Together, Answer Apart: How Earlier Questions Help Vision-Language Models Look"
+    },
+    "2611.24846v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-19T17:12:07.518331Z",
+      "link": "http://arxiv.org/abs/2611.24846v1",
+      "relevance_score": 5.5,
+      "title": "Atomic MathReasoner: Instance-Level Composition of Atomic Reasoning Skills for Mathematical LLMs"
     }
   }
 }
