@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-22T16:14:44.517250Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-23T16:16:49.903306Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-20T17:07:09.020543Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-21T17:07:36.828402Z"
     }
   ],
   "papers": {
@@ -11505,12 +11505,82 @@
       "relevance_score": 6.5,
       "title": "Temporal Contrastive Alignment of EEG and Naturalistic Video Only Beats Linear Decoding On In-Sample Stimuli"
     },
+    "2611.26380v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828401Z",
+      "link": "http://arxiv.org/abs/2611.26380v1",
+      "relevance_score": 4.0,
+      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning"
+    },
+    "2611.26390v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828399Z",
+      "link": "http://arxiv.org/abs/2611.26390v1",
+      "relevance_score": 4.5,
+      "title": "SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting"
+    },
+    "2611.26431v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828396Z",
+      "link": "http://arxiv.org/abs/2611.26431v1",
+      "relevance_score": 4.5,
+      "title": "FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets"
+    },
+    "2611.26437v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828387Z",
+      "link": "http://arxiv.org/abs/2611.26437v1",
+      "relevance_score": 5.0,
+      "title": "Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware"
+    },
+    "2611.26442v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828385Z",
+      "link": "http://arxiv.org/abs/2611.26442v1",
+      "relevance_score": 5.0,
+      "title": "Decision Fusion in Wireless Networks: A Tutorial and Survey of Classical and Learning-Based Methods"
+    },
+    "2611.26450v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828383Z",
+      "link": "http://arxiv.org/abs/2611.26450v1",
+      "relevance_score": 5.0,
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights"
+    },
+    "2611.26459v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828391Z",
+      "link": "http://arxiv.org/abs/2611.26459v1",
+      "relevance_score": 4.5,
+      "title": "Bayesian optimization on amortized search space"
+    },
+    "2611.26493v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828389Z",
+      "link": "http://arxiv.org/abs/2611.26493v1",
+      "relevance_score": 4.5,
+      "title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention"
+    },
+    "2611.26509v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828381Z",
+      "link": "http://arxiv.org/abs/2611.26509v1",
+      "relevance_score": 5.0,
+      "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers"
+    },
     "2611.26522v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-20T17:07:09.020536Z",
       "link": "http://arxiv.org/abs/2611.26522v1",
       "relevance_score": 6.0,
       "title": "Deterministic Temporal Embedding for Calcium Imaging Trace Extraction"
+    },
+    "2611.26531v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-21T17:07:36.828371Z",
+      "link": "http://arxiv.org/abs/2611.26531v1",
+      "relevance_score": 5.0,
+      "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models"
     },
     "2611.26540v1": {
       "category": "Not Relevant",
