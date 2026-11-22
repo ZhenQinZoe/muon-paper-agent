@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-23T16:16:49.903306Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-24T16:16:37.578581Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-21T17:07:36.828402Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-22T17:06:51.424722Z"
     }
   ],
   "papers": {
@@ -11470,6 +11470,20 @@
       "relevance_score": 14.5,
       "title": "Federated Learning of Car Aerodynamics Surrogates with Spectral Optimizers"
     },
+    "2611.25789v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424718Z",
+      "link": "http://arxiv.org/abs/2611.25789v1",
+      "relevance_score": 4.0,
+      "title": "From Attention to Semantics: Detecting and Mitigating Sound Event Hallucinations in Large Audio-Language Models"
+    },
+    "2611.25813v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424715Z",
+      "link": "http://arxiv.org/abs/2611.25813v1",
+      "relevance_score": 4.0,
+      "title": "Efficient and Robust Drafting with Multi-Token Prediction"
+    },
     "2611.25831v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-20T17:07:09.020531Z",
@@ -11483,6 +11497,27 @@
       "link": "http://arxiv.org/abs/2611.25848v1",
       "relevance_score": 6.5,
       "title": "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting"
+    },
+    "2611.25866v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424710Z",
+      "link": "http://arxiv.org/abs/2611.25866v1",
+      "relevance_score": 4.0,
+      "title": "From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization"
+    },
+    "2611.25938v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424708Z",
+      "link": "http://arxiv.org/abs/2611.25938v1",
+      "relevance_score": 4.0,
+      "title": "DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention"
+    },
+    "2611.25960v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424706Z",
+      "link": "http://arxiv.org/abs/2611.25960v1",
+      "relevance_score": 4.0,
+      "title": "When Sounds Turn Heads: Recovering Event Timing That Audio LLMs Fail to Say"
     },
     "2611.25979v1": {
       "category": "Not Relevant",
@@ -11498,12 +11533,47 @@
       "relevance_score": 7.5,
       "title": "Frequency-Synchronized Boundary Coupling for Training-Free Multi-Prompt Long Video Generation"
     },
+    "2611.26127v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424720Z",
+      "link": "http://arxiv.org/abs/2611.26127v1",
+      "relevance_score": 3.5,
+      "title": "Spatially Conditioned Trajectory Diffusion"
+    },
+    "2611.26201v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424704Z",
+      "link": "http://arxiv.org/abs/2611.26201v1",
+      "relevance_score": 4.0,
+      "title": "Learn, Freeze, and Transfer an Activation Function Across Architectures"
+    },
     "2611.26258v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-20T17:07:09.020524Z",
       "link": "http://arxiv.org/abs/2611.26258v1",
       "relevance_score": 6.5,
       "title": "Temporal Contrastive Alignment of EEG and Naturalistic Video Only Beats Linear Decoding On In-Sample Stimuli"
+    },
+    "2611.26275v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424701Z",
+      "link": "http://arxiv.org/abs/2611.26275v1",
+      "relevance_score": 4.0,
+      "title": "dLoop: Looped Diffusion Language Models via Recurrent Latent Refinement"
+    },
+    "2611.26296v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424699Z",
+      "link": "http://arxiv.org/abs/2611.26296v1",
+      "relevance_score": 4.0,
+      "title": "SKILL.PNG: Learning Agent Skills in Pixel Space"
+    },
+    "2611.26363v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-22T17:06:51.424688Z",
+      "link": "http://arxiv.org/abs/2611.26363v1",
+      "relevance_score": 4.0,
+      "title": "HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs"
     },
     "2611.26380v1": {
       "category": "Not Relevant",
