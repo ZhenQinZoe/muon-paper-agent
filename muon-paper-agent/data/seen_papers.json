@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-24T16:16:37.578581Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-25T16:16:17.862565Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-22T17:06:51.424722Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-23T17:08:16.762014Z"
     }
   ],
   "papers": {
@@ -11665,6 +11665,76 @@
       "link": "http://arxiv.org/abs/2611.26600v1",
       "relevance_score": 5.5,
       "title": "A Tutorial on Complementarity-Based Contact Models for Robotics"
+    },
+    "2611.27077v1": {
+      "category": "Muon Core",
+      "last_sent_at": "2026-11-23T17:08:16.761990Z",
+      "link": "http://arxiv.org/abs/2611.27077v1",
+      "relevance_score": 16.5,
+      "title": "Accelerating Muon with Spectral Residual Correction"
+    },
+    "2611.27109v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.761998Z",
+      "link": "http://arxiv.org/abs/2611.27109v1",
+      "relevance_score": 7.5,
+      "title": "Recurrent Amplification and Exact Nonexpansiveness Criteria for Query-Driven Erasure"
+    },
+    "2611.27201v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-23T17:08:16.761996Z",
+      "link": "http://arxiv.org/abs/2611.27201v1",
+      "relevance_score": 8.5,
+      "title": "Backbone-Specific LoRA Geometry: Orthogonality, Superposition, and Provenance"
+    },
+    "2611.27373v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762002Z",
+      "link": "http://arxiv.org/abs/2611.27373v1",
+      "relevance_score": 5.5,
+      "title": "GeoSDF-Diff: Geometry-Aware Diffusion Planning for Collision-Free Trajectories"
+    },
+    "2611.27582v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762000Z",
+      "link": "http://arxiv.org/abs/2611.27582v1",
+      "relevance_score": 6.5,
+      "title": "Do DeepONet Trunk-Basis Preconditioners Need Training?"
+    },
+    "2611.27725v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762012Z",
+      "link": "http://arxiv.org/abs/2611.27725v1",
+      "relevance_score": 4.0,
+      "title": "A Cognitive Agentic AI Framework for Interactive Process Analysis and Optimization"
+    },
+    "2611.27796v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762011Z",
+      "link": "http://arxiv.org/abs/2611.27796v1",
+      "relevance_score": 4.0,
+      "title": "$\\varepsilon$-SegFormer: Multi-Resolution Vision Transformers for Sparsely Supervised Segmentation in Electron Microscopy"
+    },
+    "2611.27962v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762009Z",
+      "link": "http://arxiv.org/abs/2611.27962v1",
+      "relevance_score": 4.0,
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology"
+    },
+    "2611.27970v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762005Z",
+      "link": "http://arxiv.org/abs/2611.27970v1",
+      "relevance_score": 4.0,
+      "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals"
+    },
+    "2611.27973v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-23T17:08:16.762003Z",
+      "link": "http://arxiv.org/abs/2611.27973v1",
+      "relevance_score": 4.0,
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models"
     }
   }
 }

@@ -1,53 +1,51 @@
 # Daily Muon Paper Digest
 
-No strong matches today. Showing the best available 10 candidates.
-
 ## Top Highlights
 
-1. HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs
-Authors: Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure
-Link: http://arxiv.org/abs/2611.26363v1
+1. Accelerating Muon with Spectral Residual Correction
+Authors: Zhixin Ren, Yao Lyu, Shengbo Eben Li, Liping Zhang
+Link: http://arxiv.org/abs/2611.27077v1
+Category: Muon Core
+Paper type: Theory
+Relevance score: 16.5
+Abstract: Muon constructs matrix updates by applying a matrix-sign transformation to momentum. A common route to accelerating Muon is to modify the gradient or momentum before this transformation. We explore a complementary direction: refining the parameter step while retaining Muon's momentum recursion. Derived from the parameter subproblem of the ADMM-Inspired Momentum framework, AIMuon uses the gradient--momentum residual to correct the tentative spectral step. The residual undergoes a separate matrix-sign transformation, while spectral--nuclear duality determines the relative weighting of the momentum and residual directions. In practice, both directions are approximated with Newton--Schulz iterations and their combination is rescaled to match Muon's update magnitude. We establish a stochastic stationarity bound for the corresponding exact iteration. On GPT-2-small, GPT-2-medium, and Qwen3-0.6B, AIMuon reaches Muon's final validation loss with 8.98\%, 10.05\%, and 6.49\% fewer optimization steps, respectively, while achieving lower final validation loss than Muon, Muon-Nesterov, and MONA.
+
+2. Backbone-Specific LoRA Geometry: Orthogonality, Superposition, and Provenance
+Authors: Kazuhiko Kawamoto, Keigo Watanabe, Hiroshi Kera
+Link: http://arxiv.org/abs/2611.27201v1
+Category: Muon-Adjacent Theory+Experiments
+Paper type: Theory + Experiment
+Relevance score: 8.5
+Abstract: Sharing one low-rank adaptation (LoRA) update across pretrained models simplifies deployment. Composition methods typically combine updates from a common backbone, while cross-model transfer transforms updates for a target backbone. The conditions for sharing updates across backbones while preserving accuracy and distinguishing individual contributions remain unclear. Our idea is to use backbone-specific update directions as signatures of their training backbones. We derive a cross-backbone correlation bound from attention symmetries and equivariant LoRA learning under independent, uniform pretrained feature orientations. A local gradient-flow model explains positive mean correlation between independent runs on the same backbone and task. These patterns motivate cosine-based backbone identification and inner-product tests for registered-adapter reuse without coordinate alignment. Experiments on CLIP backbones show that shared sums achieve nearly the same mean accuracy as separate adapters. Cosine scores reliably identify source backbones across the evaluated tasks. Registered adapters remain detectable in sums of adapters from different backbones.
+
+3. Recurrent Amplification and Exact Nonexpansiveness Criteria for Query-Driven Erasure
+Authors: Haozhe Wang
+Link: http://arxiv.org/abs/2611.27109v1
 Category: Not Relevant
 Paper type: Unclear
-Relevance score: 4.0
-Abstract: Attention in large language models (LLMs) scores every query against every key with a full dot product. We investigate whether this dot product must be computed completely for attention to be effective. We propose Hidden Sparse Attention (HiSA), which keeps the query and key projections intact but only computes a partial dot product, following a static, parameter-free rule set by the token positions: attention becomes sparse in the hidden (feature) dimension, an axis much less explored than token sparsity, rather than over tokens as in almost all sparse attention methods. Based on the structure of rotary position embeddings (RoPE), we decompose keys and queries into parts which can be omitted when computing attention. By training LLMs from scratch with HiSA, we find that this partial dot product does not hurt but improves performance compared with the complete product while computing only about a third of the query-key products. During inference HiSA improves decoding speed and shrinks memory footprint. We also extend HiSA to FlashAttention-3 kernels for training and inference. Finally, we motivate our approach by showing that dense attention learns to suppress the attention score parts that HiSA drops. Code is available at https://github.com/ambroise-b/hisa.
+Relevance score: 7.5
+Abstract: The Query-derived Erase Direction (QED) augments a rank-one linear attention update with a key-orthogonal query component. Under scalar decay, this correction leaves the eigenvalues of each homogeneous state transition unchanged, while the propagation of an initial perturbation depends on the ordered product of these transitions. We construct a periodic token sequence with fixed key and query projections for which every one-step spectral radius is below one but the spectral radius of the period product exceeds one. The same construction yields a sufficient condition for mean-square growth under independent uniform token sampling. For rank-one erasure with channel-wise decay, we derive a necessary and sufficient spectral-norm test for one-step nonexpansiveness that can be evaluated in $O(d)$ time. The test agrees with direct singular value decomposition on all 1,800 operators evaluated. In a counterfactual replay of a selected head of Qwen3.5-0.8B-Base, the terminal gain on a 4,096-token repeated-text sequence increased from 0.99938 to 1.3977 with the feature and checkpoint gate trajectories held fixed.
 
-2. SKILL.PNG: Learning Agent Skills in Pixel Space
-Authors: Maximilian Seeth, Chengzhi Martin Hu, Marie Kempkes, Paul Röttger, Leo Schwinn
-Link: http://arxiv.org/abs/2611.26296v1
+4. Do DeepONet Trunk-Basis Preconditioners Need Training?
+Authors: Jaemin Oh, Jerome Darbon, George Em Karniadakis
+Link: http://arxiv.org/abs/2611.27582v1
+Category: Not Relevant
+Paper type: Unclear
+Relevance score: 6.5
+Abstract: Trunk-basis (TB) preconditioners build the coarse space of a two-level Schwarz preconditioner from the trunk functions of a trained deep operator network (DeepONet), restricted to subdomains. Their effectiveness has been attributed to spectral bias since networks learn low frequencies first, complementing a smoother that removes the high-frequency error. Spectral bias, however, is a property of training, whereas a randomly initialized trunk with a smooth activation is already smooth. We therefore ask whether TB preconditioners need training. In one dimension, we prove that on each subdomain the span of untrained trunk functions is close to the space of low-degree polynomials under suitable nondegeneracy assumptions. Numerically, for the Poisson equation and three-dimensional linear elasticity with constant coefficients, untrained TB and piecewise polynomial coarse spaces of equal dimension yield close conjugate gradient iteration counts, while training with the standard \(\ell^2\) loss sometimes increases them. Training can improve iteration counts when high-contrast coefficients make the low-energy modes non-smooth, and if the loss measures the error in the energy norm. For the Poisson equation with contrast \(10^5\), energy-trained TB coarse spaces need fewer iterations than piecewise polynomials of equal dimension, whereas \(\ell^2\)-trained ones do not. For a topology-optimized elastic cantilever with contrast \(10^6\), the energy-trained TB space enriched with the rigid-body modes gives the fewest iterations at larger coarse dimensions. This suggests that for neural operator-based hybrid solvers, a network's inductive bias and training objective should match the solver.
+
+5. GeoSDF-Diff: Geometry-Aware Diffusion Planning for Collision-Free Trajectories
+Authors: Yueming Li, Zhanjiang Yang, Yang Shen, Meng Li, Lijun Sun
+Link: http://arxiv.org/abs/2611.27373v1
 Category: Not Relevant
 Paper type: Experiment
-Relevance score: 4.0
-Abstract: AI agents are commonly specialized for new tasks and domains using skills, i.e. natural language instructions placed in their context. However, the discrete nature of textual skills prevents continuous optimization. Gradient-based approaches such as finetuning, on the other hand, are typically model-specific, preventing skill transfer across different agents. Since many agents today are built on vision-language models (VLMs), we can address these limitations by introducing Skill.png: a method for obtaining skill-like image inputs whose pixels are optimized with gradient descent through the vision encoder of a frozen VLM. Image skills are compatible with any VLM, and a single image can be optimized jointly for an ensemble of models. We show that Skill.png significantly outperforms state-of-the-art textual skills optimized using frontier LLMs in 9 of 16 settings (across 4 VLMs and 4 benchmarks) while requiring only 64 to 256 image tokens instead of roughly 900 to 2000 text tokens at inference time. Hybrid skills, i.e. text and image skills jointly optimized, further improve agent performance. Moreover, an image optimized with an ensemble of VLMs can successfully transfer across the models in the ensemble. Skill.png thus presents the first agent skill that can be optimized with gradient descent while retaining transfer benefits of text skills. Our code is available at: https://github.com/omseeth/skill.png
-
-3. dLoop: Looped Diffusion Language Models via Recurrent Latent Refinement
-Authors: Handa Li, Pengxiang Li, Mingyu Cao, Xilu Wang, Li Shen, Da Li
-Link: http://arxiv.org/abs/2611.26275v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: Diffusion language models (DLMs) support parallel generation, yet they often require many denoising steps because only a fraction of token predictions are sufficiently reliable to be committed at each step. Existing acceleration methods primarily optimize confidence learning or commitment policies. However, these approaches operate on the outputs of a single denoising forward pass, in which information from the prompt, previously committed tokens, and uncommitted positions may not yet be fully integrated. Consequently, some predictions remain under-refined when the commitment decision is made, and modifying the commitment policy alone cannot improve their underlying representations. We introduce dLoop, which restructures a pretrained diffusion language model into a Prelude-Loop-Coda architecture and recurrently applies a parameter-shared intermediate block to the same partially masked state. Rather than advancing the denoising process, each additional loop provides further latent computation, allowing information distributed across uncommitted positions to continue interacting and become more fully integrated before commitment. Experiments on GSM8K, MATH, MBPP, and HumanEval show that dLoop achieves the highest or tied-highest accuracy on every benchmark. With tokens per forward pass (TPF) adjusted for loop computation, it outperforms Fast-dLLM in both accuracy and TPF on all four benchmarks and dParallel on three, and is more accurate than d3LLM on all four, while d3LLM attains higher TPF; no compared method surpasses dLoop in both. Mechanistic analyses show that extra loops mainly help on slow, unstable trajectories and that updates at uncommitted positions drive changes in token decisions and later generation. Pre-commitment latent computation thus makes predictions more reliable, offering a route to DLM acceleration distinct from forcing confidence through the training loss.
-
-4. Learn, Freeze, and Transfer an Activation Function Across Architectures
-Authors: Arun Prakash A
-Link: http://arxiv.org/abs/2611.26201v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: Transfer learning typically reuses knowledge acquired by a source network through its learned weights. We investigate whether a learned activation function can also be transferred and remain useful in networks trained from scratch. We study this complementary form of transfer through a learn-freeze-transfer protocol, in which the activation is optimized jointly with a source network in a single training run, and is then frozen and reused in target networks trained from scratch. A pointwise activation with globally shared parameters is independent of layer dimensions and can therefore be incorporated into networks of different architectures trained from scratch. We instantiate this protocol with FAct, a five-parameter activation represented by a two-harmonic truncated Fourier series, initialized from a Fourier approximation of GELU and learned in a Vision Transformer (ViT) on ImageNet-1K. When reused in a ViT of the same architecture trained from scratch on ImageNet-1K, the frozen activation (Frozen FAct) improves top-1 accuracy by 1.46 percentage points over GELU. Across four smaller target architectures (standard ViT, Swin Transformer, linear-attention ViT, and MLP-Mixer) and four image-classification datasets, it achieves the highest mean accuracy among eleven activation functions in 15 of 16 settings under a common training configuration, with improvements of up to 1.71 percentage points over the best conventional activation. When the learning rate and weight decay are tuned separately for each activation under the same search budget, Frozen FAct still ranks first in 11 of the 16 settings, second in four, and fourth in one. These results provide empirical evidence that a learned activation function can retain its usefulness when transferred across vision architectures, independently of the weights with which it was learned.
-
-5. When Sounds Turn Heads: Recovering Event Timing That Audio LLMs Fail to Say
-Authors: Jongbhin Woo, Jaewook Jeong, Joon Son Chung
-Link: http://arxiv.org/abs/2611.25960v1
-Category: Not Relevant
-Paper type: Experiment
-Relevance score: 4.0
-Abstract: Audio LLMs can know when a queried sound occurs but fail to say it. We find a few attention heads that track the queried sound: they shift when the query changes, follow the sound when it moves, and removing or blocking them often hurts the model's timestamps. Yet the answer does not express what they track. Intervals read directly from these heads outperform the model's original answer and recover events that its timestamps miss. To bring this timing into the answer, we introduce head-guided decoding, which needs no training. It keeps the model's decision on whether the sound is present and rescores its candidate timestamps with a prior from these heads. Heads selected on development data transfer unchanged to new recordings and free-text queries, where head-guided decoding improves the timestamps of three audio LLMs, scores above their head readout on every benchmark, and, in most settings, outperforms random-head guidance. On recordings released after the models were trained, head-guided decoding raises mIoU from 0.07-0.36 to 0.48-0.56. These results suggest that poor temporal answers in audio LLMs partly reflect a failure to say rather than to hear, and that the model's own attention can close part of this gap.
+Relevance score: 5.5
+Abstract: Diffusion models have recently attracted increasing attention in motion planning due to their ability to model high-dimensional and multi-modal trajectory distributions. However, existing diffusion-based planners still struggle to reliably satisfy geometric feasibility in unseen cluttered environments with complex obstacle layouts. To address this challenge, we propose GeoSDF-Diff, a geometry-aware diffusion planner that incorporates multi-scale SDF conditioning into trajectory denoising. The key idea is to provide the denoiser with both route-level geometric context and fine local clearance evidence, enabling generated trajectories to better adapt to unseen complex obstacle layouts. Specifically, a Geometric Encoder extracts multi-scale SDF features and injects them into a DiT-X denoiser through cross-attention. We further introduce a trajectory-level training objective that combines SDF clearance, violation emphasis, smoothness, and path-length regularization, so that local infeasibilities are penalized during training rather than corrected only at inference time. Experiments on held-out cluttered environments show that, without post-hoc trajectory repair or sampling-time guidance, GeoSDF-Diff achieves a 65.2% average success rate across diverse test scenarios, outperforming strong diffusion baselines by 25.4% to 28.5%.
 
 ## Additional Papers
 
-6. DTS: Delta-Based Tile Scoring for Efficient Long-Context Sparse Attention | Not Relevant | Theory | Score: 4.0 | http://arxiv.org/abs/2611.25938v1
-7. From Sequence to Space: Explicit Spatial Belief with Vision-Language Distillation for Active Geo-Localization | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2611.25866v1
-8. Efficient and Robust Drafting with Multi-Token Prediction | Not Relevant | Unclear | Score: 4.0 | http://arxiv.org/abs/2611.25813v1
-9. From Attention to Semantics: Detecting and Mitigating Sound Event Hallucinations in Large Audio-Language Models | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.25789v1
-10. Spatially Conditioned Trajectory Diffusion | Not Relevant | Experiment | Score: 3.5 | http://arxiv.org/abs/2611.26127v1
+6. MemOnce: A Scalable Memory Architecture for Large Language Models | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2611.27973v1
+7. On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2611.27970v1
+8. Model Carving: Training Transformers That Optimize Their Own Topology | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.27962v1
+9. $\varepsilon$-SegFormer: Multi-Resolution Vision Transformers for Sparsely Supervised Segmentation in Electron Microscopy | Not Relevant | Experiment | Score: 4.0 | http://arxiv.org/abs/2611.27796v1
+10. A Cognitive Agentic AI Framework for Interactive Process Analysis and Optimization | Not Relevant | Theory + Experiment | Score: 4.0 | http://arxiv.org/abs/2611.27725v1
