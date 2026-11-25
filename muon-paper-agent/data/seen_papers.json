@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-26T16:14:26.974177Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-27T16:14:15.584792Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-24T17:08:21.666574Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-25T17:07:47.012100Z"
     }
   ],
   "papers": {
@@ -11805,6 +11805,76 @@
       "link": "http://arxiv.org/abs/2611.31223v1",
       "relevance_score": 5.5,
       "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks"
+    },
+    "2611.31513v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012068Z",
+      "link": "http://arxiv.org/abs/2611.31513v1",
+      "relevance_score": 11.5,
+      "title": "How to build and train your recurrent-depth model: A fixed-point perspective"
+    },
+    "2611.32174v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012094Z",
+      "link": "http://arxiv.org/abs/2611.32174v1",
+      "relevance_score": 6.0,
+      "title": "A Unified Control Framework for Gradient Inversion Defense in Federated Learning"
+    },
+    "2611.32192v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012090Z",
+      "link": "http://arxiv.org/abs/2611.32192v1",
+      "relevance_score": 6.0,
+      "title": "Self-Orthogonal Minimal Codes from n-to-1 Mappings"
+    },
+    "2611.32447v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012086Z",
+      "link": "http://arxiv.org/abs/2611.32447v1",
+      "relevance_score": 6.5,
+      "title": "ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction"
+    },
+    "2611.32781v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-25T17:07:47.012080Z",
+      "link": "http://arxiv.org/abs/2611.32781v1",
+      "relevance_score": 7.5,
+      "title": "NABLA: A Noise-Adaptive Blockwise Left-Right Preconditioning Algorithm for Stochastic Optimization"
+    },
+    "2611.32801v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-25T17:07:47.012085Z",
+      "link": "http://arxiv.org/abs/2611.32801v1",
+      "relevance_score": 7.0,
+      "title": "Scaling Laws of Ensemble Uncertainty in Language Models"
+    },
+    "2611.32849v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012088Z",
+      "link": "http://arxiv.org/abs/2611.32849v1",
+      "relevance_score": 6.0,
+      "title": "QoS-Constrained Sum-Rate Maximization in RIS-Assisted Pinching-Antenna NOMA Systems"
+    },
+    "2611.33064v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012099Z",
+      "link": "http://arxiv.org/abs/2611.33064v1",
+      "relevance_score": 5.5,
+      "title": "U-Statistics-Powered LLM Reasoning"
+    },
+    "2611.33065v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012097Z",
+      "link": "http://arxiv.org/abs/2611.33065v1",
+      "relevance_score": 5.5,
+      "title": "Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges"
+    },
+    "2611.33119v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-25T17:07:47.012083Z",
+      "link": "http://arxiv.org/abs/2611.33119v1",
+      "relevance_score": 7.0,
+      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing"
     }
   }
 }
