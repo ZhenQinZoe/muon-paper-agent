@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-27T16:14:15.584792Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-28T16:16:58.948499Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-25T17:07:47.012100Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-26T17:07:46.184776Z"
     }
   ],
   "papers": {
@@ -11875,6 +11875,76 @@
       "link": "http://arxiv.org/abs/2611.33119v1",
       "relevance_score": 7.0,
       "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing"
+    },
+    "2611.33792v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-26T17:07:46.184767Z",
+      "link": "http://arxiv.org/abs/2611.33792v1",
+      "relevance_score": 7.5,
+      "title": "Spatial Transcriptomics Prediction from Histology via Topology-Informed Graph Attention and Gene-Semantics Conditioning"
+    },
+    "2611.34452v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-26T17:07:46.184765Z",
+      "link": "http://arxiv.org/abs/2611.34452v1",
+      "relevance_score": 7.5,
+      "title": "Global Convergence of Second-Order Methods for Physics-Informed Neural Networks in the Overparameterized Limit"
+    },
+    "2611.34461v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-26T17:07:46.184761Z",
+      "link": "http://arxiv.org/abs/2611.34461v1",
+      "relevance_score": 8.0,
+      "title": "SceneDesigner++: A Unified 9-DoF Pose Control Framework for T2I and T2V Generation"
+    },
+    "2611.34529v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-26T17:07:46.184745Z",
+      "link": "http://arxiv.org/abs/2611.34529v1",
+      "relevance_score": 11.0,
+      "title": "AliceAI-Foundation-80B-A3B-Base"
+    },
+    "2611.34560v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-26T17:07:46.184775Z",
+      "link": "http://arxiv.org/abs/2611.34560v1",
+      "relevance_score": 6.5,
+      "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation"
+    },
+    "2611.34608v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-26T17:07:46.184773Z",
+      "link": "http://arxiv.org/abs/2611.34608v1",
+      "relevance_score": 6.5,
+      "title": "DuCo: Exploiting Dual Cross-Layer Consistency for Sparse Geometric Attention"
+    },
+    "2611.34612v1": {
+      "category": "Muon-Adjacent Theory",
+      "last_sent_at": "2026-11-26T17:07:46.184759Z",
+      "link": "http://arxiv.org/abs/2611.34612v1",
+      "relevance_score": 8.0,
+      "title": "Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries"
+    },
+    "2611.34667v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-26T17:07:46.184771Z",
+      "link": "http://arxiv.org/abs/2611.34667v1",
+      "relevance_score": 6.5,
+      "title": "Learning to Be Truncated: Preparing LLM Checkpoints for SVD Compression"
+    },
+    "2611.34821v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-26T17:07:46.184756Z",
+      "link": "http://arxiv.org/abs/2611.34821v1",
+      "relevance_score": 9.5,
+      "title": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?"
+    },
+    "2611.34831v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-26T17:07:46.184763Z",
+      "link": "http://arxiv.org/abs/2611.34831v1",
+      "relevance_score": 7.5,
+      "title": "Repairing the Trustworthiness of Distilled Language Models"
     }
   }
 }
