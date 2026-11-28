@@ -2,10 +2,6 @@
   "history": [
     {
       "paper_count": 10,
-      "sent_at": "2026-09-29T16:16:54.766616Z"
-    },
-    {
-      "paper_count": 10,
       "sent_at": "2026-09-30T16:17:52.238435Z"
     },
     {
@@ -239,6 +235,10 @@
     {
       "paper_count": 10,
       "sent_at": "2026-11-27T17:08:13.487524Z"
+    },
+    {
+      "paper_count": 10,
+      "sent_at": "2026-11-28T17:06:55.123210Z"
     }
   ],
   "papers": {
@@ -11883,6 +11883,13 @@
       "relevance_score": 7.5,
       "title": "Spatial Transcriptomics Prediction from Histology via Topology-Informed Graph Attention and Gene-Semantics Conditioning"
     },
+    "2611.33919v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123208Z",
+      "link": "http://arxiv.org/abs/2611.33919v1",
+      "relevance_score": 4.0,
+      "title": "DiCALM: Converting Autoregressive Convolution-Attention Language Models into Discrete Diffusion Language Models"
+    },
     "2611.33951v1": {
       "category": "Muon-Adjacent Theory+Experiments",
       "last_sent_at": "2026-11-27T17:08:13.487516Z",
@@ -11890,12 +11897,54 @@
       "relevance_score": 5.0,
       "title": "BReD: Block Replay Dithering for Stable Low-Bit EMA Optimizer States"
     },
+    "2611.34035v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123206Z",
+      "link": "http://arxiv.org/abs/2611.34035v1",
+      "relevance_score": 4.0,
+      "title": "Post-Training Policy Replication for Strategy-Following Multi-Agent Deep Reinforcement Learning across Team Sizes"
+    },
+    "2611.34051v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123204Z",
+      "link": "http://arxiv.org/abs/2611.34051v1",
+      "relevance_score": 4.0,
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability"
+    },
     "2611.34079v1": {
       "category": "Not Relevant",
       "last_sent_at": "2026-11-27T17:08:13.487503Z",
       "link": "http://arxiv.org/abs/2611.34079v1",
       "relevance_score": 5.5,
       "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation"
+    },
+    "2611.34092v1": {
+      "category": "Muon-Adjacent Experiments",
+      "last_sent_at": "2026-11-28T17:06:55.123200Z",
+      "link": "http://arxiv.org/abs/2611.34092v1",
+      "relevance_score": 4.0,
+      "title": "Improving Tail-Augmented Speculative Drafting with Hidden State Mixing and Gradient Detach"
+    },
+    "2611.34207v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123198Z",
+      "link": "http://arxiv.org/abs/2611.34207v1",
+      "relevance_score": 4.0,
+      "title": "Beyond Logits: Coherent Hallucination Mitigation via Attention Contrastive Decoding"
+    },
+    "2611.34298v1": {
+      "category": "Muon-Adjacent Theory+Experiments",
+      "last_sent_at": "2026-11-28T17:06:55.123196Z",
+      "link": "http://arxiv.org/abs/2611.34298v1",
+      "relevance_score": 4.0,
+      "title": "RAP: Radial-Angular Random Projection for Hyperbolic Representations"
+    },
+    "2611.34426v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123194Z",
+      "link": "http://arxiv.org/abs/2611.34426v1",
+      "relevance_score": 4.0,
+      "title": "A Head-Level Investigative Study of Self-Supervised Backbones for Synthetic Speech Detection"
     },
     "2611.34452v1": {
       "category": "Muon-Adjacent Theory+Experiments",
@@ -11939,12 +11988,33 @@
       "relevance_score": 8.0,
       "title": "Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries"
     },
+    "2611.34635v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123192Z",
+      "link": "http://arxiv.org/abs/2611.34635v1",
+      "relevance_score": 4.0,
+      "title": "ZeroHero: Training Small Language Agents from Scratch"
+    },
+    "2611.34656v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123189Z",
+      "link": "http://arxiv.org/abs/2611.34656v1",
+      "relevance_score": 4.0,
+      "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?"
+    },
     "2611.34667v1": {
       "category": "Muon-Adjacent Experiments",
       "last_sent_at": "2026-11-26T17:07:46.184771Z",
       "link": "http://arxiv.org/abs/2611.34667v1",
       "relevance_score": 6.5,
       "title": "Learning to Be Truncated: Preparing LLM Checkpoints for SVD Compression"
+    },
+    "2611.34681v1": {
+      "category": "Not Relevant",
+      "last_sent_at": "2026-11-28T17:06:55.123180Z",
+      "link": "http://arxiv.org/abs/2611.34681v1",
+      "relevance_score": 4.0,
+      "title": "Find the Clue, Not the Scene: Rethinking Reasoning for Entity Recognition in Vision-Language Models"
     },
     "2611.34746v1": {
       "category": "Muon-Adjacent Theory",
